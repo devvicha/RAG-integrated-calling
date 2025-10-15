@@ -3,6 +3,47 @@
  * Handles document embeddings, similarity search, and RAG operations
  */
 
+const DEFAULT_RAG_BASE_URL = 'http://127.0.0.1:8000';
+
+interface RagResponse {
+  result?: string;
+  error?: string;
+}
+
+const buildRagEndpoint = () => {
+  const base =
+    process.env.NEXT_PUBLIC_RAG_BASE_URL ||
+    process.env.RAG_BASE_URL ||
+    DEFAULT_RAG_BASE_URL;
+  return `${base.replace(/\/$/, '')}/rag`;
+};
+
+/**
+ * Call the local FastAPI RAG backend and return the combined answer text.
+ */
+export async function searchKnowledgeBase(query: string): Promise<string | null> {
+  try {
+    const response = await fetch("http://127.0.0.1:8000/rag", {
+      method: "POST",
+      headers: { "Content-Type": "application/json; charset=utf-8" },
+      body: JSON.stringify({ query }),
+    });
+
+    if (!response.ok) {
+      console.error("RAG backend error:", response.statusText);
+      return null;
+    }
+
+    const data = await response.json();
+    if (data.result) return data.result;
+    console.warn("No result field in RAG response:", data);
+    return null;
+  } catch (err) {
+    console.error("Error calling /rag endpoint:", err);
+    return null;
+  }
+}
+
 export interface VectorDocument {
   id: string;
   title: string;

@@ -4,7 +4,7 @@
  */
 
 import { CustomerSupportService, ServiceResponse } from './customer-support-service-new';
-import { VectorDocument } from './vector-db-service';
+import { VectorDocument, searchKnowledgeBase } from './vector-db-service';
 
 export interface FunctionCall {
   id: string;
@@ -110,6 +110,10 @@ export class FunctionDispatcher {
         serviceResponse = await this.handleGetAccountBalance(fc.args);
         break;
         
+      case 'search_knowledge_base':
+        serviceResponse = await this.handleSearchKnowledgeBase(fc.args);
+        break;
+        
       default:
         throw new Error(`Unknown function: ${fc.name}`);
     }
@@ -191,6 +195,26 @@ export class FunctionDispatcher {
   }
 
   /**
+   * Handle knowledge base search via vector DB
+   */
+  private async handleSearchKnowledgeBase(args: any): Promise<ServiceResponse> {
+    const { query } = args;
+    
+    if (!query || typeof query !== 'string') {
+      throw new Error('Query parameter is required and must be a string');
+    }
+
+    const result = await searchKnowledgeBase(query);
+    return {
+      data: result,
+      sources: [],
+      grounding_chunks: [],
+      error: null,
+      success: true
+    };
+  }
+
+  /**
    * Get available functions
    */
   getAvailableFunctions(): string[] {
@@ -199,7 +223,8 @@ export class FunctionDispatcher {
       'getExchangeRates',
       'findBranches',
       'scheduleCallback',
-      'getAccountBalance'
+      'getAccountBalance',
+      'search_knowledge_base'
     ];
   }
 
