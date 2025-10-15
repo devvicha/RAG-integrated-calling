@@ -1,0 +1,334 @@
+[
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/lifecycle.md",
+        "chunk_text": "---\nid: loans.lifecycle\ntitle: Loan Lifecycle & Key Terms\ntags: [loans, lifecycle, glossary]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/lifecycle.md",
+        "chunk_text": "Lifecycle\n1. Eligibility pre‑check (income, DTI, credit history)\n2. Application & KYC document submission\n3. Verification (income/collateral where relevant)\n4. Credit assessment & approval\n5. Sanction letter & agreement\n6. Disbursement (to seller/beneficiary where applicable)\n7. Repayment via EMI/standing order\n8. Closure & NOC issuance"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/lifecycle.md",
+        "chunk_text": "Key Terms\n- EMI — Fixed monthly payment (principal + interest).\n- AWPLR‑link — Some housing products reference AWPLR for rate resets.\n- LTV — Loan‑to‑Value caps apply on secured loans.\n- Prepayment — Allowed per product; verify lock‑in/fees."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/rails.md",
+        "chunk_text": "---\nid: payments.rails\ntitle: Payments & Transfer Rails\ntags: [payments, cefts, slips, lankaqr, swift, limits]\nproduct_area: payments\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/rails.md",
+        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/card_lost_block.md",
+        "chunk_text": "---\nid: workflows.card_lost_block\ntitle: Workflow — Card Lost/Block\ntags: [workflow, step_by_step, auth, card_block]\nproduct_area: cards\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: true\n---\n\n1) Authenticate (DOB + OTP).\n2) Hotlist immediately.\n3) Offer replacement card & confirm address.\n4) Review recent transactions; open disputes if needed.\n5) Send confirmation SMS/email."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/guardrails.md",
+        "chunk_text": "---\nid: guardrails\ntitle: Guardrails — Safety & Policy\ntags: [guardrails, policy, safety]\nproduct_area: governance\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Do Not\n- Disclose internal risk thresholds.\n- Promise loan approval before assessment.\n- Collect full card details/CVV/passwords in chat.\n- Share customer data without authentication."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/guardrails.md",
+        "chunk_text": "Must\n- Authenticate before account‑specific actions.\n- State fees/limits/TAT clearly.\n- Offer accessibility/language support on request.\n- Follow KYC/AML & privacy obligations at all times."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
+        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Sampath Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "You are not a bot; you sound like a real banking representative.\n\n Core Personality\n- Warm, approachable, professional, and genuinely helpful.\n- Mirror caller tone (formal ↔ casual)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Sampath Bank. Now, you mentioned…”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Sampath Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "Closing Flow\n- Resolved: “Glad I could help today. You’ll receive an email shortly with next steps.”\n- Pending: “I’ll note this down and arrange a follow-up from our team. You’ll hear from us soon.”\n- Out of scope: “I’ll connect you with the right team so you’re taken care of.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
+        "chunk_text": "Data Capture Rules\n- For any service request (loan, card, account opening), capture or confirm email; ask for preferred contact number if needed.\n\n Safety Notes\n- Use the Knowledge Base as single source of truth.\n- “Figures are indicative until verified by the bank.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
+        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/emi.md",
+        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in LKR\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/channels.md",
+        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Sampath Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/channels.md",
+        "chunk_text": "Corporate Banking\n- Sampath Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Sampath Vishwa Retail (iOS/Android)\n- Sampath WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Sampath Slip‑Less — paperless deposit experience at branches."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/account_opening.md",
+        "chunk_text": "---\nid: workflows.account_opening\ntitle: Workflow — Account Opening\ntags: [workflow, step_by_step, auth]\nproduct_area: accounts\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/account_opening.md",
+        "chunk_text": "1) Capture AccountType & Channel.\n2) Present document checklist (individual/business/foreign as relevant).\n3) Create application & schedule eKYC or branch visit.\n4) Run KYC + sanctions screening.\n5) Activate & issue debit card + Vishwa credentials."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/README.md",
+        "chunk_text": "Nova (Sampath Bank) — KB Chunks\nLast generated: 2025-09-22\n\n- 16 focused files + embeddings_index.json (doc id → tags, path, metadata).\n- Use tags for retrieval (e.g., payments AND cefts, workflow AND card_block).\n\nImportant: “Figures are indicative until verified by the bank.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/opening_workflow.md",
+        "chunk_text": "---\nid: accounts.opening_workflow\ntitle: Account Opening — Steps & KYC Checklist\ntags: [onboarding, ekyc, checklist, documents]\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/opening_workflow.md",
+        "chunk_text": "Steps\n1. Select account type & channel (branch / Vishwa / app).\n2. Submit application & KYC (video/eKYC or in‑branch).\n3. Risk & sanctions screening.\n4. Activation; issue debit card/cheque book and Vishwa credentials."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/opening_workflow.md",
+        "chunk_text": "Documents\n- Individuals: NIC/Passport, proof of address (≤3 months), photo. Income proof for credit products.\n- Businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, address proof."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/options.md",
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loan_application.md",
+        "chunk_text": "---\nid: workflows.loan_application\ntitle: Workflow — Loan Application\ntags: [workflow, step_by_step, auth]\nproduct_area: loans\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loan_application.md",
+        "chunk_text": "1) Capture LoanType, amount, tenure.\n2) Check basic eligibility (income/DTI/score).\n3) Generate product‑specific doc list (e.g., Sevana/Dayada).\n4) For secured loans: valuation & legal checks.\n5) Approval → sanction → e‑sign/branch sign.\n6) Disburse and set EMI via standing order."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Sampath Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
+        "chunk_text": "Housing — Sevana / Dayada\n- Sevana: tenure up to 25–30 years (policy dependent)\n- Dayada: disbursement as fast as ~10 days when docs are in order; tenure up to 25 years\n\n Foreign‑Currency Housing\n- For Sri Lankans employed abroad (solo or with spouse income)\n- FCY income considered\n\n Vehicle Loans\n- Security: hypothecation of vehicle\n- Tenure: 1–7 years"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
+        "chunk_text": "Business / SME\n- Facilities: OD, term loan, invoice finance, trade services\n- Docs: BR/TIN/VAT, financials, bank statements"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/options 2.md",
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/types.md",
+        "chunk_text": "---\nid: accounts.types\ntitle: Account Types — Features & Requirements\ntags: [accounts, requirements, documents]\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Savings (Individuals)\n- Features: interest earning, debit card, ATM/CDM, e‑statements\n- Requirements: NIC/Passport, proof of address, initial deposit"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/types.md",
+        "chunk_text": "Current (Businesses & Professionals)\n- Features: high transaction limits, cheque book, OD eligibility\n- Requirements: BR/TIN/VAT (as applicable), signatory IDs, board resolution (companies)\n\n Fixed Deposits\n- Features: 1–60 month tenures, auto‑renewal option\n- Requirements: KYC; early breakage penalties may apply"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/types.md",
+        "chunk_text": "Foreign Currency Accounts\n- Features: multi‑currency, SWIFT remittances\n- Requirements: passport/visa, FATCA/CRS declarations when relevant"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/complaint_handling.md",
+        "chunk_text": "---\nid: workflows.complaint_handling\ntitle: Workflow — Complaint Handling\ntags: [workflow, step_by_step, complaints]\nproduct_area: service\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: true\n---\n\n1) Acknowledge & classify.\n2) Provide ticket ID & TAT.\n3) Investigate; give interim updates if >3 days.\n4) Resolve or escalate per matrix.\n5) Collect feedback & close."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/security_compliance.md",
+        "chunk_text": "---\nid: security.compliance\ntitle: Security, KYC/AML, Privacy & Fraud Controls\ntags: [security, compliance, aml, privacy, otp]\nproduct_area: governance\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---\n\n KYC\n- Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/security_compliance.md",
+        "chunk_text": "AML & Sanctions\n- Monitor unusual patterns; sanctions screening at onboarding & ongoing; report STR/SAR as required.\n\n Privacy & Access\n- Data encryption in transit/at rest; role‑based access; consent for data sharing.\n\n Fraud Controls\n- OTP/2FA, device binding, transaction velocity checks, card tokenization."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/security_compliance.md",
+        "chunk_text": "Complaint Handling SLA\n- Acknowledge promptly; typical resolution within 7–14 working days; escalation path available."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/lifecycle.md",
+        "chunk_text": "---\nid: loans.lifecycle\ntitle: Loan Lifecycle & Key Terms\ntags: [loans, lifecycle, glossary]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/lifecycle.md",
+        "chunk_text": "Lifecycle\n1. Eligibility pre‑check (income, DTI, credit history)\n2. Application & KYC document submission\n3. Verification (income/collateral where relevant)\n4. Credit assessment & approval\n5. Sanction letter & agreement\n6. Disbursement (to seller/beneficiary where applicable)\n7. Repayment via EMI/standing order\n8. Closure & NOC issuance"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/lifecycle.md",
+        "chunk_text": "Key Terms\n- EMI — Fixed monthly payment (principal + interest).\n- AWPLR‑link — Some housing products reference AWPLR for rate resets.\n- LTV — Loan‑to‑Value caps apply on secured loans.\n- Prepayment — Allowed per product; verify lock‑in/fees."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Sampath Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
+        "chunk_text": "Housing — Sevana / Dayada\n- Sevana: tenure up to 25–30 years (policy dependent)\n- Dayada: disbursement as fast as ~10 days when docs are in order; tenure up to 25 years\n\n Foreign‑Currency Housing\n- For Sri Lankans employed abroad (solo or with spouse income)\n- FCY income considered\n\n Vehicle Loans\n- Security: hypothecation of vehicle\n- Tenure: 1–7 years"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
+        "chunk_text": "Business / SME\n- Facilities: OD, term loan, invoice finance, trade services\n- Docs: BR/TIN/VAT, financials, bank statements"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/payments/rails.md",
+        "chunk_text": "---\nid: payments.rails\ntitle: Payments & Transfer Rails\ntags: [payments, cefts, slips, lankaqr, swift, limits]\nproduct_area: payments\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/payments/rails.md",
+        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/remittances/options.md",
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
+        "chunk_text": "---\nid: responses.templates\ntitle: Response Templates\ntags: [templates, phrasing]\nproduct_area: dialog\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Ask Documents (Individual)\nFor individuals: NIC/Passport, proof of address (last 3 months), and a photo. Income proof is required for credit products."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
+        "chunk_text": "Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is {emi} LKR (illustrative; final per sanction & prevailing rates).\n\n Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
+        "chunk_text": "Security Warning\nNever share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/card_lost_block.md",
+        "chunk_text": "---\nid: workflows.card_lost_block\ntitle: Workflow — Card Lost/Block\ntags: [workflow, step_by_step, auth, card_block]\nproduct_area: cards\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: true\n---\n\n1) Authenticate (DOB + OTP).\n2) Hotlist immediately.\n3) Offer replacement card & confirm address.\n4) Review recent transactions; open disputes if needed.\n5) Send confirmation SMS/email."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/account_opening.md",
+        "chunk_text": "---\nid: workflows.account_opening\ntitle: Workflow — Account Opening\ntags: [workflow, step_by_step, auth]\nproduct_area: accounts\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/account_opening.md",
+        "chunk_text": "1) Capture AccountType & Channel.\n2) Present document checklist (individual/business/foreign as relevant).\n3) Create application & schedule eKYC or branch visit.\n4) Run KYC + sanctions screening.\n5) Activate & issue debit card + Vishwa credentials."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/loan_application.md",
+        "chunk_text": "---\nid: workflows.loan_application\ntitle: Workflow — Loan Application\ntags: [workflow, step_by_step, auth]\nproduct_area: loans\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/loan_application.md",
+        "chunk_text": "1) Capture LoanType, amount, tenure.\n2) Check basic eligibility (income/DTI/score).\n3) Generate product‑specific doc list (e.g., Sevana/Dayada).\n4) For secured loans: valuation & legal checks.\n5) Approval → sanction → e‑sign/branch sign.\n6) Disburse and set EMI via standing order."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/complaint_handling.md",
+        "chunk_text": "---\nid: workflows.complaint_handling\ntitle: Workflow — Complaint Handling\ntags: [workflow, step_by_step, complaints]\nproduct_area: service\nrequires_auth: true\nlast_reviewed: 2025-09-04\npii: true\n---\n\n1) Acknowledge & classify.\n2) Provide ticket ID & TAT.\n3) Investigate; give interim updates if >3 days.\n4) Resolve or escalate per matrix.\n5) Collect feedback & close."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
+        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/opening_workflow.md",
+        "chunk_text": "---\nid: accounts.opening_workflow\ntitle: Account Opening — Steps & KYC Checklist\ntags: [onboarding, ekyc, checklist, documents]\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/opening_workflow.md",
+        "chunk_text": "Steps\n1. Select account type & channel (branch / Vishwa / app).\n2. Submit application & KYC (video/eKYC or in‑branch).\n3. Risk & sanctions screening.\n4. Activation; issue debit card/cheque book and Vishwa credentials."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/opening_workflow.md",
+        "chunk_text": "Documents\n- Individuals: NIC/Passport, proof of address (≤3 months), photo. Income proof for credit products.\n- Businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, address proof."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/types.md",
+        "chunk_text": "---\nid: accounts.types\ntitle: Account Types — Features & Requirements\ntags: [accounts, requirements, documents]\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Savings (Individuals)\n- Features: interest earning, debit card, ATM/CDM, e‑statements\n- Requirements: NIC/Passport, proof of address, initial deposit"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/types.md",
+        "chunk_text": "Current (Businesses & Professionals)\n- Features: high transaction limits, cheque book, OD eligibility\n- Requirements: BR/TIN/VAT (as applicable), signatory IDs, board resolution (companies)\n\n Fixed Deposits\n- Features: 1–60 month tenures, auto‑renewal option\n- Requirements: KYC; early breakage penalties may apply"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/types.md",
+        "chunk_text": "Foreign Currency Accounts\n- Features: multi‑currency, SWIFT remittances\n- Requirements: passport/visa, FATCA/CRS declarations when relevant"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/emi.md",
+        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in LKR\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Sampath Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "You are not a bot; you sound like a real banking representative.\n\n Core Personality\n- Warm, approachable, professional, and genuinely helpful.\n- Mirror caller tone (formal ↔ casual)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Sampath Bank. Now, you mentioned…”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Sampath Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "Closing Flow\n- Resolved: “Glad I could help today. You’ll receive an email shortly with next steps.”\n- Pending: “I’ll note this down and arrange a follow-up from our team. You’ll hear from us soon.”\n- Out of scope: “I’ll connect you with the right team so you’re taken care of.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
+        "chunk_text": "Data Capture Rules\n- For any service request (loan, card, account opening), capture or confirm email; ask for preferred contact number if needed.\n\n Safety Notes\n- Use the Knowledge Base as single source of truth.\n- “Figures are indicative until verified by the bank.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/digital/channels.md",
+        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Sampath Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/digital/channels.md",
+        "chunk_text": "Corporate Banking\n- Sampath Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Sampath Vishwa Retail (iOS/Android)\n- Sampath WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Sampath Slip‑Less — paperless deposit experience at branches."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/policy.json",
+        "chunk_text": "Dialog Intents & Policy"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/profile.json",
+        "chunk_text": "Bank Profile & Contacts"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/bank/profile.json",
+        "chunk_text": "Bank Profile & Contacts"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/intents/policy.json",
+        "chunk_text": "Dialog Intents & Policy"
+    }
+]

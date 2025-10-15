@@ -1,0 +1,7 @@
+{
+  "name": "sampath bank customer care",
+  "description": "An interactive AI-powered customer support assistant for Sampath Bank, capable of understanding and speaking Sinhala.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

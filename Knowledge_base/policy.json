@@ -1,0 +1,90 @@
+{
+  "id": "intents.policy",
+  "title": "Dialog Intents & Policy",
+  "tags": [
+    "nlu",
+    "intents",
+    "policy"
+  ],
+  "product_area": "dialog",
+  "requires_auth": false,
+  "last_reviewed": "2025-09-04",
+  "pii": false,
+  "intents": [
+    {
+      "name": "OpenAccount",
+      "slots": [
+        {
+          "name": "account_type",
+          "entity": "AccountType",
+          "required": true
+        },
+        {
+          "name": "channel",
+          "entity": "Channel",
+          "required": false
+        }
+      ],
+      "success_reply": "To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You\u2019ll need ID and address proof. Which route suits you?",
+      "policy_links": [
+        "accounts.opening_workflow"
+      ]
+    },
+    {
+      "name": "LoanInquiry",
+      "slots": [
+        {
+          "name": "loan_type",
+          "entity": "LoanType",
+          "required": true
+        },
+        {
+          "name": "amount",
+          "entity": "sys.number",
+          "required": false
+        },
+        {
+          "name": "tenure_months",
+          "entity": "sys.number",
+          "required": false
+        }
+      ],
+      "success_reply": "For {loan_type}, I can check eligibility, list documents, and estimate EMI. Are you looking at Sevana/Dayada (housing) or Samachara (personal)?"
+    },
+    {
+      "name": "CardBlock",
+      "slots": [],
+      "success_reply": "I\u2019ll hotlist your card now. Please confirm your date of birth and approve the OTP. If you prefer, you can also call the Card Centre at +94 11 230 0604.",
+      "policy_links": [
+        "workflows.card_lost_block"
+      ]
+    },
+    {
+      "name": "TransferHelp",
+      "slots": [
+        {
+          "name": "channel",
+          "entity": "Channel",
+          "required": false
+        }
+      ],
+      "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24\u00d77) or LANKAQR for merchant payments. Want step-by-step?"
+    },
+    {
+      "name": "Complaint",
+      "slots": [
+        {
+          "name": "category",
+          "entity": "sys.any",
+          "required": true
+        },
+        {
+          "name": "summary",
+          "entity": "sys.any",
+          "required": true
+        }
+      ],
+      "success_reply": "I\u2019ve logged your complaint under '{category}'. Your ticket ID is {ticket_id}. Expected TAT is {tat}. I\u2019ll update you and escalate if needed."
+    }
+  ]
+}

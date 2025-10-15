@@ -1,0 +1,39 @@
+{
+  "id": "bank.profile",
+  "title": "Bank Profile & Contacts",
+  "tags": [
+    "bank",
+    "contacts",
+    "hours",
+    "hotline"
+  ],
+  "product_area": "bank",
+  "requires_auth": false,
+  "last_reviewed": "2025-09-04",
+  "pii": false,
+  "bank": {
+    "name": "Sampath Bank PLC",
+    "country": "Sri Lanka",
+    "regulator": "Central Bank of Sri Lanka",
+    "hq_address": "No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka",
+    "contacts": {
+      "main_hotline_short": "1332",
+      "main_hotline": "+94 11 230 3050",
+      "email": "info@sampath.lk",
+      "card_centre": "+94 11 230 0604"
+    }
+  },
+  "defaults": {
+    "currency": "LKR",
+    "timezone": "Asia/Colombo",
+    "business_hours": "Mon\u2013Fri 09:00\u201317:00 (branch hours may vary)",
+    "support_channels": [
+      "branch",
+      "phone",
+      "email",
+      "chat",
+      "Sampath Vishwa",
+      "WePay"
+    ]
+  }
+}
