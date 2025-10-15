@@ -1,0 +1,239 @@
+[
+  {
+    "doc_id": "security_compliance",
+    "path": "security_compliance.md",
+    "title": "Security, KYC/AML, Privacy & Fraud Controls",
+    "tags": [
+      "security",
+      "compliance",
+      "aml",
+      "privacy",
+      "otp"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "guardrails",
+    "path": "guardrails.md",
+    "title": "Guardrails \u2014 Safety & Policy",
+    "tags": [
+      "guardrails",
+      "policy",
+      "safety"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "persona.nova",
+    "path": "persona/nova.md",
+    "title": "Nova Persona & Call Style",
+    "tags": [
+      "persona",
+      "tone",
+      "greeting",
+      "closing",
+      "capture_rules"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "bank.profile",
+    "path": "bank/profile.json",
+    "title": "Bank Profile & Contacts",
+    "tags": [
+      "bank",
+      "contacts",
+      "hours",
+      "hotline"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "digital.channels",
+    "path": "digital/channels.md",
+    "title": "Digital Channels & Capabilities",
+    "tags": [
+      "channels",
+      "digital",
+      "app",
+      "vishwa",
+      "wepay"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "payments.rails",
+    "path": "payments/rails.md",
+    "title": "Payments & Transfer Rails",
+    "tags": [
+      "payments",
+      "cefts",
+      "slips",
+      "lankaqr",
+      "swift",
+      "limits"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "accounts.types",
+    "path": "accounts/types.md",
+    "title": "Account Types \u2014 Features & Requirements",
+    "tags": [
+      "accounts",
+      "requirements",
+      "documents"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "accounts.opening_workflow",
+    "path": "accounts/opening_workflow.md",
+    "title": "Account Opening \u2014 Steps & KYC Checklist",
+    "tags": [
+      "onboarding",
+      "ekyc",
+      "checklist",
+      "documents"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "loans.catalog",
+    "path": "loans/catalog.md",
+    "title": "Loan Catalog \u2014 Quick Cards",
+    "tags": [
+      "loans",
+      "product",
+      "tenure",
+      "documents"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "loans.lifecycle",
+    "path": "loans/lifecycle.md",
+    "title": "Loan Lifecycle & Key Terms",
+    "tags": [
+      "loans",
+      "lifecycle",
+      "glossary"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "remittances.options",
+    "path": "remittances/options.md",
+    "title": "Remittances \u2014 e\u2011Remittance & SWIFT",
+    "tags": [
+      "remittance",
+      "international"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "workflows.account_opening",
+    "path": "workflows/account_opening.md",
+    "title": "Workflow \u2014 Account Opening",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "workflows.loan_application",
+    "path": "workflows/loan_application.md",
+    "title": "Workflow \u2014 Loan Application",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "workflows.card_lost_block",
+    "path": "workflows/card_lost_block.md",
+    "title": "Workflow \u2014 Card Lost/Block",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth",
+      "card_block"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "workflows.complaint_handling",
+    "path": "workflows/complaint_handling.md",
+    "title": "Workflow \u2014 Complaint Handling",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "complaints"
+    ],
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "intents.policy",
+    "path": "intents/policy.json",
+    "title": "Dialog Intents & Policy",
+    "tags": [
+      "nlu",
+      "intents",
+      "policy"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "responses.templates",
+    "path": "responses/templates.md",
+    "title": "Response Templates",
+    "tags": [
+      "templates",
+      "phrasing"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "faqs.base",
+    "path": "faqs/base.md",
+    "title": "FAQs \u2014 Quick Answers",
+    "tags": [
+      "faq",
+      "quick_answers"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  },
+  {
+    "doc_id": "calculators.emi",
+    "path": "calculators/emi.md",
+    "title": "EMI Calculator",
+    "tags": [
+      "calculator",
+      "emi"
+    ],
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04"
+  }
+]
