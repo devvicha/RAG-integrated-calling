@@ -1,4 +1,3 @@
-
 [
   {
     "id": "accounts.opening_workflow",
@@ -20,7 +19,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "### Savings (Individuals)\n- **Features:** interest earning, debit card, ATM/CDM, e‑statements\n- **Requirements:** NIC/Passport, proof of address, initial deposit\n\n### Current (Businesses & Professionals)\n- **Features:** high transaction limits, cheque book, OD eligibility\n- **Requirements:** BR/TIN/VAT (as applicable), signatory IDs, board resolution (companies)\n\n### Fixed Deposits\n- **Features:** 1–60 month tenures, auto‑renewal option\n- **Requirements:** KYC; early breakage penalties may apply\n\n### Foreign Currency Accounts\n- **Features:** multi‑currency, SWIFT remittances\n- **Requirements:** passport/visa, FATCA/CRS declarations when relevant"
+    "content": "## Account Types\n- Savings\n- Current\n- Fixed Deposits\n- Foreign Currency Accounts"
   },
   {
     "id": "bank.profile",

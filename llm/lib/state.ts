@@ -123,6 +123,8 @@ export interface LiveClientToolResponse {
   functionResponses?: FunctionResponse[];
 }
 export interface GroundingChunk {
+  content?: string;
+  score?: number;
   web?: {
     // fix: `uri` is optional in the genai SDK, but was required here.
     uri?: string;

@@ -3,44 +3,46 @@
  * Handles document embeddings, similarity search, and RAG operations
  */
 
-const DEFAULT_RAG_BASE_URL = 'http://127.0.0.1:8000';
+export type RagHit = { score: number; chunk_text: string; file_path: string };
+export type RagResponse = { result: string; hits?: RagHit[] };
 
-interface RagResponse {
-  result?: string;
-  error?: string;
-}
+const RAG_URL = process.env.NEXT_PUBLIC_RAG_URL ?? 'http://localhost:8000/rag';
 
-const buildRagEndpoint = () => {
-  const base =
-    process.env.NEXT_PUBLIC_RAG_BASE_URL ||
-    process.env.RAG_BASE_URL ||
-    DEFAULT_RAG_BASE_URL;
-  return `${base.replace(/\/$/, '')}/rag`;
-};
+export async function queryRag(query: string, k: number = 3): Promise<RagResponse> {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), 10_000);
 
-/**
- * Call the local FastAPI RAG backend and return the combined answer text.
- */
-export async function searchKnowledgeBase(query: string): Promise<string | null> {
   try {
-    const response = await fetch("http://127.0.0.1:8000/rag", {
-      method: "POST",
-      headers: { "Content-Type": "application/json; charset=utf-8" },
-      body: JSON.stringify({ query }),
+    const res = await fetch(RAG_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      mode: 'cors',
+      body: JSON.stringify({ query, k }),
+      signal: controller.signal,
     });
 
-    if (!response.ok) {
-      console.error("RAG backend error:", response.statusText);
-      return null;
+    if (!res.ok) {
+      const text = await res.text().catch(() => '');
+      throw new Error(`RAG ${res.status}: ${text}`);
     }
 
-    const data = await response.json();
-    if (data.result) return data.result;
-    console.warn("No result field in RAG response:", data);
-    return null;
+    const data = await res.json().catch(() => ({}));
+    if (data.error) throw new Error(data.error);
+
+    const result: string = typeof data.result === 'string' ? data.result : '';
+    const hits: RagHit[] = Array.isArray(data.hits) ? data.hits : [];
+
+    return {
+      result: result || 'කණගාටුයි, මේ ප්‍රශ්නයට අදාල තොරතුරු හමු නොවුණා.',
+      hits,
+    };
   } catch (err) {
-    console.error("Error calling /rag endpoint:", err);
-    return null;
+    console.error('RAG fetch failed:', err);
+    return {
+      result: 'කණගාටුයි, දැනට මට ආරිය තොරතුරු ගන්න බැහැ. ටික වේලාවකින් නැවත උත්සාහ කරන්න.',
+    };
+  } finally {
+    clearTimeout(id);
   }
 }
 

@@ -1,0 +1,35 @@
+{
+  "knowledge_base": [
+    {
+      "id": "accounts.opening_workflow",
+      "title": "Account Opening — Steps & KYC Checklist",
+      "tags": [
+        "onboarding",
+        "ekyc",
+        "checklist",
+        "documents"
+      ],
+      "product_area": "accounts",
+      "requires_auth": false,
+      "last_reviewed": "2025-09-04",
+      "pii": false,
+      "type": "markdown",
+      "content": "## Steps\n1. Select account type & channel (branch / Vishwa / app).\n2. Submit application & KYC (video/eKYC or in‑branch).\n3. Risk & sanctions screening.\n4. Activation; issue debit card/cheque book and Vishwa credentials.\n\n## Documents\n- **Individuals:** NIC/Passport, proof of address (≤3 months), photo. Income proof for credit products.\n- **Businesses:** BR, TIN/VAT, board resolution (companies), signatory IDs, address proof."
+    },
+    {
+      "id": "accounts.types",
+      "title": "Account Types — Features & Requirements",
+      "tags": [
+        "accounts",
+        "requirements",
+        "documents"
+      ],
+      "product_area": "accounts",
+      "requires_auth": false,
+      "last_reviewed": "2025-09-04",
+      "pii": false,
+      "type": "markdown",
+      "content": "### Savings (Individuals)\n- **Features:** interest earning, debit card, ATM/CDM, e‑statements\n- **Requirements:** NIC/Passport, proof of address, initial deposit\n\n### Current (Businesses & Professionals)\n- **Features:** high transaction limits, cheque book, OD eligibility\n- **Requirements:** BR/TIN/VAT (as applicable), signatory IDs, board resolution (companies)\n\n### Fixed Deposits\n- **Features:** 1–60 month tenures, auto‑renewal option\n- **Requirements:** KYC; early breakage penalties may apply\n\n### Foreign Currency Accounts\n- **Features:** multi‑currency, SWIFT remittances\n- **Requirements:** passport/visa, FATCA/CRS declarations when relevant"
+    }
+  ]
+}

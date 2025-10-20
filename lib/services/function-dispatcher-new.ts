@@ -4,7 +4,8 @@
  */
 
 import { CustomerSupportService, ServiceResponse } from './customer-support-service-new';
-import { VectorDocument, searchKnowledgeBase } from './vector-db-service';
+import { VectorDocument } from './vector-db-service';
+import { queryRag } from './vector-db-service';
 
 export interface FunctionCall {
   id: string;
@@ -91,6 +92,7 @@ export class FunctionDispatcher {
 
     switch (fc.name) {
       case 'searchKnowledge':
+      case 'search_knowledge':
         serviceResponse = await this.handleSearchKnowledge(fc.args);
         break;
         
@@ -112,6 +114,10 @@ export class FunctionDispatcher {
         
       case 'search_knowledge_base':
         serviceResponse = await this.handleSearchKnowledgeBase(fc.args);
+        break;
+        
+      case 'calculate_emi':
+        serviceResponse = await this.handleCalculateEMI(fc.args);
         break;
         
       default:
@@ -204,9 +210,70 @@ export class FunctionDispatcher {
       throw new Error('Query parameter is required and must be a string');
     }
 
-    const result = await searchKnowledgeBase(query);
+    const ragData = await queryRag(query);
+
+    const hits = Array.isArray(ragData.hits) ? ragData.hits : [];
+    const answer = ragData.result;
+
+    const groundingChunks = hits.map(hit => ({
+      content: hit.chunk_text,
+      score: hit.score,
+      web: hit.file_path
+        ? { uri: `file://${hit.file_path}`, title: hit.file_path.split('/').pop() ?? hit.file_path }
+        : undefined,
+    }));
+
     return {
-      data: result,
+      data: answer,
+      sources: hits.map(hit => hit.file_path ?? 'knowledge-base'),
+      grounding_chunks: groundingChunks,
+      error: null,
+      success: true
+    };
+  }
+
+  /**
+   * Handle EMI calculation
+   */
+  private async handleCalculateEMI(args: any): Promise<ServiceResponse> {
+    const { loan_amount, annual_rate_percent, tenure_months, show_formula } = args;
+
+    if (
+      loan_amount == null ||
+      annual_rate_percent == null ||
+      tenure_months == null
+    ) {
+      throw new Error(
+        'loan_amount, annual_rate_percent, and tenure_months are required parameters'
+      );
+    }
+
+    const computeEMI = (P: number, r: number, n: number): number => {
+      const monthlyRate = r / 12 / 100;
+      return (
+        (P * monthlyRate * Math.pow(1 + monthlyRate, n)) /
+        (Math.pow(1 + monthlyRate, n) - 1)
+      );
+    };
+
+    if (loan_amount < 50000) {
+      return {
+        data: `ඔයාගේ ඉල්ලීම රුපියල් ${Math.round(loan_amount).toLocaleString()}ක්. කණගාටුයි, LKR 50,000 ට වඩා අඩු ණය මුදල් අපට සම්මත කළ නොහැක. කරුණාකර මුදල තහවුරු කර නැවතත් දන්වන්න.`,
+        sources: [],
+        grounding_chunks: [],
+        error: null,
+        success: true,
+      };
+    }
+
+    const emi = computeEMI(loan_amount, annual_rate_percent, tenure_months);
+
+    const emiStatement = `ඔයාගේ ඉල්ලීම රුපියල් ${Math.round(loan_amount).toLocaleString()}ක්. `;
+
+    return {
+      data: show_formula
+        ? { emi, formula: 'EMI = [P x r x (1+r)^n] / [(1+r)^n-1]', summary: `${emiStatement}මාසික වාරිකය LKR ${Math.round(emi).toLocaleString()}ක්.` }
+        : `${emiStatement}මාසික වාරිකය LKR ${Math.round(emi).toLocaleString()}ක් වටිනවා.`,
       sources: [],
       grounding_chunks: [],
       error: null,
@@ -224,7 +291,8 @@ export class FunctionDispatcher {
       'findBranches',
       'scheduleCallback',
       'getAccountBalance',
-      'search_knowledge_base'
+      'search_knowledge_base',
+      'calculate_emi'
     ];
   }
 

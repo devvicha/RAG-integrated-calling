@@ -4,7 +4,7 @@
  */
 
 import { VectorDocument } from '../services/vector-db-service';
-import knowledgeBaseData from '../prompts/knowledge-base.json';
+import knowledgeBaseData from '../../Knowledge_base/knowledge-base2.json';
 
 export interface KnowledgeBaseEntry {
   id: string;
@@ -23,21 +23,11 @@ export interface KnowledgeBaseEntry {
  */
 export function loadKnowledgeBase(): VectorDocument[] {
   const documents: VectorDocument[] = [];
-  
+
   for (const entry of knowledgeBaseData as KnowledgeBaseEntry[]) {
-    // Convert content to string format
-    let contentString: string;
-    
-    if (typeof entry.content === 'string') {
-      contentString = entry.content;
-    } else if (typeof entry.content === 'object') {
-      // Convert JSON content to searchable text
-      contentString = JSON.stringify(entry.content, null, 2);
-    } else {
-      contentString = String(entry.content);
-    }
-    
-    const document: VectorDocument = {
+    const contentString = typeof entry.content === 'string' ? entry.content : JSON.stringify(entry.content);
+
+    documents.push({
       id: entry.id,
       title: entry.title,
       content: contentString,
@@ -47,14 +37,12 @@ export function loadKnowledgeBase(): VectorDocument[] {
         requires_auth: entry.requires_auth,
         last_reviewed: entry.last_reviewed,
         pii: entry.pii,
-        type: entry.type
-      }
-    };
-    
-    documents.push(document);
+        type: entry.type,
+      },
+    });
   }
-  
-  console.log(`📚 Loaded ${documents.length} knowledge base documents`);
+
+  console.log(`Loaded ${documents.length} documents`);
   return documents;
 }
 

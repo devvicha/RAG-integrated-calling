@@ -24,8 +24,8 @@ if not knowledge_base_path.exists():
     raise FileNotFoundError(f"Knowledge base directory not found at {knowledge_base_path.resolve()}")
 
 # Initialize SentenceTransformer
-# Defaulting to a public multilingual model; override via EMBEDDING_MODEL env if required.
-model_name = os.environ.get("EMBEDDING_MODEL", "sentence-transformers/distiluse-base-multilingual-cased-v2")
+# Defaulting to a lighter multilingual model; override via EMBEDDING_MODEL env if required.
+model_name = os.environ.get("EMBEDDING_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 model = SentenceTransformer(model_name, device=device)
 
 # RecursiveCharacterTextSplitter tuned for small KBs
@@ -70,8 +70,12 @@ def stringify_json_content(data) -> str:
 
 # Process JSON files
 for json_file in json_files:
-    with open(json_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(json_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"[ERROR] Failed to decode JSON file: {json_file}. Error: {e}")
+        continue
 
     text = stringify_json_content(data).strip()
     if not text:

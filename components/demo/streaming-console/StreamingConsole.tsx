@@ -221,19 +221,37 @@ export default function StreamingConsole() {
                 <div className="grounding-chunks">
                   <strong>Sources:</strong>
                   <ul>
-                    {t.groundingChunks
-                      .filter(chunk => chunk.web && chunk.web.uri)
-                      .map((chunk, index) => (
+                    {t.groundingChunks.map((chunk, index) => {
+                      const title = chunk.web?.title || chunk.web?.uri || `Snippet ${index + 1}`;
+                      const content = chunk.content?.slice(0, 200) || '';
+                      const score = typeof (chunk as any).score === 'number'
+                        ? (chunk as any).score
+                        : undefined;
+
+                      return (
                         <li key={index}>
-                          <a
-                            href={chunk.web!.uri}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {chunk.web!.title || chunk.web!.uri}
-                          </a>
+                          {chunk.web?.uri ? (
+                            <a
+                              href={chunk.web.uri}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {title}
+                            </a>
+                          ) : (
+                            <span>{title}</span>
+                          )}
+                          {typeof score === 'number' && (
+                            <span className="grounding-score">
+                              {' '}(score: {score.toFixed(3)})
+                            </span>
+                          )}
+                          {content && (
+                            <div className="grounding-snippet">{content}</div>
+                          )}
                         </li>
-                      ))}
+                      );
+                    })}
                   </ul>
                 </div>
               )}

@@ -3,7 +3,7 @@
  * Handles customer inquiries, account information, and banking operations
  */
 
-import { VectorDatabaseService, VectorDocument } from './vector-db-service';
+import { VectorDocument, queryRag, RagResponse } from './vector-db-service'; // ✅ FIXED import (matches actual exports)
 
 export interface CustomerQuery {
   query: string;
@@ -19,6 +19,7 @@ export interface ServiceResponse {
   grounding_chunks?: Array<{
     web?: { uri: string; title: string };
     content: string;
+    score?: number;
   }>;
 }
 
@@ -41,12 +42,11 @@ export interface BranchInfo {
 
 export class CustomerSupportService {
   private apiKey: string;
-  private vectorDB: VectorDatabaseService;
   private isInitialized: boolean = false;
+  private cachedDocuments: VectorDocument[] = [];
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;
-    this.vectorDB = new VectorDatabaseService(apiKey);
   }
 
   /**
@@ -54,9 +54,9 @@ export class CustomerSupportService {
    */
   async initialize(documents: VectorDocument[]): Promise<void> {
     if (this.isInitialized) return;
-    
+
     console.log('🔄 Initializing Customer Support Service...');
-    await this.vectorDB.initialize(documents);
+    this.cachedDocuments = documents;
     this.isInitialized = true;
     console.log('✅ Customer Support Service initialized');
   }
@@ -70,33 +70,48 @@ export class CustomerSupportService {
         throw new Error('Service not initialized. Call initialize() first.');
       }
 
-      const searchResult = await this.vectorDB.searchSimilar(query, limit, 0.7);
-      
-      const groundingChunks = searchResult.documents.map(doc => ({
-        content: doc.content,
-        web: {
-          uri: `internal://${doc.id}`,
-          title: doc.title
-        }
+      // ✅ FIXED TYPE: Ensure RagResponse is correctly shaped
+      const ragResult: RagResponse | null = await queryRag(query, limit);
+
+      if (!ragResult || !ragResult.hits?.length) {
+        throw new Error('No knowledge base results found');
+      }
+
+      const results = ragResult.hits.map((hit, index) => ({
+        title: hit.source
+          ? hit.source.split('/').pop() || `Knowledge Hit ${index + 1}`
+          : `Knowledge Hit ${index + 1}`,
+        content: hit.chunk_text || hit.chunk || '', // ✅ FIXED: dynamic key
+        score: hit.score ?? 0,
+        source: hit.source,
+      }));
+
+      const groundingChunks = results.map(hit => ({
+        content: hit.content,
+        score: hit.score,
+        web: hit.source
+          ? { uri: `file://${hit.source}`, title: hit.title }
+          : undefined,
       }));
 
       return {
         success: true,
         data: {
-          results: searchResult.documents,
-          query: searchResult.query,
-          total_found: searchResult.total_results,
-          search_time_ms: searchResult.search_time_ms
+          query,
+          total_found: results.length,
+          results,
         },
-        sources: searchResult.documents.map(doc => `${doc.title} (${doc.id})`),
-        grounding_chunks: groundingChunks
+        sources: results
+          .filter(hit => Boolean(hit.source))
+          .map(hit => `${hit.title}${hit.source ? ` (${hit.source})` : ''}`),
+        grounding_chunks: groundingChunks,
       };
     } catch (error) {
-      console.error('Knowledge search failed:', error);
+      console.error('❌ Knowledge search failed:', error);
       return {
         success: false,
         error: error instanceof Error ? error.message : 'Knowledge search failed',
-        data: { results: [], query, total_found: 0 }
+        data: { results: [], query, total_found: 0 },
       };
     }
   }
@@ -106,17 +121,16 @@ export class CustomerSupportService {
    */
   async getExchangeRates(currency?: string): Promise<ServiceResponse> {
     try {
-      // Sample exchange rates - replace with real API call
       const sampleRates: ExchangeRate[] = [
-        { currency: 'USD', buy_rate: 295.00, sell_rate: 305.00, last_updated: new Date().toISOString() },
-        { currency: 'EUR', buy_rate: 320.50, sell_rate: 330.50, last_updated: new Date().toISOString() },
+        { currency: 'USD', buy_rate: 295.0, sell_rate: 305.0, last_updated: new Date().toISOString() },
+        { currency: 'EUR', buy_rate: 320.5, sell_rate: 330.5, last_updated: new Date().toISOString() },
         { currency: 'GBP', buy_rate: 380.25, sell_rate: 390.25, last_updated: new Date().toISOString() },
         { currency: 'AUD', buy_rate: 195.75, sell_rate: 205.75, last_updated: new Date().toISOString() },
         { currency: 'JPY', buy_rate: 2.15, sell_rate: 2.25, last_updated: new Date().toISOString() },
-        { currency: 'CAD', buy_rate: 218.50, sell_rate: 228.50, last_updated: new Date().toISOString() }
+        { currency: 'CAD', buy_rate: 218.5, sell_rate: 228.5, last_updated: new Date().toISOString() },
       ];
 
-      const filteredRates = currency 
+      const filteredRates = currency
         ? sampleRates.filter(rate => rate.currency.toLowerCase() === currency.toLowerCase())
         : sampleRates;
 
@@ -126,15 +140,15 @@ export class CustomerSupportService {
           base_currency: 'LKR',
           rates: filteredRates,
           last_updated: new Date().toISOString(),
-          disclaimer: 'Rates are indicative and subject to change. Please visit our branches for actual rates.'
+          disclaimer: 'Rates are indicative and subject to change. Please visit our branches for actual rates.',
         },
-        sources: ['Sampath Bank Treasury Department']
+        sources: ['Sampath Bank Treasury Department'],
       };
-    } catch (error) {
+    } catch {
       return {
         success: false,
         error: 'Failed to fetch exchange rates',
-        data: { base_currency: 'LKR', rates: [] }
+        data: { base_currency: 'LKR', rates: [] },
       };
     }
   }
@@ -144,7 +158,6 @@ export class CustomerSupportService {
    */
   async findBranches(location: string, limit: number = 5): Promise<ServiceResponse> {
     try {
-      // Sample branch data - replace with actual branch database
       const sampleBranches: BranchInfo[] = [
         {
           name: 'Colombo Main Branch',
@@ -152,7 +165,7 @@ export class CustomerSupportService {
           phone: '+94 11 230 3050',
           coordinates: { lat: 6.9271, lng: 79.8612 },
           services: ['All Banking Services', 'Foreign Exchange', 'Loans', 'Safe Deposit'],
-          hours: 'Mon-Fri: 9:00 AM - 5:00 PM'
+          hours: 'Mon–Fri: 9:00 AM – 5:00 PM',
         },
         {
           name: 'Kandy Branch',
@@ -160,7 +173,7 @@ export class CustomerSupportService {
           phone: '+94 81 222 3456',
           coordinates: { lat: 7.2906, lng: 80.6337 },
           services: ['All Banking Services', 'ATM', 'Loans'],
-          hours: 'Mon-Fri: 9:00 AM - 4:30 PM'
+          hours: 'Mon–Fri: 9:00 AM – 4:30 PM',
         },
         {
           name: 'Galle Branch',
@@ -168,30 +181,31 @@ export class CustomerSupportService {
           phone: '+94 91 234 5678',
           coordinates: { lat: 6.0329, lng: 80.2168 },
           services: ['All Banking Services', 'Foreign Exchange'],
-          hours: 'Mon-Fri: 9:00 AM - 4:30 PM'
-        }
+          hours: 'Mon–Fri: 9:00 AM – 4:30 PM',
+        },
       ];
 
-      // Simple text matching - replace with proper geocoding/search
-      const filteredBranches = sampleBranches.filter(branch =>
-        branch.name.toLowerCase().includes(location.toLowerCase()) ||
-        branch.address.toLowerCase().includes(location.toLowerCase())
-      ).slice(0, limit);
+      const filteredBranches = sampleBranches
+        .filter(branch =>
+          branch.name.toLowerCase().includes(location.toLowerCase()) ||
+          branch.address.toLowerCase().includes(location.toLowerCase()),
+        )
+        .slice(0, limit);
 
       return {
         success: true,
         data: {
           branches: filteredBranches,
           search_location: location,
-          total_found: filteredBranches.length
+          total_found: filteredBranches.length,
         },
-        sources: ['Sampath Bank Branch Directory']
+        sources: ['Sampath Bank Branch Directory'],
       };
-    } catch (error) {
+    } catch {
       return {
         success: false,
         error: 'Failed to find branches',
-        data: { branches: [], search_location: location }
+        data: { branches: [], search_location: location },
       };
     }
   }
@@ -201,25 +215,22 @@ export class CustomerSupportService {
    */
   async scheduleCallback(phoneNumber: string, preferredTime: string, purpose?: string): Promise<ServiceResponse> {
     try {
-      // Validate phone number format (basic validation)
-      const phoneRegex = /^[+]?[0-9\s\-\(\)]{7,15}$/;
+      const phoneRegex = /^[+]?[0-9\s\-()]{7,15}$/;
       if (!phoneRegex.test(phoneNumber)) {
         throw new Error('Invalid phone number format');
       }
 
-      // Parse preferred time
       const appointmentTime = new Date(preferredTime);
       if (isNaN(appointmentTime.getTime())) {
         throw new Error('Invalid preferred time format');
       }
 
-      // Check if time is in the future
       if (appointmentTime <= new Date()) {
         throw new Error('Preferred time must be in the future');
       }
 
-      const appointmentId = `CB_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-      
+      const appointmentId = `CB_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+
       return {
         success: true,
         data: {
@@ -228,18 +239,15 @@ export class CustomerSupportService {
           scheduled_time: appointmentTime.toISOString(),
           purpose: purpose || 'General Inquiry',
           status: 'scheduled',
-          confirmation_message: `Your callback has been scheduled. Reference: ${appointmentId}. Our customer service representative will call you at ${phoneNumber} on ${appointmentTime.toLocaleString()}.`
+          confirmation_message: `Your callback has been scheduled. Reference: ${appointmentId}. Our representative will call you at ${phoneNumber} on ${appointmentTime.toLocaleString()}.`,
         },
-        sources: ['Sampath Bank Customer Service']
+        sources: ['Sampath Bank Customer Service'],
       };
     } catch (error) {
       return {
         success: false,
         error: error instanceof Error ? error.message : 'Failed to schedule callback',
-        data: {
-          phone_number: phoneNumber,
-          status: 'failed'
-        }
+        data: { phone_number: phoneNumber, status: 'failed' },
       };
     }
   }
@@ -249,12 +257,10 @@ export class CustomerSupportService {
    */
   async getAccountBalance(accountNumber: string, userId?: string): Promise<ServiceResponse> {
     try {
-      // This would typically require proper authentication
       if (!userId) {
         throw new Error('Authentication required for account information');
       }
 
-      // Sample response - replace with actual account service
       return {
         success: true,
         data: {
@@ -263,15 +269,15 @@ export class CustomerSupportService {
           available_balance: 'LKR 125,450.75',
           last_transaction: '2024-10-01',
           account_type: 'Savings Account',
-          message: 'For security reasons, please verify your identity through our mobile app or visit a branch for detailed account information.'
+          message: 'For security reasons, please verify your identity through our mobile app or visit a branch for detailed account information.',
         },
-        sources: ['Sampath Bank Account Services']
+        sources: ['Sampath Bank Account Services'],
       };
     } catch (error) {
       return {
         success: false,
         error: error instanceof Error ? error.message : 'Failed to retrieve account balance',
-        data: { requires_authentication: true }
+        data: { requires_authentication: true },
       };
     }
   }
@@ -279,17 +285,18 @@ export class CustomerSupportService {
   /**
    * Get service statistics
    */
-  getServiceStats(): any {
+  getServiceStats(): Record<string, any> {
     return {
-      vector_db_stats: this.isInitialized ? this.vectorDB.getStats() : null,
+      // ✅ FIXED: removed reference to non-existent vectorDB
+      cached_docs: this.cachedDocuments.length,
       service_initialized: this.isInitialized,
       available_functions: [
         'searchKnowledge',
-        'getExchangeRates', 
+        'getExchangeRates',
         'findBranches',
         'scheduleCallback',
-        'getAccountBalance'
-      ]
+        'getAccountBalance',
+      ],
     };
   }
 }

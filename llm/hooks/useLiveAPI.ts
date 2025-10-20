@@ -60,19 +60,26 @@ export function useLiveApi({
 
   // Initialize function dispatcher when component mounts
   useEffect(() => {
-    const initializeDispatcher = async () => {
-      if (!dispatcherInitialized) {
-        try {
-          await functionDispatcher.initialize(knowledgeDocuments);
+    if (dispatcherInitialized) return;
+
+    let cancelled = false;
+
+    (async () => {
+      try {
+        console.log('🧩 Initializing FunctionDispatcher with knowledge base…');
+        await functionDispatcher.initialize(knowledgeDocuments);
+        if (!cancelled) {
           setDispatcherInitialized(true);
-          console.log('✅ Function dispatcher initialized with knowledge base');
-        } catch (error) {
-          console.error('❌ Failed to initialize function dispatcher:', error);
+          console.log('✅ FunctionDispatcher ready');
         }
+      } catch (error) {
+        console.error('❌ Failed to initialize function dispatcher:', error);
       }
+    })();
+
+    return () => {
+      cancelled = true;
     };
-    
-    initializeDispatcher();
   }, [functionDispatcher, dispatcherInitialized]);
 
   // register audio for streaming server -> speakers
@@ -97,40 +104,37 @@ export function useLiveApi({
   useEffect(() => {
     const onOpen = () => {
       setConnected(true);
+      console.log('🔌 Live connection OPEN');
     };
 
     const onClose = () => {
       setConnected(false);
+      console.log('🔌 Live connection CLOSE');
     };
 
     const stopAudioStreamer = () => {
       if (audioStreamerRef.current) {
-        console.warn('Audio streamer stopped due to interruption');
+        console.warn('⏸️ Audio streamer stopped due to interruption');
         audioStreamerRef.current.stop();
       }
     };
 
     const onAudio = (data: ArrayBuffer) => {
       if (audioStreamerRef.current) {
-        console.log('Audio data received:', data.byteLength);
         audioStreamerRef.current.addPCM16(new Uint8Array(data));
       }
     };
 
-    client.on('interrupted', () => {
-      console.error('Streaming interrupted event received');
-      stopAudioStreamer();
-    });
-
-    // Bind event listeners
     client.on('open', onOpen);
     client.on('close', onClose);
     client.on('interrupted', stopAudioStreamer);
     client.on('audio', onAudio);
 
     const onToolCall = async (toolCall: LiveServerToolCall) => {
+      console.log('🧰 Toolcall received:', toolCall.functionCalls.map(fc => fc.name));
+
       if (!dispatcherInitialized) {
-        console.warn('Tool call received before dispatcher ready.');
+        console.warn('⚠️ Tool call before dispatcher ready.');
         client.sendToolResponse({
           functionResponses: toolCall.functionCalls.map(fc => ({
             id: fc.id,
@@ -144,21 +148,27 @@ export function useLiveApi({
         return;
       }
 
-      const functionResponses = await Promise.all(
-        toolCall.functionCalls.map(async fc => {
-          const triggerMessage = `Triggering function call: **${fc.name}**\n\`\`\`json\n${JSON.stringify(fc.args, null, 2)}\n\`\`\``;
-          useLogStore.getState().addTurn({
-            role: 'system',
-            text: triggerMessage,
-            isFinal: true,
-          });
+      if (audioStreamerRef.current) {
+        audioStreamerRef.current.stop();
+      }
 
-          try {
-            const [response] = await functionDispatcher.dispatchFunctions([{
-              id: fc.id,
-              name: fc.name,
-              args: fc.args,
-            }]);
+      try {
+        const functionResponses = await Promise.all(
+          toolCall.functionCalls.map(async fc => {
+            const triggerMessage = `Triggering function call: **${fc.name}**\n\`\`\`json\n${JSON.stringify(fc.args, null, 2)}\n\`\`\``;
+            useLogStore.getState().addTurn({
+              role: 'system',
+              text: triggerMessage,
+              isFinal: true,
+            });
+
+            const [response] = await functionDispatcher.dispatchFunctions([
+              {
+                id: fc.id,
+                name: fc.name,
+                args: fc.args,
+              },
+            ]);
 
             const responseMessage = `Function call response:\n\`\`\`json\n${JSON.stringify(response, null, 2)}\n\`\`\``;
             useLogStore.getState().addTurn({
@@ -168,54 +178,84 @@ export function useLiveApi({
             });
 
             return response;
-          } catch (error: any) {
-            const errorMessage = `Function execution failed for **${fc.name}**: ${error?.message || error}`;
-            console.error(errorMessage);
-            useLogStore.getState().addTurn({
-              role: 'system',
-              text: errorMessage,
-              isFinal: true,
-            });
+          }),
+        );
 
-            return {
-              id: fc.id,
-              name: fc.name,
-              response: {
-                result: null,
-                error: error instanceof Error ? error.message : 'Unknown error',
-              },
-            };
-          }
-        }),
-      );
+        client.sendToolResponse({ functionResponses });
 
-      client.sendToolResponse({ functionResponses });
+        useLogStore.getState().addTurn({
+          role: 'system',
+          text: `✅ RAG lookup complete for **${toolCall.functionCalls
+            .map(fc => fc.name)
+            .join(', ')}**`,
+          isFinal: true,
+        });
+      } catch (error) {
+        console.error('💥 Error during tool call execution:', error);
+        client.sendToolResponse({
+          functionResponses: toolCall.functionCalls.map(fc => ({
+            id: fc.id,
+            name: fc.name,
+            response: {
+              result: null,
+              error: error instanceof Error ? error.message : 'Unknown error',
+            },
+          })),
+        });
+      } finally {
+        if (audioStreamerRef.current) {
+          console.log('▶️ Resuming audio streamer after tool call');
+          await audioStreamerRef.current.resume();
+        }
+      }
     };
 
     client.on('toolcall', onToolCall);
 
     return () => {
-      // Clean up event listeners
       client.off('open', onOpen);
       client.off('close', onClose);
       client.off('interrupted', stopAudioStreamer);
       client.off('audio', onAudio);
       client.off('toolcall', onToolCall);
     };
-  }, [client]);
+  }, [client, dispatcherInitialized]);
 
   const connect = useCallback(async () => {
     if (!config) {
       throw new Error('config has not been set');
     }
-    client.disconnect();
+
+    if (!dispatcherInitialized) {
+      console.log('⏳ Waiting for dispatcher to initialize...');
+      await new Promise<void>(resolve => {
+        const interval = setInterval(() => {
+          if (dispatcherInitialized) {
+            clearInterval(interval);
+            resolve();
+          }
+        }, 150);
+      });
+    }
+
+    const anyClient = client as any;
+    if (anyClient.connected) {
+      console.warn('⚠️ Live already connected — disconnecting first');
+      await client.disconnect();
+      await new Promise(res => setTimeout(res, 300));
+    }
+
+    console.log('🎙️ Connecting to Gemini Live…');
     await client.connect(config);
-  }, [client, config]);
+  }, [client, config, dispatcherInitialized]);
 
   const disconnect = useCallback(async () => {
-    client.disconnect();
+    await client.disconnect();
     setConnected(false);
-  }, [setConnected, client]);
+    if (audioStreamerRef.current) {
+      audioStreamerRef.current.stop();
+    }
+  }, [client]);
 
   return {
     client,

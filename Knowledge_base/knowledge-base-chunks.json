@@ -1,0 +1,546 @@
+[
+  {
+    "file_path": "accounts/types.md",
+    "id": "accounts.types",
+    "title": "Account Types — Features & Requirements",
+    "tags": ["accounts", "requirements", "documents"],
+    "product_area": "accounts",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "savings_individuals": {
+        "features": "interest earning, debit card, ATM/CDM, e‑statements",
+        "requirements": "NIC/Passport, proof of address, initial deposit"
+      },
+      "current_businesses": {
+        "features": "high transaction limits, cheque book, OD eligibility",
+        "requirements": "BR/TIN/VAT (as applicable), signatory IDs, board resolution (companies)"
+      },
+      "fixed_deposits": {
+        "features": "1–60 month tenures, auto‑renewal option",
+        "requirements": "KYC; early breakage penalties may apply"
+      },
+      "foreign_currency_accounts": {
+        "features": "multi‑currency, SWIFT remittances",
+        "requirements": "passport/visa, FATCA/CRS declarations when relevant"
+      }
+    }
+  },
+  {
+    "file_path": "calculators/emi.md",
+    "id": "calculators.emi",
+    "title": "EMI Calculator",
+    "tags": ["calculator", "emi"],
+    "product_area": "loans",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "formula": "EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)",
+      "variables": {
+        "r": "(annual_rate_percent / 100) / 12",
+        "n": "tenure_months"
+      },
+      "output": "EMI in LKR",
+      "disclaimer": "Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+    }
+  },
+  {
+    "file_path": "bank/profile.json",
+    "id": "bank.profile",
+    "title": "Bank Profile & Contacts",
+    "tags": ["bank", "contacts", "hours", "hotline"],
+    "product_area": "bank",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "bank": {
+      "name": "Sampath Bank PLC",
+      "country": "Sri Lanka",
+      "regulator": "Central Bank of Sri Lanka",
+      "hq_address": "No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka",
+      "contacts": {
+        "main_hotline_short": "1332",
+        "main_hotline": "+94 11 230 3050",
+        "email": "info@sampath.lk",
+        "card_centre": "+94 11 230 0604"
+      }
+    },
+    "defaults": {
+      "currency": "LKR",
+      "timezone": "Asia/Colombo",
+      "business_hours": "Mon–Fri 09:00–17:00 (branch hours may vary)"
+    }
+  },
+  {
+    "file_path": "digital/channels.md",
+    "id": "digital.channels",
+    "title": "Digital Channels & Capabilities",
+    "tags": [
+      "channels",
+      "digital",
+      "app",
+      "vishwa",
+      "wepay"
+    ],
+    "product_area": "channels",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "internet_banking": {
+        "sampath_vishwa_retail": "balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+      },
+      "corporate_banking": {
+        "sampath_vishwa_corporate": "bulk payments & payroll, approvals & workflows, supplier finance."
+      },
+      "mobile_apps": {
+        "sampath_wepay": "merchant payments, QR code scanning, transaction history, fund transfers."
+      }
+    }
+  },
+  {
+    "file_path": "faqs/base.md",
+    "id": "faqs.base",
+    "title": "FAQs — Quick Answers",
+    "tags": [
+      "faq",
+      "quick_answers"
+    ],
+    "product_area": "generic",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "general_inquiries": "For general questions, you can ask about our services, branch locations, or how to open an account.",
+      "account_opening": "To open an account, you need to provide valid ID, proof of address, and complete the application form.",
+      "loan_inquiries": "For loan inquiries, please specify the loan type, and we will provide you with the necessary information.",
+      "card_services": "For card services, you can inquire about card types, how to apply, or report a lost card."
+    }
+  },
+  {
+    "file_path": "guardrails.md",
+    "id": "guardrails",
+    "title": "Guardrails — Safety & Policy",
+    "tags": [
+      "guardrails",
+      "policy",
+      "safety"
+    ],
+    "product_area": "governance",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "do_not": [
+        "share personal information like passwords or PINs.",
+        "click on suspicious links or download attachments from unknown sources.",
+        "ignore security alerts or notifications from the bank."
+      ],
+      "must": [
+        "use strong, unique passwords for your accounts.",
+        "enable two-factor authentication where possible.",
+        "regularly monitor your account statements for any unauthorized transactions."
+      ]
+    }
+  },
+  {
+    "file_path": "intents/policy.json",
+    "id": "intents.policy",
+    "title": "Dialog Intents & Policy",
+    "tags": [
+      "nlu",
+      "intents",
+      "policy"
+    ],
+    "product_area": "dialog",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "intents": [
+      {
+        "name": "AccountOpening",
+        "slots": [
+          {
+            "name": "account_type",
+            "entity": "AccountType",
+            "required": true
+          }
+        ],
+        "success_reply": "To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You’ll need ID and address proof. Which route suits you?",
+        "policy_links": [
+          "accounts.opening_workflow"
+        ]
+      },
+      {
+        "name": "LoanInquiry",
+        "slots": [
+          {
+            "name": "loan_type",
+            "entity": "LoanType",
+            "required": true
+          }
+        ],
+        "success_reply": "For {loan_type}, I can check eligibility, list documents, and estimate EMI. Are you looking at Sevana/Dayada (housing) or Samachara (personal)?"
+      },
+      {
+        "name": "CardBlock",
+        "slots": [
+          {
+            "name": "card_number",
+            "entity": "sys.any",
+            "required": true
+          },
+          {
+            "name": "dob",
+            "entity": "sys.date",
+            "required": true
+          }
+        ],
+        "success_reply": "I’ll hotlist your card now. Please confirm your date of birth and approve the OTP. If you prefer, you can also call the Card Centre at +94 11 230 0604.",
+        "policy_links": [
+          "workflows.card_lost_block"
+        ]
+      },
+      {
+        "name": "TransferHelp",
+        "slots": [
+          {
+            "name": "channel",
+            "entity": "Channel",
+            "required": false
+          }
+        ],
+        "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step?"
+      },
+      {
+        "name": "Complaint",
+        "slots": [
+          {
+            "name": "category",
+            "entity": "sys.any",
+            "required": true
+          },
+          {
+            "name": "summary",
+            "entity": "sys.any",
+            "required": true
+          }
+        ],
+        "success_reply": "I’ve logged your complaint under '{category}'. Your ticket ID is {ticket_id}. Expected TAT is {tat}. I’ll update you and escalate if needed."
+      }
+    ]
+  },
+  {
+    "file_path": "loans/catalog.md",
+    "id": "loans.catalog",
+    "title": "Loan Catalog — Quick Cards",
+    "tags": [
+      "loans",
+      "product",
+      "tenure",
+      "documents"
+    ],
+    "product_area": "loans",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "personal_sampath_sanhinda": {
+        "purpose": "education, medical, home needs",
+        "range": "up to LKR 5,000,000",
+        "tenure": "up to 15 years",
+        "speed": "issuance as fast as ~1 day (documents in order)"
+      },
+      "housing_sevana_dayada": {
+        "sevana": "tenure up to 25–30 years (policy dependent)",
+        "dayada": "disbursement as fast as ~10 days when docs are in order; tenure up to 25 years"
+      },
+      "foreign_currency_housing": {
+        "details": "For Sri Lankans employed abroad (solo or with spouse income)",
+        "income_consideration": "FCY income considered"
+      },
+      "vehicle_loans": {
+        "security": "hypothecation of vehicle",
+        "tenure": "1–7 years"
+      },
+      "business_sme": {
+        "facilities": "OD, term loan, invoice finance, trade services",
+        "docs": "BR/TIN/VAT, financials, bank statements"
+      }
+    }
+  },
+  {
+    "file_path": "loans/lifecycle.md",
+    "id": "loans.lifecycle",
+    "title": "Loan Lifecycle & Key Terms",
+    "tags": [
+      "loans",
+      "lifecycle",
+      "glossary"
+    ],
+    "product_area": "loans",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "lifecycle": {
+        "application": "Submit application with required documents.",
+        "approval": "Application review and approval process.",
+        "disbursement": "Release of loan amount as per agreement.",
+        "repayment": "Regular EMI payments as per schedule.",
+        "closure": "Loan closure upon full repayment."
+      },
+      "key_terms": {
+        "emi": "Fixed monthly payment (principal + interest).",
+        "awplr_link": "Some housing products reference AWPLR for rate resets.",
+        "ltv": "Loan‑to‑Value caps apply on secured loans.",
+        "prepayment": "Allowed per product; verify lock‑in/fees."
+      }
+    }
+  },
+  {
+    "file_path": "payments/rails.md",
+    "id": "payments.rails",
+    "title": "Payments & Transfer Rails",
+    "tags": [
+      "payments",
+      "cefts",
+      "slips",
+      "lankaqr",
+      "swift",
+      "limits"
+    ],
+    "product_area": "payments",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "lankaqr": "Scan‑to‑pay at merchants across Sri Lanka.",
+      "cefts": "Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.",
+      "slips": "Batch interbank transfers (T+0/T+1), common for salaries & vendors.",
+      "swift": "Cross‑border remittances (FX conversion applies)."
+    }
+  },
+  {
+    "file_path": "persona/nova.md",
+    "id": "persona.nova",
+    "title": "Nova Persona & Call Style",
+    "tags": [
+      "persona",
+      "tone",
+      "greeting",
+      "closing",
+      "capture_rules"
+    ],
+    "product_area": "agent",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "role": "Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted.",
+      "is_not_bot": "you sound like a real banking representative.",
+      "core_personality": "Warm, approachable, professional, and genuinely helpful. Mirror caller tone (formal ↔ casual).",
+      "human_speech_behavior": {
+        "pauses": "Use natural pauses, especially after questions.",
+        "intonation": "Vary pitch to emphasize key information.",
+        "speed": "Adjust speed for clarity, especially when spelling out information."
+      },
+      "initial_response": "If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”",
+      "closing_flow": {
+        "resolved": "“Glad I could help with that. Is there anything else I can assist you with today?”",
+        "pending": "“I’ll note this down and arrange a follow-up from our team. You’ll hear from us soon.”",
+        "out_of_scope": "“I’ll connect you with the right team so you’re taken care of.”"
+      },
+      "data_capture_rules": "For any service request that requires a follow-up, ask for a preferred contact number.",
+      "safety_notes": {
+        "phishing": "Be cautious of unsolicited requests for personal information.",
+        "vishing": "Verify caller identity before divulging any information.",
+        "smishing": "Do not click on links or download attachments from unknown SMS."
+      }
+    }
+  },
+  {
+    "file_path": "remittances/options.md",
+    "id": "remittances.options",
+    "title": "Remittances — e‑Remittance & SWIFT",
+    "tags": [
+      "remittance",
+      "international"
+    ],
+    "product_area": "remittances",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "e_remittance": "Digital remittance service for fast, secure transfers.",
+      "swift": "International wire transfer service for sending money abroad."
+    }
+  },
+  {
+    "file_path": "responses/templates.md",
+    "id": "responses.templates",
+    "title": "Response Templates",
+    "tags": [
+      "templates",
+      "phrasing"
+    ],
+    "product_area": "dialog",
+    "requires_auth": false,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "ask_documents_individual": "For individuals: NIC/Passport, proof of address (last 3 months), and a photo. Income proof is required for credit products.",
+      "ask_documents_business": "For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.",
+      "emi_quote": "For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*",
+      "fees_disclaimer": "Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.",
+      "security_warning": "Never share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links."
+    }
+  },
+  {
+    "file_path": "security_compliance.md",
+    "id": "security.compliance",
+    "title": "Security, KYC/AML, Privacy & Fraud Controls",
+    "tags": [
+      "security",
+      "compliance",
+      "aml",
+      "privacy",
+      "otp"
+    ],
+    "product_area": "governance",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "kyc": "Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles.",
+      "aml_sanctions": "Monitor unusual patterns; sanctions screening at onboarding & ongoing; report STR/SAR as required.",
+      "privacy_access": "Data encryption in transit/at rest; role‑based access; consent for data sharing.",
+      "fraud_controls": "OTP/2FA, device binding, transaction velocity checks, card tokenization.",
+      "complaint_handling_sla": "Acknowledge promptly; typical resolution within 7–14 working days; escalation path available."
+    }
+  },
+  {
+    "file_path": "workflows/account_opening.md",
+    "id": "workflows.account_opening",
+    "title": "Workflow — Account Opening",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth"
+    ],
+    "product_area": "accounts",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "steps": [
+        "Customer submits application via Sampath Vishwa or branch.",
+        "Verify customer identity and address.",
+        "Check application completeness and initial document verification.",
+        "Conduct background checks as per KYC norms.",
+        "Approve or reject the application based on internal policies.",
+        "Notify customer of application status; request additional info if needed.",
+        "Upon approval, set up the account and issue account details to the customer."
+      ],
+      "documents_required": {
+        "individuals": "NIC/Passport, proof of address (≤3 months), photo. Income proof for credit products.",
+        "businesses": "BR, TIN/VAT, board resolution (companies), signatory IDs, address proof."
+      },
+      "policy_links": [
+        "guardrails",
+        "security.compliance"
+      ]
+    }
+  },
+  {
+    "file_path": "workflows/card_lost_block.md",
+    "id": "workflows.card_lost_block",
+    "title": "Workflow — Card Lost/Block",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth",
+      "card_block"
+    ],
+    "product_area": "cards",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": true,
+    "content": {
+      "steps": [
+        "Customer reports card lost/stolen via hotline or app.",
+        "Verify customer identity and card details.",
+        "Hotlist the card to prevent unauthorized transactions.",
+        "Advise customer on next steps and issue reference number.",
+        "Optionally, arrange for a replacement card."
+      ],
+      "policy_links": [
+        "guardrails",
+        "security.compliance"
+      ]
+    }
+  },
+  {
+    "file_path": "workflows/complaint_handling.md",
+    "id": "workflows.complaint_handling",
+    "title": "Workflow — Complaint Handling",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "complaints"
+    ],
+    "product_area": "service",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": true,
+    "content": {
+      "steps": [
+        "Customer submits complaint via app, email, or hotline.",
+        "Acknowledge receipt of the complaint promptly.",
+        "Categorize and prioritize the complaint based on internal guidelines.",
+        "Investigate the complaint, involving relevant departments if necessary.",
+        "Resolve the complaint and communicate the outcome to the customer.",
+        "If unresolved, escalate the complaint as per the escalation matrix."
+      ],
+      "policy_links": [
+        "guardrails",
+        "security.compliance"
+      ]
+    }
+  },
+  {
+    "file_path": "workflows/loan_application.md",
+    "id": "workflows.loan_application",
+    "title": "Workflow — Loan Application",
+    "tags": [
+      "workflow",
+      "step_by_step",
+      "auth"
+    ],
+    "product_area": "loans",
+    "requires_auth": true,
+    "last_reviewed": "2025-09-04",
+    "pii": false,
+    "content": {
+      "steps": [
+        "Customer submits loan application via Sampath Vishwa or branch.",
+        "Verify customer identity, income, and creditworthiness.",
+        "Assess loan eligibility based on internal criteria.",
+        "Request additional documents if necessary.",
+        "Approve or reject the loan application.",
+        "Notify customer of the loan decision; provide reasons if rejected.",
+        "Upon approval, disburse the loan amount and set up repayment schedule."
+      ],
+      "documents_required": {
+        "individuals": "NIC/Passport, proof of address (≤3 months), photo. Income proof for credit products.",
+        "businesses": "BR, TIN/VAT, board resolution (companies), signatory IDs, address proof."
+      },
+      "policy_links": [
+        "guardrails",
+        "security.compliance"
+      ]
+    }
+  }
+]
