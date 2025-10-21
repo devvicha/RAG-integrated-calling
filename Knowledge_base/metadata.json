@@ -204,6 +204,50 @@
         "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
     },
     {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "---\nid: savings.doubleS\ntitle: Sampath Double S Savings Account\ncategory: Savings Account\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-21\nlanguage: en\n---\n\n Overview\nSampath Double S is a savings account that rewards customers with a monthly bonus interest for maintaining a healthy account balance. It is designed to encourage consistent savings growth."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "What's Special\n- Earn bonus interest calculated on the daily balance and credited monthly.\n- To qualify for the bonus, an average balance of Rs. 15,000 per month must be maintained.\n- Bonus interest will be paid for a maximum of one debit per interest cycle."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "Bonus Interest Rates\n| Average Balance (Rs.) | Bonus % |\n|------------------------|---------|\n| 15,000 - 49,999.99 | 25% |\n| 50,000 - 199,999.99 | 35% |\n| 200,000 or above with growth < 100,000 | 50% |\n| 200,000 or above with growth ≥ 100,000 | 100% |"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "Eligibility\nAvailable to Sri Lankan citizens over 18 years of age with valid identification (NIC or Passport).  \nA minimum initial deposit of Rs. 5,000 is required.\n\n Account Requirements\n- Minimum average balance to earn interest: Rs. 2,000  \n- Minimum average balance to avoid service charge: Rs. 1,000  \n- Bonus interest will not be paid if more than one debit occurs per interest cycle."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "Branch Special Offers\n- Bambalapitiya Branch: Minimum deposit Rs. 25,000  \n- Colombo Super Branch: Minimum deposit Rs. 10,000\n\n Interest Calculation\nThe standard interest rate applies to all balances, plus bonus interest based on the tier above. Interest is calculated on the daily balance and credited monthly."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
+        "chunk_text": "Key Features\n- Monthly bonus interest on qualifying balances\n- Access to Sampath Vishwa internet banking\n- Sampath Visa or Master Debit Card included\n- ATM and CDM access across the island\n- SMS alerts and e-statements available"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
+        "chunk_text": "---\nid: savings.regular\ntitle: Regular Savings Account\ncategory: Savings Account\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-21\nlanguage: en\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
+        "chunk_text": "Overview\nThe Sampath Regular Savings Account is designed for individuals seeking a safe and accessible way to save money while earning interest. It allows customers to deposit funds and access them anytime through Sampath Bank's wide branch and ATM network."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
+        "chunk_text": "Key Benefits\n- Interest is paid monthly.\n- Withdrawals and deposits can be made at any branch or ATM across the island.\n- Sampath Vishwa internet banking and SMS alerts are available upon request.\n\n Eligible Card Categories\nCustomers receive an activated Sampath Visa or Master Debit Card at the time of account opening. Both Sampath Mastercard and Visa Credit & Debit Cards are supported."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
+        "chunk_text": "Eligibility\nAny Sri Lankan citizen over 18 years of age can open this account by providing a valid identification document such as a National Identity Card or Passport.\n\n Minimum Deposit and Balance\n- Minimum initial deposit: Rs. 5,000  \n- Minimum average balance to earn interest: Rs. 2,000  \n- Minimum average balance to avoid service charges: Rs. 1,000"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
+        "chunk_text": "Interest Rate\nThe Regular Savings Account offers a standard interest rate of 2% per annum, calculated on the daily balance and credited monthly."
+    },
+    {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/remittances/options.md",
         "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
     },
@@ -280,6 +324,30 @@
         "chunk_text": "Foreign Currency Accounts\n- Features: multi‑currency, SWIFT remittances\n- Requirements: passport/visa, FATCA/CRS declarations when relevant"
     },
     {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Savings Account Calculator\n\n Overview\nCalculate the growth of your savings account based on:\n- Initial deposit amount\n- Monthly contribution\n- Annual interest rate\n- Time period (in months)\n\n Formula\nThe calculator uses compound interest formula:\n- Future Value = Initial Deposit × (1 + r)^n + Monthly Deposit × [((1 + r)^n - 1) / r]\n- Where r = monthly interest rate, n = number of months"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Minimum Requirements\n- Minimum initial deposit: LKR 1,000\n- No minimum for monthly deposits\n\n Features\n- Calculates total savings value\n- Shows total interest earned\n- Provides results in natural Sinhala pronunciation\n\n Usage\nAsk: \"මට ඉතිරිකිරීම් ගිණුමක් වර්ධනය ගණනය කරන්න පුළුවන්ද?\"\nProvide: Initial deposit, monthly deposit, interest rate, and time period\n\n Example Calculations"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Example Calculations\n\n Example 1: Small Regular Savings\n- Initial deposit: LKR 10,000\n- Monthly deposit: LKR 5,000\n- Interest rate: 8% per annum\n- Period: 12 months\n- Expected total: Approximately LKR 71,000 (including interest)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Example 2: Larger Investment\n- Initial deposit: LKR 100,000\n- Monthly deposit: LKR 10,000\n- Interest rate: 10% per annum\n- Period: 24 months\n- Expected total: Approximately LKR 380,000 (including interest)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Example 3: Long-term Savings\n- Initial deposit: LKR 50,000\n- Monthly deposit: LKR 15,000\n- Interest rate: 9% per annum\n- Period: 36 months\n- Expected total: Approximately LKR 650,000 (including interest)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
+        "chunk_text": "Important Notes\n- Interest is compounded monthly\n- Calculations are approximate estimates\n- Actual rates may vary based on account type\n- Please confirm with bank for exact figures\n- All amounts will be provided in natural Sinhala pronunciation\n\n Related Services\n- Savings Account Opening\n- Fixed Deposits\n- Recurring Deposits\n- Digital Banking Services"
+    },
+    {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/emi.md",
         "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in LKR\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
     },
@@ -306,6 +374,138 @@
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
         "chunk_text": "Data Capture Rules\n- For any service request (loan, card, account opening), capture or confirm email; ask for preferred contact number if needed.\n\n Safety Notes\n- Use the Knowledge Base as single source of truth.\n- “Figures are indicative until verified by the bank.”"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "---\nid: pawning.thilina\ntitle: Sampath Thilina Gift Voucher\ncategory: pawning\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\n---\n\n Overview\nSampath Thilina is a gift voucher scheme that allows customers to save for gold jewellery purchases through regular monthly installments. It's an ideal way to accumulate savings for gold purchases over time."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "Key Benefits\n- Systematic savings plan for gold jewellery purchases\n- Monthly installment-based savings\n- Secure and convenient way to save for gold\n- No need for large upfront payments\n- Can be used to purchase gold jewellery at participating outlets"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "How It Works\n1. Open a Sampath Thilina Gift Voucher account\n2. Make regular monthly deposits\n3. Accumulate savings over the chosen period\n4. Use the accumulated amount to purchase gold jewellery\n\n Eligibility\n- Available for Sri Lankan citizens above 18 years of age\n- Valid identification document required (NIC, Passport, or Driving License)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "Features\n- Flexible monthly installment amounts\n- Fixed tenure options\n- Gift voucher issued upon maturity\n- Can be used at authorized jewellery outlets\n- Safe and structured savings approach\n\n Documents Required\n- Valid National Identity Card (NIC), Passport, or Driving License\n- Proof of address (utility bill or bank statement within last 3 months)\n- Initial deposit amount"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "Usage\n- Upon maturity, receive a gift voucher\n- Present voucher at authorized jewellery outlets\n- Purchase gold jewellery up to the voucher value\n- Any excess amount can be paid separately"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
+        "chunk_text": "Important Notes\n- This is a savings product, not a loan facility\n- Vouchers are valid for a specified period\n- Check with branch for participating jewellery outlets\n- Terms and conditions apply for early withdrawal"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "---\nid: pawning.randiriya\ntitle: Sampath Randiriya Pawning Facility - Gold Jewellery Loan\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, randiriya, pledge, collateral]\nkeywords: [pawning, pawn, jewellery loan, gold loan, Randiriya, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, රන්දිරිය, ගිරවා ගන්න, රන් ආභරණ]"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, සම්පත් රන්දිරිය]\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "Overview (සංක්ෂේපය)\n\nSampath Randiriya Pawning Facility (සම්පත් රන්දිරිය පෝනිං සේවාව) is a gold jewellery loan service that provides customers with instant cash against pledged gold or gold jewellery. It is designed to help customers meet urgent financial requirements without selling their valuables.\n\nAlso known as: Pawning Loan, Jewellery Loan, Gold Loan, ආභරණ ණය, රන් ණය, පෝනිං"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "Key Benefits\n- A maximum loan amount for a Sovereign (8g) 22K/24K gold.\n- Competitive low interest rates.\n- Purity checking is performed using modern technology without damaging the gold.\n- No guarantors are required.\n- Payments can be made in installments through any Sampath Bank branch or Sampath Vishwa.\n- Small loan requests may also be considered (conditions apply)."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "- Fast, courteous, and confidential service.\n- Full privacy and guaranteed security for pawned items."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "Eligibility\n- Available for Sri Lankan citizens above 18 years of age.\n- Applicants must present a valid identification document (NIC, Passport, or Driving License).\n\n Business Hours\n- Pawning services are available from 9:00 a.m. to 3:00 p.m. on all working days.\n- Selected branches remain open on Saturdays for pawning transactions."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "Documents Required\n- Valid National Identity Card (NIC), Passport, or Driving License\n- Gold or gold jewellery items to be pledged\n\n Interest Rates\nCompetitive interest rates are offered based on the loan amount and tenure. Please contact your nearest branch for current rates."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
+        "chunk_text": "Repayment Options\n- Full payment at maturity\n- Installment payments through any Sampath Bank branch\n- Online payments via Sampath Vishwa internet banking\n\n Important Notes\n- Loan amount depends on gold weight and purity (22K/24K)\n- Items are stored with maximum security\n- Full confidentiality maintained\n- No need to sell your valuables for temporary financial needs"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "---\nid: pawning.overview\ntitle: Sampath Bank Pawning Services - Jewellery Loans\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, pledge, collateral, gold-loan, jewellery-loan]"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "keywords: [pawning, pawn, jewellery loan, gold loan, jewellery pledge, gold pledge, ආභරණ, ආභරණ ණය, පෝනිං, පවුන්, රන්, රන් ආභරණ, ගිරවීම, ගිරවා, සම්පත් රන්දිරිය, Randiriya]\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Sampath Bank Pawning Services (ආභරණ ණය සේවාව)\n\n What is Pawning? (පෝනිං/ආභරණ ණය කියන්නේ මොකක්ද?)\n\nPawning (also called jewellery loan or gold loan) is a secured loan service where you can get instant cash by pledging your gold or gold jewellery items as collateral. You don't need to sell your valuables - you simply pledge them temporarily and get them back after repaying the loan."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Sinhala Terms:\n- පෝනිං (Pawning)\n- පවුන් (Pawn)\n- ආභරණ ණය (Jewellery Loan)\n- රන් ණය (Gold Loan)\n- ගිරවීම (Pledging)\n- ගිරවා ගන්න (To pledge/pawn)\n\n Available Pawning Products\n\n 1. Sampath Randiriya Pawning Facility (සම්පත් රන්දිරිය)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "What you get:\n- Instant cash against your gold jewellery\n- Competitive low interest rates\n- Maximum security for your valuables\n- No need to sell your jewellery\n- Flexible repayment options"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Key Features:\n- Loan amount based on gold weight and purity (22K/24K)\n- Maximum loan for a Sovereign (8g) of gold\n- Modern purity testing without damaging items\n- No guarantors required\n- Fast processing and approval\n\nEligibility:\n- Sri Lankan citizens above 18 years\n- Valid ID (NIC, Passport, or Driving License)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Required Documents:\n- National Identity Card (NIC) OR Passport OR Driving License\n- Gold or gold jewellery items to pledge\n\nBusiness Hours:\n- 9:00 AM to 3:00 PM on working days\n- Selected branches open on Saturdays"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "How to Apply:\n1. Visit nearest Sampath Bank branch with your gold items\n2. Present valid identification\n3. Gold purity will be tested using modern technology\n4. Loan amount calculated based on weight and purity\n5. Instant approval and cash disbursement\n6. Your jewellery stored securely"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Repayment Options:\n- Pay in full at maturity\n- Pay in installments through any branch\n- Online payment via Sampath Vishwa\n\n 2. Sampath Thilina Gift Voucher (සම්පත් තිළිණ)\n\nWhat it is:\n- A savings plan to purchase gold jewellery\n- NOT a loan - it's a savings product\n- Save monthly and get a gift voucher"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Key Features:\n- Monthly installment savings\n- Flexible deposit amounts\n- Gift voucher upon maturity\n- Use at authorized jewellery outlets\n\n Common Questions (නිතර අසන ප්‍රශ්න)\n\n Q: How do I get a pawning loan? (පෝනින් ණයක් ගන්නේ කොහොමද?)\nA: Visit any Sampath Bank branch with your gold jewellery and valid ID. We'll test the purity, calculate the loan amount, and give you instant cash."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Q: What items can I pawn? (මොනවද ගිරවන්න පුළුවන්?)\nA: Gold jewellery items (22K or 24K). The loan amount depends on weight and purity.\n\n Q: Do I need a guarantor? (ගැරන්ටර් කෙනෙක් ඕනේද?)\nA: No, you don't need any guarantor for pawning loans."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Q: How is the loan amount calculated? (ණය මුදල කොහොමද තීරණ වෙන්නේ?)\nA: Based on the weight and purity of your gold items. A maximum amount is provided for a Sovereign (8g) of 22K/24K gold.\n\n Q: Is my jewellery safe? (මගේ ආභරණ ආරක්ෂිතද?)\nA: Yes! Your items are stored with maximum security and full confidentiality. We guarantee the safety of your valuables."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Q: How do I get my jewellery back? (මගේ ආභරණ ආපහු ගන්නේ කොහොමද?)\nA: Once you repay the loan in full (either at maturity or through installments), your jewellery will be returned to you immediately.\n\n Q: Can I pay in installments? (වාර වශයෙන් ගෙවන්න පුළුවන්ද?)\nA: Yes! You can pay through any Sampath Bank branch or via Sampath Vishwa online banking."
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Q: What are the interest rates? (පොලී අනුපාත මොනවද?)\nA: Competitive rates are offered based on loan amount and tenure. Contact your nearest branch for current rates.\n\n Why Choose Sampath Bank for Pawning?"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "✅ Instant Cash - Get money immediately  \n✅ Low Interest Rates - Competitive and affordable  \n✅ No Damage - Modern purity testing doesn't harm your items  \n✅ Maximum Security - Full privacy and guaranteed safety  \n✅ Flexible Repayment - Pay in full or installments  \n✅ No Guarantors - Simple and straightforward process  \n✅ Trusted Service - Courteous and confidential"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "How Pawning Works (Step by Step)\n\n\n1. Bring Your Gold Jewellery\n   └─> Visit nearest branch with your items\n\n2. Show Valid ID\n   └─> NIC, Passport, or Driving License\n\n3. Gold Purity Testing\n   └─> Modern technology, no damage to items\n\n4. Loan Amount Calculated\n   └─> Based on weight (grams) and purity (22K/24K)\n\n5. Instant Approval\n   └─> Get cash immediately"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "5. Instant Approval\n   └─> Get cash immediately\n\n6. Secure Storage\n   └─> Your items stored with maximum security\n\n7. Repayment\n   └─> Pay in full or installments\n\n8. Get Your Jewellery Back\n   └─> Items returned upon full repayment\n\n\n Contact for Pawning Services\n\n📞 Hotline: 011 2 300 500  \n🌐 Website: www.sampath.lk  \n🏢 Visit: Any Sampath Bank branch  \n⏰ Hours: 9:00 AM - 3:00 PM (working days)"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "Important Reminders\n\n⚠️ This is a LOAN service - you pledge your jewellery temporarily  \n⚠️ Your items are NOT sold - they're securely stored  \n⚠️ You get your jewellery back after repaying the loan  \n⚠️ Interest is charged on the loan amount  \n⚠️ Flexible repayment options available  \n\n---"
+    },
+    {
+        "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
+        "chunk_text": "---\n\n Keywords for Search\nPawning, pawn loan, jewellery loan, gold loan, pledge gold, pledge jewellery, Randiriya, Sampath pawning, gold pawn, jewellery pawn, instant cash, gold collateral, jewellery collateral, secured loan, gold-backed loan, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, ගිරවා ගන්න, සම්පත් රන්දිරිය, රන් ආභරණ, jewellery pledge, gold pledge"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/digital/channels.md",

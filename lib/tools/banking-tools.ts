@@ -115,6 +115,58 @@ export const bankingTools: ToolDefinition[] = [
       required: ['accountNumber']
     },
     isEnabled: false // Disabled by default for security - enable only when authentication is implemented
+  },
+
+  {
+    name: 'calculate_emi',
+    description: 'ණය මාසික වාරිකය ගණනය කරයි. Calculate monthly EMI (Equated Monthly Installment) for loans.',
+    parameters: {
+      type: 'object',
+      properties: {
+        loan_amount: {
+          type: 'number',
+          description: 'ණය මුදල. Loan amount in LKR (minimum 50,000)'
+        },
+        annual_rate_percent: {
+          type: 'number',
+          description: 'වාර්ෂික පොලී අනුපාතය. Annual interest rate as a percentage'
+        },
+        tenure_months: {
+          type: 'number',
+          description: 'කාල සීමාව මාස වලින්. Loan tenure in months'
+        }
+      },
+      required: ['loan_amount', 'annual_rate_percent', 'tenure_months']
+    },
+    isEnabled: true
+  },
+
+  {
+    name: 'calculate_savings',
+    description: 'ඉතිරිකිරීම් ගිණුම් වර්ධනය ගණනය කරයි. Calculate savings account growth with compound interest.',
+    parameters: {
+      type: 'object',
+      properties: {
+        initial_deposit: {
+          type: 'number',
+          description: 'ආරම්භක තැන්පතු මුදල. Initial deposit amount in LKR (minimum 1,000)'
+        },
+        monthly_deposit: {
+          type: 'number',
+          description: 'මාසික තැන්පතු මුදල. Monthly deposit amount in LKR'
+        },
+        annual_rate_percent: {
+          type: 'number',
+          description: 'වාර්ෂික පොලී අනුපාතය. Annual interest rate as a percentage'
+        },
+        tenure_months: {
+          type: 'number',
+          description: 'කාල සීමාව මාස වලින්. Savings period in months'
+        }
+      },
+      required: ['initial_deposit', 'monthly_deposit', 'annual_rate_percent', 'tenure_months']
+    },
+    isEnabled: true
   }
 ];
 

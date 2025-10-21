@@ -26,6 +26,33 @@ View your app in AI Studio: https://ai.studio/apps/drive/1mpjIet9QTnkQgjhnEHco_j
    ./run-dev.sh
    ```
 
+---
+
+## 🚀 New Features
+
+### ✅ Robust Error Handling & Auto-Reconnect
+The streaming connection now includes production-ready error handling:
+- **Automatic Reconnection**: Recovers from network issues without user intervention
+- **Exponential Backoff**: Smart retry logic (1s → 2s → 4s → 8s → 16s)
+- **Circuit Breaker**: Prevents server overload with intelligent failure detection
+- **Tool Error Recovery**: Continues streaming even when tools fail
+- **User-Friendly Messages**: Clear feedback for all connection states
+
+**See documentation:**
+- [`ERROR_HANDLING_IMPLEMENTATION.md`](./ERROR_HANDLING_IMPLEMENTATION.md) - Technical details
+- [`STREAM_ERROR_HANDLING_GUIDE.md`](./STREAM_ERROR_HANDLING_GUIDE.md) - Quick reference
+- [`STREAM_ERROR_FLOW_DIAGRAM.md`](./STREAM_ERROR_FLOW_DIAGRAM.md) - Visual diagrams
+- [`TEST_CHECKLIST.md`](./TEST_CHECKLIST.md) - Testing guide
+
+**Key Benefits:**
+- ✅ Stream continues smoothly until you click stop
+- ✅ Auto-recovers from temporary network issues
+- ✅ No crashes or frozen states
+- ✅ Clear error messages
+- ✅ Production-ready reliability
+
+---
+
 ### Manual Setup
 
 If you prefer manual setup:

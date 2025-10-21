@@ -24,6 +24,14 @@
 export const DEFAULT_LIVE_API_MODEL =
   'gemini-2.5-flash-native-audio-preview-09-2025';
 
-export const DEFAULT_VOICE = 'Zephyr';
+// Puck: Professional, warm male voice - ideal for Sri Lankan banking context
+// Other good male options: Charon (steady), Fenrir (deep), Orus (balanced)
+export const DEFAULT_VOICE = 'Puck';
 
 export const AVAILABLE_VOICES = ['Zephyr', 'Puck', 'Charon', 'Luna', 'Nova', 'Kore', 'Fenrir',	'Leda', 'Orus','Aoede','Callirrhoe','Autonoe','Enceladus','Iapetus','Umbriel','Algieba','Despina','Erinome','Algenib','Rasalgethi','Laomedeia','Achernar','Alnilam','Schedar','Gacrux','Pulcherrima','Achird',	'Zubenelgenubi','Vindemiatrix','Sadachbia','Sadaltager','Sulafat'];
+
+// Recommended male voices for professional Sri Lankan banking:
+// - Puck: Warm, professional (RECOMMENDED)
+// - Charon: Steady, calm
+// - Fenrir: Deep, authoritative
+// - Orus: Balanced, versatile

@@ -6,6 +6,7 @@
 import { CustomerSupportService, ServiceResponse } from './customer-support-service-new';
 import { VectorDocument } from './vector-db-service';
 import { queryRag } from './vector-db-service';
+import { numberToSinhalaText, rupeesToSinhala, percentToSinhala } from '../utils/sinhalaNumberFormatter';
 
 export interface FunctionCall {
   id: string;
@@ -84,7 +85,10 @@ export class FunctionDispatcher {
    * Execute a single function call
    */
   private async executeFunctionCall(fc: FunctionCall): Promise<FunctionResponse> {
-    if (!this.isInitialized) {
+    // RAG-based functions don't need dispatcher initialization
+    const ragFunctions = ['search_knowledge_base', 'calculate_emi', 'calculate_savings'];
+    
+    if (!this.isInitialized && !ragFunctions.includes(fc.name)) {
       throw new Error('Dispatcher not initialized. Call initialize() first.');
     }
 
@@ -118,6 +122,10 @@ export class FunctionDispatcher {
         
       case 'calculate_emi':
         serviceResponse = await this.handleCalculateEMI(fc.args);
+        break;
+        
+      case 'calculate_savings':
+        serviceResponse = await this.handleCalculateSavings(fc.args);
         break;
         
       default:
@@ -206,30 +214,41 @@ export class FunctionDispatcher {
   private async handleSearchKnowledgeBase(args: any): Promise<ServiceResponse> {
     const { query } = args;
     
+    console.log('🔍 Searching RAG backend with query:', query);
+    
     if (!query || typeof query !== 'string') {
       throw new Error('Query parameter is required and must be a string');
     }
 
-    const ragData = await queryRag(query);
+    try {
+      const ragData = await queryRag(query);
+      console.log('✅ RAG search completed:', { 
+        hitCount: ragData.hits?.length || 0,
+        resultLength: ragData.result?.length || 0 
+      });
 
-    const hits = Array.isArray(ragData.hits) ? ragData.hits : [];
-    const answer = ragData.result;
+      const hits = Array.isArray(ragData.hits) ? ragData.hits : [];
+      const answer = ragData.result;
 
-    const groundingChunks = hits.map(hit => ({
-      content: hit.chunk_text,
-      score: hit.score,
-      web: hit.file_path
-        ? { uri: `file://${hit.file_path}`, title: hit.file_path.split('/').pop() ?? hit.file_path }
-        : undefined,
-    }));
+      const groundingChunks = hits.map(hit => ({
+        content: hit.chunk_text,
+        score: hit.score,
+        web: hit.file_path
+          ? { uri: `file://${hit.file_path}`, title: hit.file_path.split('/').pop() ?? hit.file_path }
+          : undefined,
+      }));
 
-    return {
-      data: answer,
-      sources: hits.map(hit => hit.file_path ?? 'knowledge-base'),
-      grounding_chunks: groundingChunks,
-      error: null,
-      success: true
-    };
+      return {
+        data: answer,
+        sources: hits.map(hit => hit.file_path ?? 'knowledge-base'),
+        grounding_chunks: groundingChunks,
+        error: null,
+        success: true
+      };
+    } catch (error) {
+      console.error('❌ RAG search failed:', error);
+      throw error;
+    }
   }
 
   /**
@@ -282,6 +301,66 @@ export class FunctionDispatcher {
   }
 
   /**
+   * Handle Savings calculation with compound interest
+   */
+  private async handleCalculateSavings(args: any): Promise<ServiceResponse> {
+    const { initial_deposit, monthly_deposit, annual_rate_percent, tenure_months } = args;
+
+    if (
+      initial_deposit == null ||
+      monthly_deposit == null ||
+      annual_rate_percent == null ||
+      tenure_months == null
+    ) {
+      throw new Error(
+        'initial_deposit, monthly_deposit, annual_rate_percent, and tenure_months are required parameters'
+      );
+    }
+
+    // Validate minimum deposit
+    if (initial_deposit < 1000) {
+      return {
+        data: `සමාවෙන්න, ඉතිරිකිරීම් ගිණුමක් විවෘත කිරීමට අවම වශයෙන් රුපියල් දහස අවශ්‍යයි.`,
+        sources: [],
+        grounding_chunks: [],
+        error: null,
+        success: true,
+      };
+    }
+
+    // Calculate savings with compound interest
+    const monthlyRate = annual_rate_percent / (12 * 100);
+    
+    // Future value of initial deposit
+    const initialFV = initial_deposit * Math.pow(1 + monthlyRate, tenure_months);
+    
+    // Future value of monthly deposits (annuity)
+    const monthlyFV = monthlyRate === 0 
+      ? monthly_deposit * tenure_months 
+      : monthly_deposit * ((Math.pow(1 + monthlyRate, tenure_months) - 1) / monthlyRate);
+    
+    const totalValue = initialFV + monthlyFV;
+    const totalDeposited = initial_deposit + (monthly_deposit * tenure_months);
+    const totalInterest = totalValue - totalDeposited;
+
+    // Format amounts in Sinhala
+    const initialDepositSinhala = rupeesToSinhala(initial_deposit);
+    const monthlyDepositSinhala = rupeesToSinhala(monthly_deposit);
+    const totalValueSinhala = rupeesToSinhala(Math.round(totalValue));
+    const totalInterestSinhala = rupeesToSinhala(Math.round(totalInterest));
+    const rateSinhala = percentToSinhala(annual_rate_percent);
+    const tenureSinhala = numberToSinhalaText(tenure_months);
+
+    return {
+      data: `හරි, ඔයා ${initialDepositSinhala} ආරම්භක තැන්පතුවක් හා ${monthlyDepositSinhala} මාසික තැන්පතුවක් ${rateSinhala} වාර්ෂික පොලී අනුපාතයකින්, ${tenureSinhala} මාස කාලයක් තියාගත්තොත්, ඔයාගේ මුළු ඉතිරිකිරීම් ${totalValueSinhala} විතර වෙයි. එයින් පොලිය ${totalInterestSinhala}. මේ ගණන් දළ ඇස්තමේන්තු විදියට සලකන්න, හොඳද?`,
+      sources: ['Savings Calculator'],
+      grounding_chunks: [],
+      error: null,
+      success: true
+    };
+  }
+
+  /**
    * Get available functions
    */
   getAvailableFunctions(): string[] {
@@ -292,7 +371,8 @@ export class FunctionDispatcher {
       'scheduleCallback',
       'getAccountBalance',
       'search_knowledge_base',
-      'calculate_emi'
+      'calculate_emi',
+      'calculate_savings'
     ];
   }
 
