@@ -77,14 +77,18 @@ export class CustomerSupportService {
         throw new Error('No knowledge base results found');
       }
 
-      const results = ragResult.hits.map((hit, index) => ({
-        title: hit.source
-          ? hit.source.split('/').pop() || `Knowledge Hit ${index + 1}`
-          : `Knowledge Hit ${index + 1}`,
-        content: hit.chunk_text || hit.chunk || '', // ✅ FIXED: dynamic key
-        score: hit.score ?? 0,
-        source: hit.source,
-      }));
+      const results = ragResult.hits.map((hit, index) => {
+        const src = (hit as any).source ?? (hit as any).document ?? (hit as any).path ?? (hit as any).metadata?.source ?? undefined;
+        const title = src
+          ? String(src).split('/').pop() || `Knowledge Hit ${index + 1}`
+          : `Knowledge Hit ${index + 1}`;
+        return {
+          title,
+          content: (hit as any).chunk_text || '', // use existing property only
+          score: hit.score ?? 0,
+          source: src,
+        };
+      });
 
       const groundingChunks = results.map(hit => ({
         content: hit.content,
