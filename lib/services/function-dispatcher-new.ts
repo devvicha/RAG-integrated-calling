@@ -7,6 +7,7 @@ import { CustomerSupportService, ServiceResponse } from './customer-support-serv
 import { VectorDocument } from './vector-db-service';
 import { queryRag } from './vector-db-service';
 import { numberToSinhalaText, rupeesToSinhala, percentToSinhala } from '../utils/sinhalaNumberFormatter';
+import { searchSampathBankWeb, formatWebSearchResults } from './web-search-service';
 
 export interface FunctionCall {
   id: string;
@@ -118,6 +119,10 @@ export class FunctionDispatcher {
         
       case 'search_knowledge_base':
         serviceResponse = await this.handleSearchKnowledgeBase(fc.args);
+        break;
+        
+      case 'web_search_sampath_bank':
+        serviceResponse = await this.handleWebSearch(fc.args);
         break;
         
       case 'calculate_emi':
@@ -252,6 +257,53 @@ export class FunctionDispatcher {
   }
 
   /**
+   * Handle web search for Sampath Bank information (fallback when RAG fails)
+   */
+  private async handleWebSearch(args: any): Promise<ServiceResponse> {
+    const { query } = args;
+    
+    console.log('🌐 Web search query:', query);
+    
+    if (!query || typeof query !== 'string') {
+      throw new Error('Query parameter is required and must be a string');
+    }
+
+    try {
+      const webSearchResults = await searchSampathBankWeb(query);
+      console.log(`✅ Web search completed: ${webSearchResults.results.length} results`);
+
+      // Format results for display
+      const formattedResults = formatWebSearchResults(webSearchResults);
+
+      // Create grounding chunks from web results
+      const groundingChunks = webSearchResults.results.map(result => ({
+        content: `${result.title}: ${result.snippet}`,
+        web: {
+          uri: result.url,
+          title: result.title
+        }
+      }));
+
+      return {
+        data: formattedResults,
+        sources: webSearchResults.results.map(r => r.url),
+        grounding_chunks: groundingChunks,
+        error: null,
+        success: true
+      };
+    } catch (error) {
+      console.error('❌ Web search failed:', error);
+      return {
+        data: 'කණගාටුයි, වෙබ් සෙවුම අසාර්ථක වුණා. කරුණාකර සම්පත් බැංකුවේ නිල වෙබ් අඩවිය (www.sampath.lk) බලන්න හෝ 011-2-30-30-00 අමතන්න.',
+        sources: [],
+        grounding_chunks: [],
+        error: error instanceof Error ? error.message : 'Web search failed',
+        success: false
+      };
+    }
+  }
+
+  /**
    * Handle EMI calculation
    */
   private async handleCalculateEMI(args: any): Promise<ServiceResponse> {
@@ -371,6 +423,7 @@ export class FunctionDispatcher {
       'scheduleCallback',
       'getAccountBalance',
       'search_knowledge_base',
+      'web_search_sampath_bank',
       'calculate_emi',
       'calculate_savings'
     ];

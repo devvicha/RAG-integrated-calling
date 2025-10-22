@@ -25,15 +25,12 @@ import StreamingConsole from './components/demo/streaming-console/StreamingConso
 import Header from './components/Header';
 import { LiveAPIProvider } from './llm/contexts/LiveAPIContext';
 
-const API_KEY =
-  import.meta.env.VITE_GEMINI_API_KEY ||
-  import.meta.env.GEMINI_API_KEY ||
-  process.env.GEMINI_API_KEY ||
-  process.env.API_KEY;
+// Single source of truth for API key
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 if (!API_KEY) {
   throw new Error(
-    'Missing required environment variable: set VITE_GEMINI_API_KEY (or GEMINI_API_KEY) in your .env.local file'
+    'Missing required environment variable: set VITE_GEMINI_API_KEY in your .env.local file'
   );
 }
 
