@@ -6,13 +6,21 @@
 export type RagHit = { score: number; chunk_text: string; file_path: string };
 export type RagResponse = { result: string; hits?: RagHit[] };
 
-const RAG_URL = process.env.NEXT_PUBLIC_RAG_URL ?? 'http://localhost:8000/rag';
+// Support both VITE_ and NEXT_PUBLIC_ prefixes, with fallback to localhost
+const RAG_URL = 
+  import.meta.env.VITE_RAG_URL ?? 
+  process.env.NEXT_PUBLIC_RAG_URL ?? 
+  'http://localhost:8000/rag';
+
+console.log('🔗 RAG Backend URL:', RAG_URL);
 
 export async function queryRag(query: string, k: number = 3): Promise<RagResponse> {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), 10_000);
 
   try {
+    console.log('📤 Sending RAG query:', query, 'to', RAG_URL);
+    
     const res = await fetch(RAG_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -23,6 +31,7 @@ export async function queryRag(query: string, k: number = 3): Promise<RagRespons
 
     if (!res.ok) {
       const text = await res.text().catch(() => '');
+      console.error('❌ RAG request failed:', res.status, text);
       throw new Error(`RAG ${res.status}: ${text}`);
     }
 
@@ -32,12 +41,14 @@ export async function queryRag(query: string, k: number = 3): Promise<RagRespons
     const result: string = typeof data.result === 'string' ? data.result : '';
     const hits: RagHit[] = Array.isArray(data.hits) ? data.hits : [];
 
+    console.log('✅ RAG response received:', { resultLength: result.length, hitsCount: hits.length });
+
     return {
       result: result || 'කණගාටුයි, මේ ප්‍රශ්නයට අදාල තොරතුරු හමු නොවුණා.',
       hits,
     };
   } catch (err) {
-    console.error('RAG fetch failed:', err);
+    console.error('❌ RAG fetch failed:', err);
     return {
       result: 'කණගාටුයි, දැනට මට ආරිය තොරතුරු ගන්න බැහැ. ටික වේලාවකින් නැවත උත්සාහ කරන්න.',
     };

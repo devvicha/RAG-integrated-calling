@@ -1,0 +1,36 @@
+# Backend files
+backend/
+streamlit_app/
+llm/
+stt/
+tts/
+
+# Python files
+*.py
+requirements.txt
+environment.yml
+__pycache__/
+*.pyc
+
+# Shell scripts
+*.sh
+
+# Documentation files (optional - remove if you want to include them)
+*.md
+
+# Environment files (these should be set in Vercel dashboard)
+.env
+.env.local
+
+# Development files
+node_modules/
+.DS_Store
+*.log
+
+# Knowledge base files (if not needed for frontend)
+Knowledge_base/
+data/
+
+# Build artifacts
+dist/
+build/
