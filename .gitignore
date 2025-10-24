@@ -1,6 +1,7 @@
 # Environment variables (NEVER commit sensitive keys!)
 .env.local
 .env.*.local
+.env
 
 # Dependencies
 node_modules/
