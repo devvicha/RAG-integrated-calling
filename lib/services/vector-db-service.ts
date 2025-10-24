@@ -8,8 +8,8 @@ export type RagResponse = { result: string; hits?: RagHit[] };
 
 // Support both VITE_ and NEXT_PUBLIC_ prefixes, with fallback to localhost
 const RAG_URL = 
-  import.meta.env.VITE_RAG_URL ?? 
-  process.env.NEXT_PUBLIC_RAG_URL ?? 
+  (typeof import.meta !== 'undefined' ? import.meta.env?.VITE_RAG_URL : undefined) ?? 
+  (typeof process !== 'undefined' ? process.env?.NEXT_PUBLIC_RAG_URL : undefined) ?? 
   'http://localhost:8000/rag';
 
 console.log('🔗 RAG Backend URL:', RAG_URL);
@@ -38,10 +38,27 @@ export async function queryRag(query: string, k: number = 3): Promise<RagRespons
     const data = await res.json().catch(() => ({}));
     if (data.error) throw new Error(data.error);
 
-    const result: string = typeof data.result === 'string' ? data.result : '';
-    const hits: RagHit[] = Array.isArray(data.hits) ? data.hits : [];
+    console.log('📦 Raw RAG response:', data);
 
-    console.log('✅ RAG response received:', { resultLength: result.length, hitsCount: hits.length });
+    // Backend returns: { query, results, total_results, processing_time }
+    // Convert to frontend format: { result, hits }
+    const results: any[] = Array.isArray(data.results) ? data.results : [];
+    
+    // Create a summary result from the first result or all results
+    let result: string = '';
+    if (results.length > 0) {
+      // Use the text from the first result as the main result
+      result = results[0].text || results[0].content || 'තොරතුරු හමුවුණා.';
+    }
+
+    // Convert backend results to frontend hits format
+    const hits: RagHit[] = results.map((item) => ({
+      score: item.score || 0,
+      chunk_text: item.text || item.content || '',
+      file_path: item.source || item.metadata?.file_path || 'unknown'
+    }));
+
+    console.log('✅ RAG response processed:', { resultLength: result.length, hitsCount: hits.length });
 
     return {
       result: result || 'කණගාටුයි, මේ ප්‍රශ්නයට අදාල තොරතුරු හමු නොවුණා.',
