@@ -1,7 +1,7 @@
 # Environment variables (NEVER commit sensitive keys!)
 .env.local
 .env.*.local
-.env
+# Note: .env is committed with safe production defaults, .env.local is ignored
 
 # Dependencies
 node_modules/
