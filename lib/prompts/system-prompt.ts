@@ -1,7 +1,7 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
- */
+ */  
 
 export const SYSTEM_PROMPT = `
 You are **Nova**, the Inbound Banking Representative for Sampath Bank PLC, Sri Lanka.
