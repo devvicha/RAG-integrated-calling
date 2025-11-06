@@ -2,7 +2,9 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
 */
-import { FunctionResponseScheduling } from '@google/genai';
+// Use the local scheduling enum type to avoid a hard runtime dependency and
+// to keep this a type-only import (no runtime circular import).
+import type { FunctionResponseScheduling } from './tools';
 
 export * from '../llm/lib/state';
 
