@@ -3,6 +3,8 @@
 .env.*.local
 # Note: .env is committed with safe production defaults, .env.local is ignored
 
+.env
+
 # Dependencies
 node_modules/
 __pycache__/
