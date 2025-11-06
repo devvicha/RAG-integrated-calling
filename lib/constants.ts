@@ -26,7 +26,7 @@ export const DEFAULT_LIVE_API_MODEL =
 
 // Puck: Professional, warm male voice - ideal for Sri Lankan banking context
 // Other good male options: Charon (steady), Fenrir (deep), Orus (balanced)
-export const DEFAULT_VOICE = 'Puck';
+export const DEFAULT_VOICE = 'Sadaltager';
 
 export const AVAILABLE_VOICES = ['Zephyr', 'Puck', 'Charon', 'Luna', 'Nova', 'Kore', 'Fenrir',	'Leda', 'Orus','Aoede','Callirrhoe','Autonoe','Enceladus','Iapetus','Umbriel','Algieba','Despina','Erinome','Algenib','Rasalgethi','Laomedeia','Achernar','Alnilam','Schedar','Gacrux','Pulcherrima','Achird',	'Zubenelgenubi','Vindemiatrix','Sadachbia','Sadaltager','Sulafat'];
 

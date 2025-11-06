@@ -3,8 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 
-import { FunctionResponseScheduling } from '@google/genai';
+// Local fallback for FunctionResponseScheduling to avoid depending on '@google/genai'
 import { FunctionCall } from './state';
+
+// Local fallback for FunctionResponseScheduling to avoid depending on '@google/genai'
+export enum FunctionResponseScheduling {
+  INTERRUPT = 'INTERRUPT',
+}
 
 export const AVAILABLE_TOOLS: FunctionCall[] = [
   {
@@ -50,6 +55,7 @@ export const AVAILABLE_TOOLS: FunctionCall[] = [
           description: 'The email of the customer, if order ID is not available.',
         },
       },
+      required: ['orderId'],
     },
     isEnabled: true,
     scheduling: FunctionResponseScheduling.INTERRUPT,
