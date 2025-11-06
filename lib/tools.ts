@@ -50,6 +50,7 @@ export const AVAILABLE_TOOLS: FunctionCall[] = [
           description: 'The email of the customer, if order ID is not available.',
         },
       },
+      required: []
     },
     isEnabled: true,
     scheduling: FunctionResponseScheduling.INTERRUPT,
