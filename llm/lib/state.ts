@@ -119,6 +119,9 @@ export const useUI = create<{
 /**
  * Logs
  */
+// Maximum number of conversation turns to keep in memory
+const MAX_CONVERSATION_TURNS = 50;
+
 export interface LiveClientToolResponse {
   functionResponses?: FunctionResponse[];
 }
@@ -148,12 +151,18 @@ export const useLogStore = create<{
   addTurn: (turn: Omit<ConversationTurn, 'timestamp'>) => void;
   updateLastTurn: (update: Partial<ConversationTurn>) => void;
   clearTurns: () => void;
-}>((set, get) => ({
+}>((set) => ({
   turns: [],
   addTurn: (turn: Omit<ConversationTurn, 'timestamp'>) =>
-    set(state => ({
-      turns: [...state.turns, { ...turn, timestamp: new Date() }],
-    })),
+    set(state => {
+      const newTurns = [...state.turns, { ...turn, timestamp: new Date() }];
+      // Keep only the most recent MAX_CONVERSATION_TURNS turns
+      return {
+        turns: newTurns.length > MAX_CONVERSATION_TURNS
+          ? newTurns.slice(-MAX_CONVERSATION_TURNS)
+          : newTurns
+      };
+    }),
   updateLastTurn: (update: Partial<Omit<ConversationTurn, 'timestamp'>>) => {
     set(state => {
       if (state.turns.length === 0) {
