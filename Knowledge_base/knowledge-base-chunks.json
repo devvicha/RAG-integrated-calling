@@ -56,14 +56,14 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "bank": {
-      "name": "Sampath Bank PLC",
+      "name": "Wasana Bank PLC",
       "country": "Sri Lanka",
       "regulator": "Central Bank of Sri Lanka",
       "hq_address": "No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka",
       "contacts": {
         "main_hotline_short": "1332",
         "main_hotline": "+94 11 230 3050",
-        "email": "info@sampath.lk",
+        "email": "info@wasana.lk",
         "card_centre": "+94 11 230 0604"
       }
     },
@@ -168,7 +168,7 @@
             "required": true
           }
         ],
-        "success_reply": "To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You’ll need ID and address proof. Which route suits you?",
+        "success_reply": "To open a {account_type} account with Wasana, I can start via Wasana Vishwa/eKYC or book a branch visit. You’ll need ID and address proof. Which route suits you?",
         "policy_links": [
           "accounts.opening_workflow"
         ]
@@ -395,7 +395,7 @@
       "ask_documents_business": "For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.",
       "emi_quote": "For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*",
       "fees_disclaimer": "Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.",
-      "security_warning": "Never share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links."
+      "security_warning": "Never share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links."
     }
   },
   {
@@ -436,7 +436,7 @@
     "pii": false,
     "content": {
       "steps": [
-        "Customer submits application via Sampath Vishwa or branch.",
+        "Customer submits application via Wasana Vishwa or branch.",
         "Verify customer identity and address.",
         "Check application completeness and initial document verification.",
         "Conduct background checks as per KYC norms.",
@@ -525,7 +525,7 @@
     "pii": false,
     "content": {
       "steps": [
-        "Customer submits loan application via Sampath Vishwa or branch.",
+        "Customer submits loan application via Wasana Vishwa or branch.",
         "Verify customer identity, income, and creditworthiness.",
         "Assess loan eligibility based on internal criteria.",
         "Request additional documents if necessary.",

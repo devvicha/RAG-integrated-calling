@@ -1,10 +1,10 @@
-# Sampath Bank Credit Card Types and Features
+# Wasana Bank Credit Card Types and Features
 
 ## Personal Credit Cards Overview
 
 ### Premium Tier Cards
 
-#### 1. Sampath Visa Infinite Metal Credit Card
+#### 1. Wasana Visa Infinite Metal Credit Card
 **Category:** Ultra-Premium Metal Card  
 **Brand:** Visa Infinite  
 **Key Features:**
@@ -21,7 +21,7 @@
 - Minimum monthly income: LKR 500,000+
 - Excellent credit history required
 
-#### 2. Sampath Visa Infinite Credit Card
+#### 2. Wasana Visa Infinite Credit Card
 **Category:** Premium Card  
 **Brand:** Visa Infinite  
 **Key Features:**
@@ -35,7 +35,7 @@
 **Eligibility:**
 - Minimum monthly income: LKR 300,000+
 
-#### 3. Sampath Visa Signature Credit Card
+#### 3. Wasana Visa Signature Credit Card
 **Category:** Premium Card  
 **Brand:** Visa Signature  
 **Key Features:**
@@ -52,7 +52,7 @@
 
 ### Standard Tier Cards
 
-#### 4. Sampath Mastercard World Credit Card
+#### 4. Wasana Mastercard World Credit Card
 **Category:** Premium Mastercard  
 **Brand:** Mastercard World  
 **Key Features:**
@@ -65,7 +65,7 @@
 **Eligibility:**
 - Minimum monthly income: LKR 150,000+
 
-#### 5. Sampath Bank American Express® Platinum Ultramiles
+#### 5. Wasana Bank American Express® Platinum Ultramiles
 **Category:** Travel Rewards Card  
 **Brand:** American Express  
 **Key Features:**
@@ -79,7 +79,7 @@
 **Eligibility:**
 - Minimum monthly income: LKR 150,000+
 
-#### 6. Sampath Mastercard/Visa Platinum
+#### 6. Wasana Mastercard/Visa Platinum
 **Category:** Standard Platinum  
 **Brands:** Mastercard/Visa Platinum  
 **Key Features:**
@@ -96,7 +96,7 @@
 
 ### Entry Level Cards
 
-#### 7. Sampath Bank American Express® Everyday
+#### 7. Wasana Bank American Express® Everyday
 **Category:** Entry-Level Rewards Card  
 **Brand:** American Express  
 **Key Features:**
@@ -108,7 +108,7 @@
 **Eligibility:**
 - Minimum monthly income: LKR 75,000+
 
-#### 8. Sampath Mastercard/Visa Gold
+#### 8. Wasana Mastercard/Visa Gold
 **Category:** Standard Gold Card  
 **Brands:** Mastercard/Visa Gold  
 **Key Features:**
@@ -120,7 +120,7 @@
 **Eligibility:**
 - Minimum monthly income: LKR 50,000+
 
-#### 9. Sampath Mastercard/Visa Classic
+#### 9. Wasana Mastercard/Visa Classic
 **Category:** Basic Credit Card  
 **Brands:** Mastercard/Visa Classic  
 **Key Features:**
@@ -202,7 +202,7 @@
 
 ### Business Cards
 
-#### Sampath Mastercard Corporate Credit Card
+#### Wasana Mastercard Corporate Credit Card
 **Type:** Corporate Expense Card  
 **Key Features:**
 - Centralized billing
@@ -216,7 +216,7 @@
 - Registered business entity
 - Minimum annual turnover: LKR 10 million
 
-#### Sampath Visa Corporate Credit Card
+#### Wasana Visa Corporate Credit Card
 **Type:** Corporate Card  
 **Key Features:**
 - Business travel benefits
@@ -233,7 +233,7 @@
 
 ### Specialized Corporate Cards
 
-#### Sampath Corporate Fuel Card
+#### Wasana Corporate Fuel Card
 **Type:** Fleet Management Card  
 **Purpose:** Vehicle fuel purchases  
 **Key Features:**
@@ -256,7 +256,7 @@
 - Mileage tracking
 - Tax-compliant reporting
 
-#### Sampath Visa Purchasing Credit Card
+#### Wasana Visa Purchasing Credit Card
 **Type:** Procurement Card  
 **Purpose:** Business purchasing and procurement  
 **Key Features:**
@@ -277,7 +277,7 @@
 Visa Infinite, Visa Signature, Mastercard World, American Express, AMEX, Platinum, Gold, Classic, metal card, premium card, travel card, rewards card, miles card, cashback, affinity card, co-branded card, alumni card, professional card, corporate card, business card, fuel card, purchasing card, fleet card
 
 ## Common Customer Questions Covered
-- What credit cards does Sampath Bank offer?
+- What credit cards does Wasana Bank offer?
 - Difference between Visa Infinite and Visa Signature?
 - How to apply for a credit card?
 - What is the income requirement for premium cards?
@@ -294,4 +294,4 @@ Visa Infinite, Visa Signature, Mastercard World, American Express, AMEX, Platinu
 
 **Document Type:** Product Catalog  
 **Last Updated:** October 2025  
-**For Applications:** Visit nearest Sampath Bank branch or apply online at www.sampath.lk
+**For Applications:** Visit nearest Wasana Bank branch or apply online at www.wasana.lk

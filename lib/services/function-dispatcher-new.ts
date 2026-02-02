@@ -7,7 +7,7 @@ import { CustomerSupportService, ServiceResponse } from './customer-support-serv
 import { VectorDocument } from './vector-db-service';
 import { queryRag } from './vector-db-service';
 import { numberToSinhalaText, rupeesToSinhala, percentToSinhala } from '../utils/sinhalaNumberFormatter';
-import { searchSampathBankWeb, formatWebSearchResults } from './web-search-service';
+import { searchWasanaBankWeb, formatWebSearchResults } from './web-search-service';
 
 export interface FunctionCall {
   id: string;
@@ -257,7 +257,7 @@ export class FunctionDispatcher {
   }
 
   /**
-   * Handle web search for Sampath Bank information (fallback when RAG fails)
+   * Handle web search for Wasana Bank information (fallback when RAG fails)
    */
   private async handleWebSearch(args: any): Promise<ServiceResponse> {
     const { query } = args;
@@ -269,7 +269,7 @@ export class FunctionDispatcher {
     }
 
     try {
-      const webSearchResults = await searchSampathBankWeb(query);
+      const webSearchResults = await searchWasanaBankWeb(query);
       console.log(`✅ Web search completed: ${webSearchResults.results.length} results`);
 
       // Format results for display
@@ -294,7 +294,7 @@ export class FunctionDispatcher {
     } catch (error) {
       console.error('❌ Web search failed:', error);
       return {
-        data: 'කණගාටුයි, වෙබ් සෙවුම අසාර්ථක වුණා. කරුණාකර සම්පත් බැංකුවේ නිල වෙබ් අඩවිය (www.sampath.lk) බලන්න හෝ 011-2-30-30-00 අමතන්න.',
+        data: 'කණගාටුයි, වෙබ් සෙවුම අසාර්ථක වුණා. කරුණාකර වාසනා බැංකුවේ නිල වෙබ් අඩවිය (www.wasana.lk) බලන්න හෝ 011-2-30-30-00 අමතන්න.',
         sources: [],
         grounding_chunks: [],
         error: error instanceof Error ? error.message : 'Web search failed',

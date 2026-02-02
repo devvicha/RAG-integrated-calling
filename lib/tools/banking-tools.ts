@@ -1,5 +1,5 @@
 /**
- * Enhanced Tool Definitions for Sampath Bank Customer Care
+ * Enhanced Tool Definitions for Wasana Bank Customer Care
  * Function schemas that describe tasks for Gemini Live API
  */
 
@@ -54,7 +54,7 @@ export const bankingTools: ToolDefinition[] = [
   
   {
     name: 'findBranches',
-    description: 'Find Sampath Bank branches and ATMs by location. Returns branch details including address, contact information, services, and operating hours.',
+    description: 'Find Wasana Bank branches and ATMs by location. Returns branch details including address, contact information, services, and operating hours.',
     parameters: {
       type: 'object',
       properties: {

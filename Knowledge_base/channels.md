@@ -9,12 +9,12 @@ pii: false
 ---
 
 ## Internet Banking
-- **Sampath Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders.
+- **Wasana Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders.
 
 ## Corporate Banking
-- **Sampath Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance.
+- **Wasana Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance.
 
 ## Mobile Apps
-- **Sampath Vishwa Retail** (iOS/Android)
-- **Sampath WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.
-- **Sampath Slip‑Less** — paperless deposit experience at branches.
+- **Wasana Vishwa Retail** (iOS/Android)
+- **Wasana WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.
+- **Wasana Slip‑Less** — paperless deposit experience at branches.

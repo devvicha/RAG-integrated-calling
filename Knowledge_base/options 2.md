@@ -8,5 +8,5 @@ last_reviewed: 2025-09-04
 pii: false
 ---
 
-- **Sampath e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.
+- **Wasana e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.
 - **SWIFT** — International wire transfers; FX conversion at bank rates.

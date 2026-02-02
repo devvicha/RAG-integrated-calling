@@ -1,6 +1,6 @@
 ---
 id: pawning.thilina
-title: Sampath Thilina Gift Voucher
+title: Wasana Thilina Gift Voucher
 category: pawning
 product_area: accounts
 requires_auth: false
@@ -9,7 +9,7 @@ language: en
 ---
 
 ## Overview
-Sampath Thilina is a gift voucher scheme that allows customers to save for gold jewellery purchases through regular monthly installments. It's an ideal way to accumulate savings for gold purchases over time.
+Wasana Thilina is a gift voucher scheme that allows customers to save for gold jewellery purchases through regular monthly installments. It's an ideal way to accumulate savings for gold purchases over time.
 
 ## Key Benefits
 - Systematic savings plan for gold jewellery purchases
@@ -19,7 +19,7 @@ Sampath Thilina is a gift voucher scheme that allows customers to save for gold 
 - Can be used to purchase gold jewellery at participating outlets
 
 ## How It Works
-1. Open a Sampath Thilina Gift Voucher account
+1. Open a Wasana Thilina Gift Voucher account
 2. Make regular monthly deposits
 3. Accumulate savings over the chosen period
 4. Use the accumulated amount to purchase gold jewellery

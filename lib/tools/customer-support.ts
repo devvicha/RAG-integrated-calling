@@ -9,7 +9,7 @@ import { FunctionCall } from '../state';
 export const customerSupportTools: FunctionCall[] = [
   {
     name: 'search_knowledge_base',
-    description: 'සම්පත් බැංකු තොරතුරු සෙවීම.',
+    description: 'වාසනා බැංකු තොරතුරු සෙවීම.',
     parameters: {
       type: 'OBJECT',
       properties: {

@@ -1,5 +1,5 @@
 /**
- * Web Search Service for Sampath Bank Information
+ * Web Search Service for Wasana Bank Information
  * Fallback search when RAG knowledge base returns no results
  */
 
@@ -18,14 +18,14 @@ export interface WebSearchResponse {
 }
 
 /**
- * Search the web for Sampath Bank information using Google Custom Search API
- * Only searches for Sampath Bank-related content
+ * Search the web for Wasana Bank information using Google Custom Search API
+ * Only searches for Wasana Bank-related content
  */
-export async function searchSampathBankWeb(query: string): Promise<WebSearchResponse> {
+export async function searchWasanaBankWeb(query: string): Promise<WebSearchResponse> {
   const startTime = Date.now();
   
-  // Add "Sampath Bank" to the query to ensure relevant results
-  const searchQuery = `Sampath Bank Sri Lanka ${query}`;
+  // Add "Wasana Bank" to the query to ensure relevant results
+  const searchQuery = `Wasana Bank Sri Lanka ${query}`;
   
   console.log('🌐 Web search query:', searchQuery);
   
@@ -87,21 +87,21 @@ export async function searchSampathBankWeb(query: string): Promise<WebSearchResp
 function getFallbackResults(query: string, startTime: number): WebSearchResponse {
   const results: WebSearchResult[] = [
     {
-      title: 'Sampath Bank Official Website',
-      snippet: 'Visit the official Sampath Bank website for comprehensive information about our banking services, products, and branch locations.',
-      url: 'https://www.sampath.lk',
+      title: 'Wasana Bank Official Website',
+      snippet: 'Visit the official Wasana Bank website for comprehensive information about our banking services, products, and branch locations.',
+      url: 'https://www.wasana.lk',
       source: 'sampath.lk'
     },
     {
-      title: 'Sampath Bank Contact Information',
-      snippet: 'Contact Sampath Bank customer care: 24/7 Hotline: +94 11 2 30 30 00, Email: customercare@sampath.lk',
-      url: 'https://www.sampath.lk/en/contact-us',
+      title: 'Wasana Bank Contact Information',
+      snippet: 'Contact Wasana Bank customer care: 24/7 Hotline: +94 11 2 30 30 00, Email: customercare@sampath.lk',
+      url: 'https://www.wasana.lk/en/contact-us',
       source: 'sampath.lk'
     },
     {
-      title: 'Sampath Bank Branch Locator',
-      snippet: 'Find your nearest Sampath Bank branch or ATM location across Sri Lanka.',
-      url: 'https://www.sampath.lk/en/branch-locator',
+      title: 'Wasana Bank Branch Locator',
+      snippet: 'Find your nearest Wasana Bank branch or ATM location across Sri Lanka.',
+      url: 'https://www.wasana.lk/en/branch-locator',
       source: 'sampath.lk'
     }
   ];
@@ -119,7 +119,7 @@ function getFallbackResults(query: string, startTime: number): WebSearchResponse
  */
 export function formatWebSearchResults(response: WebSearchResponse): string {
   if (response.results.length === 0) {
-    return 'කණගාටුයි, වෙබ් සෙවුමෙන් තොරතුරු හමු නොවුණා. කරුණාකර සම්පත් බැංකුවේ නිල වෙබ් අඩවිය (www.sampath.lk) බලන්න හෝ 011-2-30-30-00 අමතන්න.';
+    return 'කණගාටුයි, වෙබ් සෙවුමෙන් තොරතුරු හමු නොවුණා. කරුණාකර වාසනා බැංකුවේ නිල වෙබ් අඩවිය (www.wasana.lk) බලන්න හෝ 011-2-30-30-00 අමතන්න.';
   }
   
   let formatted = 'වෙබ් සෙවුමෙන් මේ තොරතුරු හමු වුණා:\n\n';
@@ -130,7 +130,7 @@ export function formatWebSearchResults(response: WebSearchResponse): string {
     formatted += `   මූලාශ්‍රය: ${result.url}\n\n`;
   });
   
-  formatted += '\nමෙම තොරතුරු වෙබයෙන් ලබාගත් ඒවා වන අතර, නිවැරදි තොරතුරු සඳහා සම්පත් බැංකුවේ නිල වෙබ් අඩවිය බලන්න.';
+  formatted += '\nමෙම තොරතුරු වෙබයෙන් ලබාගත් ඒවා වන අතර, නිවැරදි තොරතුරු සඳහා වාසනා බැංකුවේ නිල වෙබ් අඩවිය බලන්න.';
   
   return formatted;
 }

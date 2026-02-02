@@ -1,5 +1,5 @@
 /**
- * Customer Support Service for Sampath Bank
+ * Customer Support Service for Wasana Bank
  * Handles customer inquiries, account information, and banking operations
  */
 
@@ -146,7 +146,7 @@ export class CustomerSupportService {
           last_updated: new Date().toISOString(),
           disclaimer: 'Rates are indicative and subject to change. Please visit our branches for actual rates.',
         },
-        sources: ['Sampath Bank Treasury Department'],
+        sources: ['Wasana Bank Treasury Department'],
       };
     } catch {
       return {
@@ -203,7 +203,7 @@ export class CustomerSupportService {
           search_location: location,
           total_found: filteredBranches.length,
         },
-        sources: ['Sampath Bank Branch Directory'],
+        sources: ['Wasana Bank Branch Directory'],
       };
     } catch {
       return {
@@ -245,7 +245,7 @@ export class CustomerSupportService {
           status: 'scheduled',
           confirmation_message: `Your callback has been scheduled. Reference: ${appointmentId}. Our representative will call you at ${phoneNumber} on ${appointmentTime.toLocaleString()}.`,
         },
-        sources: ['Sampath Bank Customer Service'],
+        sources: ['Wasana Bank Customer Service'],
       };
     } catch (error) {
       return {
@@ -275,7 +275,7 @@ export class CustomerSupportService {
           account_type: 'Savings Account',
           message: 'For security reasons, please verify your identity through our mobile app or visit a branch for detailed account information.',
         },
-        sources: ['Sampath Bank Account Services'],
+        sources: ['Wasana Bank Account Services'],
       };
     } catch (error) {
       return {

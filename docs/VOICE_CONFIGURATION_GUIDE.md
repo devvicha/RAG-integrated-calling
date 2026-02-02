@@ -97,9 +97,9 @@ Add these characteristics to the system prompt:
 After implementing changes, test with these phrases:
 
 ### Sinhala Test Phrases:
-1. "ආයුබෝවන්, සම්පත් බැංකුවට ඔබව සාදරයෙන් පිළිගන්නෙමු."
+1. "ආයුබෝවන්, වාසනා බැංකුවට ඔබව සාදරයෙන් පිළිගන්නෙමු."
 2. "මම ඔයාට උපකාර කරන්න සතුටුයි."
-3. "ඔයාට කොහොමද සම්පත් බැංකුවේ ණය සේවාවන් ගැන දැනගන්න ඕනේ?"
+3. "ඔයාට කොහොමද වාසනා බැංකුවේ ණය සේවාවන් ගැන දැනගන්න ඕනේ?"
 
 ### Expected Voice Quality:
 - ✅ Deep, warm male voice

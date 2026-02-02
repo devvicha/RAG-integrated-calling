@@ -1,5 +1,5 @@
 /**
- * Vector Database Service for Sampath Bank Customer Care
+ * Vector Database Service for Wasana Bank Customer Care
  * Handles document embeddings, similarity search, and RAG operations
  */
 

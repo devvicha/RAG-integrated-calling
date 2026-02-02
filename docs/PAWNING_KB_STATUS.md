@@ -20,7 +20,7 @@ The system was not recognizing Sinhala pawning queries (පෝනිං/ආභ�
 
 **Keywords added:**
 - English: pawning, pawn, jewellery loan, gold loan, pledge, Randiriya, collateral
-- Sinhala: පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, සම්පත් රන්දිරිය
+- Sinhala: පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, වාසනා රන්දිරිය
 
 ### 2. Enhanced Existing Files
 - Updated `randiriya_pawning.md` with Sinhala keywords in metadata
@@ -144,7 +144,7 @@ Test these queries after implementing fixes:
 ```
 1. "පෝනින් ලෝන් එකක් ගන්න ඕනේ"
 2. "රන් ආභරණ ගිරවන්න පුළුවන්ද"
-3. "සම්පත් රන්දිරිය මොකක්ද"
+3. "වාසනා රන්දිරිය මොකක්ද"
 4. "jewellery loan how to apply"
 5. "gold loan interest rates"
 ```

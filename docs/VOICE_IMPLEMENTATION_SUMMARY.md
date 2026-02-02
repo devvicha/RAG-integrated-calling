@@ -79,7 +79,7 @@ npm run dev
 #### Test Phrases (Sinhala):
 1. **Greeting**:
    ```
-   "ආයුබෝවන්, සම්පත් බැංකුවට ඔබව සාදරයෙන් පිළිගන්නෙමු."
+   "ආයුබෝවන්, වාසනා බැංකුවට ඔබව සාදරයෙන් පිළිගන්නෙමු."
    ```
    **Listen for**: Deep male voice, professional greeting, clear pronunciation
 
@@ -91,7 +91,7 @@ npm run dev
 
 3. **Product Information**:
    ```
-   "සම්පත් බැංකුවේ පෝනිං සේවාව ගැන කියන්නම්."
+   "වාසනා බැංකුවේ පෝනිං සේවාව ගැන කියන්නම්."
    ```
    **Listen for**: Authority, clarity, professional delivery
 

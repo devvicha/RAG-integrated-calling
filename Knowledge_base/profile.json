@@ -12,14 +12,14 @@
   "last_reviewed": "2025-09-04",
   "pii": false,
   "bank": {
-    "name": "Sampath Bank PLC",
+    "name": "Wasana Bank PLC",
     "country": "Sri Lanka",
     "regulator": "Central Bank of Sri Lanka",
     "hq_address": "No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka",
     "contacts": {
       "main_hotline_short": "1332",
       "main_hotline": "+94 11 230 3050",
-      "email": "info@sampath.lk",
+      "email": "info@wasana.lk",
       "card_centre": "+94 11 230 0604"
     }
   },
@@ -32,7 +32,7 @@
       "phone",
       "email",
       "chat",
-      "Sampath Vishwa",
+      "Wasana Vishwa",
       "WePay"
     ]
   }

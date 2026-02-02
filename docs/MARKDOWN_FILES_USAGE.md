@@ -65,7 +65,7 @@ Translation: "loans information"
   ↓
 RAG Search: Finds chunks from loans/catalog.md, loans/lifecycle.md
   ↓
-Nova: "හ්ම්ම්... හරි. බලන්න, සම්පත් බැංකුවේ..." (responds in Sinhala)
+Nova: "හ්ම්ම්... හරි. බලන්න, වාසනා බැංකුවේ..." (responds in Sinhala)
 ```
 
 #### Step 3: FAISS Index Files

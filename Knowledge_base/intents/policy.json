@@ -25,7 +25,7 @@
           "required": false
         }
       ],
-      "success_reply": "To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You\u2019ll need ID and address proof. Which route suits you?",
+      "success_reply": "To open a {account_type} account with Wasana, I can start via Wasana Vishwa/eKYC or book a branch visit. You\u2019ll need ID and address proof. Which route suits you?",
       "policy_links": [
         "accounts.opening_workflow"
       ]

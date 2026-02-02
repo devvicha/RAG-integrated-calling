@@ -1,6 +1,6 @@
 ---
 id: savings.doubleS
-title: Sampath Double S Savings Account
+title: Wasana Double S Savings Account
 category: Savings Account
 product_area: accounts
 requires_auth: false
@@ -9,7 +9,7 @@ language: en
 ---
 
 ## Overview
-Sampath Double S is a savings account that rewards customers with a monthly bonus interest for maintaining a healthy account balance. It is designed to encourage consistent savings growth.
+Wasana Double S is a savings account that rewards customers with a monthly bonus interest for maintaining a healthy account balance. It is designed to encourage consistent savings growth.
 
 ## What's Special
 - Earn bonus interest calculated on the daily balance and credited monthly.
@@ -42,7 +42,7 @@ The standard interest rate applies to all balances, plus bonus interest based on
 
 ## Key Features
 - Monthly bonus interest on qualifying balances
-- Access to Sampath Vishwa internet banking
-- Sampath Visa or Master Debit Card included
+- Access to Wasana Vishwa internet banking
+- Wasana Visa or Master Debit Card included
 - ATM and CDM access across the island
 - SMS alerts and e-statements available

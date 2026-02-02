@@ -7,7 +7,7 @@ import React from 'react';
 import './WelcomeScreen.css';
 
 const WelcomeScreen: React.FC = () => {
-  const title = 'සම්පත් බැංකු සහායක';
+  const title = 'වාසනා බැංකු සහායක';
   const description = 'ගිණුම් ශේෂ, කාඩ්පත් සේවා, සහ ණය පිළිබඳ තොරතුරු ලබාගන්න.';
   const prompts = [
     'මගේ balance එක කීයද?',

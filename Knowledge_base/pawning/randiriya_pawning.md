@@ -1,6 +1,6 @@
 ---
 id: pawning.randiriya
-title: Sampath Randiriya Pawning Facility - Gold Jewellery Loan
+title: Wasana Randiriya Pawning Facility - Gold Jewellery Loan
 category: pawning
 product_area: loans
 requires_auth: false
@@ -8,12 +8,12 @@ last_reviewed: 2025-10-22
 language: en
 tags: [pawning, jewellery, gold, pawn, loan, randiriya, pledge, collateral]
 keywords: [pawning, pawn, jewellery loan, gold loan, Randiriya, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, රන්දිරිය, ගිරවා ගන්න, රන් ආභරණ]
-sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, සම්පත් රන්දිරිය]
+sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, වාසනා රන්දිරිය]
 ---
 
 ## Overview (සංක්ෂේපය)
 
-**Sampath Randiriya Pawning Facility (සම්පත් රන්දිරිය පෝනිං සේවාව)** is a gold jewellery loan service that provides customers with instant cash against pledged gold or gold jewellery. It is designed to help customers meet urgent financial requirements without selling their valuables.
+**Wasana Randiriya Pawning Facility (වාසනා රන්දිරිය පෝනිං සේවාව)** is a gold jewellery loan service that provides customers with instant cash against pledged gold or gold jewellery. It is designed to help customers meet urgent financial requirements without selling their valuables.
 
 **Also known as:** Pawning Loan, Jewellery Loan, Gold Loan, ආභරණ ණය, රන් ණය, පෝනිං
 
@@ -22,7 +22,7 @@ sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන්
 - Competitive low interest rates.
 - Purity checking is performed using modern technology without damaging the gold.
 - No guarantors are required.
-- Payments can be made in installments through any Sampath Bank branch or Sampath Vishwa.
+- Payments can be made in installments through any Wasana Bank branch or Wasana Vishwa.
 - Small loan requests may also be considered (conditions apply).
 - Fast, courteous, and confidential service.
 - Full privacy and guaranteed security for pawned items.
@@ -44,8 +44,8 @@ Competitive interest rates are offered based on the loan amount and tenure. Plea
 
 ## Repayment Options
 - Full payment at maturity
-- Installment payments through any Sampath Bank branch
-- Online payments via Sampath Vishwa internet banking
+- Installment payments through any Wasana Bank branch
+- Online payments via Wasana Vishwa internet banking
 
 ## Important Notes
 - Loan amount depends on gold weight and purity (22K/24K)

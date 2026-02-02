@@ -9,15 +9,15 @@ language: en
 ---
 
 ## Overview
-The Sampath Regular Savings Account is designed for individuals seeking a safe and accessible way to save money while earning interest. It allows customers to deposit funds and access them anytime through Sampath Bank's wide branch and ATM network.
+The Wasana Regular Savings Account is designed for individuals seeking a safe and accessible way to save money while earning interest. It allows customers to deposit funds and access them anytime through Wasana Bank's wide branch and ATM network.
 
 ## Key Benefits
 - Interest is paid monthly.
 - Withdrawals and deposits can be made at any branch or ATM across the island.
-- Sampath Vishwa internet banking and SMS alerts are available upon request.
+- Wasana Vishwa internet banking and SMS alerts are available upon request.
 
 ## Eligible Card Categories
-Customers receive an activated Sampath Visa or Master Debit Card at the time of account opening. Both Sampath Mastercard and Visa Credit & Debit Cards are supported.
+Customers receive an activated Wasana Visa or Master Debit Card at the time of account opening. Both Wasana Mastercard and Visa Credit & Debit Cards are supported.
 
 ## Eligibility
 Any Sri Lankan citizen over 18 years of age can open this account by providing a valid identification document such as a National Identity Card or Passport.
