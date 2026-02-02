@@ -68,7 +68,7 @@
           "required": false
         }
       ],
-      "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24\u00d77) or LANKAQR for merchant payments. Want step-by-step?"
+      "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to රුපියල් 5M, 24\u00d77) or LANKAQR for merchant payments. Want step-by-step?"
     },
     {
       "name": "Complaint",

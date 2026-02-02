@@ -15,10 +15,10 @@
 - Complimentary golf rounds
 - Priority Pass membership
 - No foreign transaction fees
-- Reward points: 2 points per LKR 100
+- Reward points: 2 points per රුපියල් 100
 
 **Eligibility:**
-- Minimum monthly income: LKR 500,000+
+- Minimum monthly income: රුපියල් 500,000+
 - Excellent credit history required
 
 #### 2. Wasana Visa Infinite Credit Card
@@ -33,7 +33,7 @@
 - Global acceptance
 
 **Eligibility:**
-- Minimum monthly income: LKR 300,000+
+- Minimum monthly income: රුපියල් 300,000+
 
 #### 3. Wasana Visa Signature Credit Card
 **Category:** Premium Card  
@@ -46,7 +46,7 @@
 - Airport lounge access (4 visits/year)
 
 **Eligibility:**
-- Minimum monthly income: LKR 200,000+
+- Minimum monthly income: රුපියල් 200,000+
 
 ---
 
@@ -63,21 +63,21 @@
 - Reward points
 
 **Eligibility:**
-- Minimum monthly income: LKR 150,000+
+- Minimum monthly income: රුපියල් 150,000+
 
 #### 5. Wasana Bank American Express® Platinum Ultramiles
 **Category:** Travel Rewards Card  
 **Brand:** American Express  
 **Key Features:**
 - Miles-based rewards program
-- 1 mile per LKR 50 spent
+- 1 mile per රුපියල් 50 spent
 - Airport lounge access
 - Travel insurance
 - Hotel and airline partnerships
 - No blackout dates for redemptions
 
 **Eligibility:**
-- Minimum monthly income: LKR 150,000+
+- Minimum monthly income: රුපියල් 150,000+
 
 #### 6. Wasana Mastercard/Visa Platinum
 **Category:** Standard Platinum  
@@ -90,7 +90,7 @@
 - Supplementary cards available
 
 **Eligibility:**
-- Minimum monthly income: LKR 100,000+
+- Minimum monthly income: රුපියල් 100,000+
 
 ---
 
@@ -106,7 +106,7 @@
 - Online shopping protection
 
 **Eligibility:**
-- Minimum monthly income: LKR 75,000+
+- Minimum monthly income: රුපියල් 75,000+
 
 #### 8. Wasana Mastercard/Visa Gold
 **Category:** Standard Gold Card  
@@ -118,7 +118,7 @@
 - Online banking integration
 
 **Eligibility:**
-- Minimum monthly income: LKR 50,000+
+- Minimum monthly income: රුපියල් 50,000+
 
 #### 9. Wasana Mastercard/Visa Classic
 **Category:** Basic Credit Card  
@@ -130,7 +130,7 @@
 - SMS alerts
 
 **Eligibility:**
-- Minimum monthly income: LKR 40,000+
+- Minimum monthly income: රුපියල් 40,000+
 
 ---
 
@@ -214,7 +214,7 @@
 
 **Eligibility:**
 - Registered business entity
-- Minimum annual turnover: LKR 10 million
+- Minimum annual turnover: රුපියල් 10 million
 
 #### Wasana Visa Corporate Credit Card
 **Type:** Corporate Card  

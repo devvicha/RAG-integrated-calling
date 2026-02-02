@@ -141,7 +141,7 @@ export class CustomerSupportService {
       return {
         success: true,
         data: {
-          base_currency: 'LKR',
+          base_currency: 'රුපියල්',
           rates: filteredRates,
           last_updated: new Date().toISOString(),
           disclaimer: 'Rates are indicative and subject to change. Please visit our branches for actual rates.',
@@ -152,7 +152,7 @@ export class CustomerSupportService {
       return {
         success: false,
         error: 'Failed to fetch exchange rates',
-        data: { base_currency: 'LKR', rates: [] },
+        data: { base_currency: 'රුපියල්', rates: [] },
       };
     }
   }
@@ -269,8 +269,8 @@ export class CustomerSupportService {
         success: true,
         data: {
           account_number: accountNumber.replace(/\d(?=\d{4})/g, '*'),
-          balance: 'LKR 125,450.75',
-          available_balance: 'LKR 125,450.75',
+          balance: 'රුපියල් 125,450.75',
+          available_balance: 'රුපියල් 125,450.75',
           last_transaction: '2024-10-01',
           account_type: 'Savings Account',
           message: 'For security reasons, please verify your identity through our mobile app or visit a branch for detailed account information.',
