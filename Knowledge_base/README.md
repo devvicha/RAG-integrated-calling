@@ -1,4 +1,4 @@
-# Nova (Sampath Bank) — KB Chunks
+# Nova (Wasana Bank) — KB Chunks
 Last generated: 2025-09-22
 
 - 16 focused files + `embeddings_index.json` (doc id → tags, path, metadata).

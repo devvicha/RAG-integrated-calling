@@ -33,7 +33,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
-        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
@@ -41,11 +41,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
-        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+        "chunk_text": "- How to receive money from abroad?  \n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
-        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Sampath Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
+        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Wasana Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
@@ -53,11 +53,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
-        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Sampath Bank. Now, you mentioned…”"
+        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Wasana Bank. Now, you mentioned…”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
-        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Sampath Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
+        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Wasana Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/nova.md",
@@ -69,7 +69,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
-        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
@@ -77,7 +77,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
-        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+        "chunk_text": "- How to receive money from abroad?  \n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/emi.md",
@@ -85,11 +85,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/channels.md",
-        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Sampath Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Wasana Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/channels.md",
-        "chunk_text": "Corporate Banking\n- Sampath Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Sampath Vishwa Retail (iOS/Android)\n- Sampath WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Sampath Slip‑Less — paperless deposit experience at branches."
+        "chunk_text": "Corporate Banking\n- Wasana Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Wasana Vishwa Retail (iOS/Android)\n- Wasana WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Wasana Slip‑Less — paperless deposit experience at branches."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/account_opening.md",
@@ -101,7 +101,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/README.md",
-        "chunk_text": "Nova (Sampath Bank) — KB Chunks\nLast generated: 2025-09-22\n\n- 16 focused files + embeddings_index.json (doc id → tags, path, metadata).\n- Use tags for retrieval (e.g., payments AND cefts, workflow AND card_block).\n\nImportant: “Figures are indicative until verified by the bank.”"
+        "chunk_text": "Nova (Wasana Bank) — KB Chunks\nLast generated: 2025-09-22\n\n- 16 focused files + embeddings_index.json (doc id → tags, path, metadata).\n- Use tags for retrieval (e.g., payments AND cefts, workflow AND card_block).\n\nImportant: “Figures are indicative until verified by the bank.”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/opening_workflow.md",
@@ -117,7 +117,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/options.md",
-        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Wasana e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loan_application.md",
@@ -129,7 +129,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
-        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Sampath Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
@@ -141,7 +141,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/options 2.md",
-        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Wasana e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/types.md",
@@ -185,7 +185,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
-        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Sampath Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
@@ -205,7 +205,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
-        "chunk_text": "---\nid: savings.doubleS\ntitle: Sampath Double S Savings Account\ncategory: Savings Account\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-21\nlanguage: en\n---\n\n Overview\nSampath Double S is a savings account that rewards customers with a monthly bonus interest for maintaining a healthy account balance. It is designed to encourage consistent savings growth."
+        "chunk_text": "---\nid: savings.doubleS\ntitle: Wasana Double S Savings Account\ncategory: Savings Account\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-21\nlanguage: en\n---\n\n Overview\nWasana Double S is a savings account that rewards customers with a monthly bonus interest for maintaining a healthy account balance. It is designed to encourage consistent savings growth."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
@@ -225,7 +225,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
-        "chunk_text": "Key Features\n- Monthly bonus interest on qualifying balances\n- Access to Sampath Vishwa internet banking\n- Sampath Visa or Master Debit Card included\n- ATM and CDM access across the island\n- SMS alerts and e-statements available"
+        "chunk_text": "Key Features\n- Monthly bonus interest on qualifying balances\n- Access to Wasana Vishwa internet banking\n- Wasana Visa or Master Debit Card included\n- ATM and CDM access across the island\n- SMS alerts and e-statements available"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
@@ -233,11 +233,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
-        "chunk_text": "Overview\nThe Sampath Regular Savings Account is designed for individuals seeking a safe and accessible way to save money while earning interest. It allows customers to deposit funds and access them anytime through Sampath Bank's wide branch and ATM network."
+        "chunk_text": "Overview\nThe Wasana Regular Savings Account is designed for individuals seeking a safe and accessible way to save money while earning interest. It allows customers to deposit funds and access them anytime through Wasana Bank's wide branch and ATM network."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
-        "chunk_text": "Key Benefits\n- Interest is paid monthly.\n- Withdrawals and deposits can be made at any branch or ATM across the island.\n- Sampath Vishwa internet banking and SMS alerts are available upon request.\n\n Eligible Card Categories\nCustomers receive an activated Sampath Visa or Master Debit Card at the time of account opening. Both Sampath Mastercard and Visa Credit & Debit Cards are supported."
+        "chunk_text": "Key Benefits\n- Interest is paid monthly.\n- Withdrawals and deposits can be made at any branch or ATM across the island.\n- Wasana Vishwa internet banking and SMS alerts are available upon request.\n\n Eligible Card Categories\nCustomers receive an activated Wasana Visa or Master Debit Card at the time of account opening. Both Wasana Mastercard and Visa Credit & Debit Cards are supported."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Regular_savings.md",
@@ -249,31 +249,31 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/remittances/options.md",
-        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Sampath e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
+        "chunk_text": "---\nid: remittances.options\ntitle: Remittances — e‑Remittance & SWIFT\ntags: [remittance, international]\nproduct_area: remittances\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Wasana e‑Remittance — Instant web‑based money transfer receipts for customers and non‑customers.\n- SWIFT — International wire transfers; FX conversion at bank rates."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "Sampath Bank Credit and Debit Card Services\n\n Overview\nSampath Bank offers a comprehensive range of credit cards, debit cards, corporate cards, and card-related services to meet diverse customer needs.\n\n---\n\n Personal Credit Cards"
+        "chunk_text": "Wasana Bank Credit and Debit Card Services\n\n Overview\nWasana Bank offers a comprehensive range of credit cards, debit cards, corporate cards, and card-related services to meet diverse customer needs.\n\n---\n\n Personal Credit Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "---\n\n Personal Credit Cards\n\n Premium Cards\n1. Sampath Visa Infinite Metal Credit Card\n   - Type: Premium metal card\n   - Brand: Visa Infinite\n   - Target: High net worth individuals\n   - Features: Luxury benefits, airport lounge access, global acceptance"
+        "chunk_text": "---\n\n Personal Credit Cards\n\n Premium Cards\n1. Wasana Visa Infinite Metal Credit Card\n   - Type: Premium metal card\n   - Brand: Visa Infinite\n   - Target: High net worth individuals\n   - Features: Luxury benefits, airport lounge access, global acceptance"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "2. Sampath Visa Infinite Credit Card\n   - Type: Premium credit card\n   - Brand: Visa Infinite\n   - Target: Premium customers\n   - Features: Travel benefits, concierge services, reward points\n\n3. Sampath Visa Signature Credit Card\n   - Type: Premium credit card\n   - Brand: Visa Signature\n   - Target: Upper-middle income customers\n   - Features: Enhanced rewards, travel insurance, special offers"
+        "chunk_text": "2. Wasana Visa Infinite Credit Card\n   - Type: Premium credit card\n   - Brand: Visa Infinite\n   - Target: Premium customers\n   - Features: Travel benefits, concierge services, reward points\n\n3. Wasana Visa Signature Credit Card\n   - Type: Premium credit card\n   - Brand: Visa Signature\n   - Target: Upper-middle income customers\n   - Features: Enhanced rewards, travel insurance, special offers"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "Standard Cards\n4. Sampath Mastercard World Credit Card\n   - Type: Premium Mastercard\n   - Brand: Mastercard World\n   - Features: Global acceptance, rewards program, travel benefits\n\n5. Sampath Bank American Express® Platinum Ultramiles Credit Card\n   - Type: Premium travel card\n   - Brand: American Express\n   - Features: Miles accumulation, travel rewards, airport benefits"
+        "chunk_text": "Standard Cards\n4. Wasana Mastercard World Credit Card\n   - Type: Premium Mastercard\n   - Brand: Mastercard World\n   - Features: Global acceptance, rewards program, travel benefits\n\n5. Wasana Bank American Express® Platinum Ultramiles Credit Card\n   - Type: Premium travel card\n   - Brand: American Express\n   - Features: Miles accumulation, travel rewards, airport benefits"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "6. Sampath Mastercard/Visa Platinum Credit Card\n   - Type: Standard platinum card\n   - Brand: Mastercard/Visa Platinum\n   - Features: Standard rewards, balance transfer options\n\n7. Sampath Bank American Express® Everyday Credit Card\n   - Type: Entry-level card\n   - Brand: American Express\n   - Features: Everyday rewards, cashback offers"
+        "chunk_text": "6. Wasana Mastercard/Visa Platinum Credit Card\n   - Type: Standard platinum card\n   - Brand: Mastercard/Visa Platinum\n   - Features: Standard rewards, balance transfer options\n\n7. Wasana Bank American Express® Everyday Credit Card\n   - Type: Entry-level card\n   - Brand: American Express\n   - Features: Everyday rewards, cashback offers"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "8. Sampath Mastercard/Visa Gold Credit Card\n   - Type: Standard gold card\n   - Brand: Mastercard/Visa Gold\n   - Features: Basic rewards, standard benefits\n\n9. Sampath Mastercard/Visa Classic Credit Card\n   - Type: Basic credit card\n   - Brand: Mastercard/Visa Classic\n   - Features: Essential credit facilities"
+        "chunk_text": "8. Wasana Mastercard/Visa Gold Credit Card\n   - Type: Standard gold card\n   - Brand: Mastercard/Visa Gold\n   - Features: Basic rewards, standard benefits\n\n9. Wasana Mastercard/Visa Classic Credit Card\n   - Type: Basic credit card\n   - Brand: Mastercard/Visa Classic\n   - Features: Essential credit facilities"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
@@ -293,19 +293,19 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Credit Cards\n1. Sampath Mastercard Corporate Credit Card\n   - Type: Corporate card\n   - Brand: Mastercard Corporate\n   - Target: Businesses and organizations\n   - Features: Expense management, business rewards"
+        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Credit Cards\n1. Wasana Mastercard Corporate Credit Card\n   - Type: Corporate card\n   - Brand: Mastercard Corporate\n   - Target: Businesses and organizations\n   - Features: Expense management, business rewards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "2. Sampath Visa Corporate Credit Card\n   - Type: Corporate card\n   - Brand: Visa Corporate\n   - Target: Corporate clients\n   - Features: Business travel benefits, expense tracking\n\n3. Sampath Corporate Fuel Card\n   - Type: Fuel-specific card\n   - Purpose: Fuel purchases for company vehicles\n   - Features: Fleet management, fuel expense tracking, detailed reports"
+        "chunk_text": "2. Wasana Visa Corporate Credit Card\n   - Type: Corporate card\n   - Brand: Visa Corporate\n   - Target: Corporate clients\n   - Features: Business travel benefits, expense tracking\n\n3. Wasana Corporate Fuel Card\n   - Type: Fuel-specific card\n   - Purpose: Fuel purchases for company vehicles\n   - Features: Fleet management, fuel expense tracking, detailed reports"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "4. Sampath Visa Purchasing Credit Card\n   - Type: Purchasing card\n   - Purpose: Business procurement and purchasing\n   - Features: Supplier payments, procurement management\n\n---\n\n Merchant Services (Card Acceptance)\n\n Payment Collection Channels\n1. Missed-call Top-Up\n   - Service: Mobile recharge via missed call\n   - Convenience: No internet required"
+        "chunk_text": "4. Wasana Visa Purchasing Credit Card\n   - Type: Purchasing card\n   - Purpose: Business procurement and purchasing\n   - Features: Supplier payments, procurement management\n\n---\n\n Merchant Services (Card Acceptance)\n\n Payment Collection Channels\n1. Missed-call Top-Up\n   - Service: Mobile recharge via missed call\n   - Convenience: No internet required"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "2. Sampath Direct Debit System\n   - Service: Automated recurring payments\n   - Features: Utility bills, loan payments, subscriptions\n\n3. Sampath Internet Payment Gateway\n   - Service: Online payment processing\n   - Features: E-commerce integration, secure transactions"
+        "chunk_text": "2. Wasana Direct Debit System\n   - Service: Automated recurring payments\n   - Features: Utility bills, loan payments, subscriptions\n\n3. Wasana Internet Payment Gateway\n   - Service: Online payment processing\n   - Features: E-commerce integration, secure transactions"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
@@ -317,7 +317,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "Digital Services\n3. Free e-Statement\n   - Service: Electronic card statements\n   - Features: Paperless, email delivery, eco-friendly\n\n4. Sampath Automated Bill Settlement Facility (SABS)\n   - Service: Automatic bill payments\n   - Features: Utility bills, telecom, insurance"
+        "chunk_text": "Digital Services\n3. Free e-Statement\n   - Service: Electronic card statements\n   - Features: Paperless, email delivery, eco-friendly\n\n4. Wasana Automated Bill Settlement Facility (SABS)\n   - Service: Automatic bill payments\n   - Features: Utility bills, telecom, insurance"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
@@ -333,11 +333,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "5. Cardholder Guide for Sampath Bank Mobile App\n   - Service: Mobile banking for cardholders\n   - Features: Balance check, transaction history, bill payment\n\n6. Credit Card PIN\n   - Service: PIN generation and reset\n   - Channels: ATM, branch, mobile app"
+        "chunk_text": "5. Cardholder Guide for Wasana Bank Mobile App\n   - Service: Mobile banking for cardholders\n   - Features: Balance check, transaction history, bill payment\n\n6. Credit Card PIN\n   - Service: PIN generation and reset\n   - Channels: ATM, branch, mobile app"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "7. Sampath Self-Care Portal\n   - Service: Online card management\n   - Features: Statement download, limit increase requests, rewards redemption\n\n---\n\n More Information\n\n Value-Added Programs\n1. Sampath Advantage\n   - Program: Card rewards program\n   - Features: Points accumulation, redemption, special offers"
+        "chunk_text": "7. Wasana Self-Care Portal\n   - Service: Online card management\n   - Features: Statement download, limit increase requests, rewards redemption\n\n---\n\n More Information\n\n Value-Added Programs\n1. Wasana Advantage\n   - Program: Card rewards program\n   - Features: Points accumulation, redemption, special offers"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
@@ -357,7 +357,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "Credit cards, debit cards, Visa, Mastercard, American Express, AMEX, corporate cards, fuel cards, merchant services, POS, payment gateway, card benefits, SMS alerts, e-statement, insurance, travel insurance, life insurance, balance transfer, installment plans, rewards, Sampath Advantage, mobile app, self-care portal, PIN, affinity cards, co-branded cards, OBA cards, alumni cards, professional"
+        "chunk_text": "Credit cards, debit cards, Visa, Mastercard, American Express, AMEX, corporate cards, fuel cards, merchant services, POS, payment gateway, card benefits, SMS alerts, e-statement, insurance, travel insurance, life insurance, balance transfer, installment plans, rewards, Wasana Advantage, mobile app, self-care portal, PIN, affinity cards, co-branded cards, OBA cards, alumni cards, professional"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
@@ -365,15 +365,15 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_services.md",
-        "chunk_text": "Related Services\n- Personal Banking\n- Corporate Banking\n- Digital Banking\n- Payment Solutions\n- Insurance Services\n- Merchant Acquiring\n- Online Payment Gateway\n\n---\n\nLast Updated: October 2025  \nSource: Sampath Bank PLC Official Card Services Information  \nFor Latest Information: Visit www.sampath.lk or contact Sampath Bank customer service"
+        "chunk_text": "Related Services\n- Personal Banking\n- Corporate Banking\n- Digital Banking\n- Payment Solutions\n- Insurance Services\n- Merchant Acquiring\n- Online Payment Gateway\n\n---\n\nLast Updated: October 2025  \nSource: Wasana Bank PLC Official Card Services Information  \nFor Latest Information: Visit www.wasana.lk or contact Wasana Bank customer service"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Sampath Bank Credit Card Types and Features\n\n Personal Credit Cards Overview\n\n Premium Tier Cards"
+        "chunk_text": "Wasana Bank Credit Card Types and Features\n\n Personal Credit Cards Overview\n\n Premium Tier Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "1. Sampath Visa Infinite Metal Credit Card\nCategory: Ultra-Premium Metal Card  \nBrand: Visa Infinite  \nKey Features:\n- Metal card construction (premium feel)\n- Unlimited airport lounge access worldwide\n- Dedicated concierge service 24/7\n- Travel insurance coverage up to USD 1 million\n- Complimentary golf rounds\n- Priority Pass membership\n- No foreign transaction fees"
+        "chunk_text": "1. Wasana Visa Infinite Metal Credit Card\nCategory: Ultra-Premium Metal Card  \nBrand: Visa Infinite  \nKey Features:\n- Metal card construction (premium feel)\n- Unlimited airport lounge access worldwide\n- Dedicated concierge service 24/7\n- Travel insurance coverage up to USD 1 million\n- Complimentary golf rounds\n- Priority Pass membership\n- No foreign transaction fees"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -381,35 +381,35 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 500,000+\n- Excellent credit history required\n\n 2. Sampath Visa Infinite Credit Card\nCategory: Premium Card  \nBrand: Visa Infinite  \nKey Features:\n- Airport lounge access (6 complimentary visits/year)\n- Travel insurance coverage\n- Concierge services\n- Dining privileges\n- Reward points program\n- Global acceptance"
+        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 500,000+\n- Excellent credit history required\n\n 2. Wasana Visa Infinite Credit Card\nCategory: Premium Card  \nBrand: Visa Infinite  \nKey Features:\n- Airport lounge access (6 complimentary visits/year)\n- Travel insurance coverage\n- Concierge services\n- Dining privileges\n- Reward points program\n- Global acceptance"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 300,000+\n\n 3. Sampath Visa Signature Credit Card\nCategory: Premium Card  \nBrand: Visa Signature  \nKey Features:\n- Enhanced rewards on dining and travel\n- Travel insurance\n- Extended warranty protection\n- Purchase protection\n- Airport lounge access (4 visits/year)\n\nEligibility:\n- Minimum monthly income: LKR 200,000+\n\n---\n\n Standard Tier Cards"
+        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 300,000+\n\n 3. Wasana Visa Signature Credit Card\nCategory: Premium Card  \nBrand: Visa Signature  \nKey Features:\n- Enhanced rewards on dining and travel\n- Travel insurance\n- Extended warranty protection\n- Purchase protection\n- Airport lounge access (4 visits/year)\n\nEligibility:\n- Minimum monthly income: LKR 200,000+\n\n---\n\n Standard Tier Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Standard Tier Cards\n\n 4. Sampath Mastercard World Credit Card\nCategory: Premium Mastercard  \nBrand: Mastercard World  \nKey Features:\n- Mastercard World benefits\n- Travel insurance\n- Purchase protection\n- Priceless experiences\n- Reward points\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
+        "chunk_text": "---\n\n Standard Tier Cards\n\n 4. Wasana Mastercard World Credit Card\nCategory: Premium Mastercard  \nBrand: Mastercard World  \nKey Features:\n- Mastercard World benefits\n- Travel insurance\n- Purchase protection\n- Priceless experiences\n- Reward points\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "5. Sampath Bank American Express® Platinum Ultramiles\nCategory: Travel Rewards Card  \nBrand: American Express  \nKey Features:\n- Miles-based rewards program\n- 1 mile per LKR 50 spent\n- Airport lounge access\n- Travel insurance\n- Hotel and airline partnerships\n- No blackout dates for redemptions\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
+        "chunk_text": "5. Wasana Bank American Express® Platinum Ultramiles\nCategory: Travel Rewards Card  \nBrand: American Express  \nKey Features:\n- Miles-based rewards program\n- 1 mile per LKR 50 spent\n- Airport lounge access\n- Travel insurance\n- Hotel and airline partnerships\n- No blackout dates for redemptions\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "6. Sampath Mastercard/Visa Platinum\nCategory: Standard Platinum  \nBrands: Mastercard/Visa Platinum  \nKey Features:\n- Balance transfer facility\n- Cash advance facility\n- Purchase protection\n- Standard reward points\n- Supplementary cards available\n\nEligibility:\n- Minimum monthly income: LKR 100,000+\n\n---\n\n Entry Level Cards"
+        "chunk_text": "6. Wasana Mastercard/Visa Platinum\nCategory: Standard Platinum  \nBrands: Mastercard/Visa Platinum  \nKey Features:\n- Balance transfer facility\n- Cash advance facility\n- Purchase protection\n- Standard reward points\n- Supplementary cards available\n\nEligibility:\n- Minimum monthly income: LKR 100,000+\n\n---\n\n Entry Level Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Entry Level Cards\n\n 7. Sampath Bank American Express® Everyday\nCategory: Entry-Level Rewards Card  \nBrand: American Express  \nKey Features:\n- Everyday cashback rewards\n- Dining and shopping offers\n- Installment plan facility\n- Online shopping protection\n\nEligibility:\n- Minimum monthly income: LKR 75,000+"
+        "chunk_text": "---\n\n Entry Level Cards\n\n 7. Wasana Bank American Express® Everyday\nCategory: Entry-Level Rewards Card  \nBrand: American Express  \nKey Features:\n- Everyday cashback rewards\n- Dining and shopping offers\n- Installment plan facility\n- Online shopping protection\n\nEligibility:\n- Minimum monthly income: LKR 75,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "8. Sampath Mastercard/Visa Gold\nCategory: Standard Gold Card  \nBrands: Mastercard/Visa Gold  \nKey Features:\n- Basic rewards program\n- Emergency card replacement\n- Lost card liability protection\n- Online banking integration\n\nEligibility:\n- Minimum monthly income: LKR 50,000+"
+        "chunk_text": "8. Wasana Mastercard/Visa Gold\nCategory: Standard Gold Card  \nBrands: Mastercard/Visa Gold  \nKey Features:\n- Basic rewards program\n- Emergency card replacement\n- Lost card liability protection\n- Online banking integration\n\nEligibility:\n- Minimum monthly income: LKR 50,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "9. Sampath Mastercard/Visa Classic\nCategory: Basic Credit Card  \nBrands: Mastercard/Visa Classic  \nKey Features:\n- Essential credit facility\n- Interest-free period (up to 56 days)\n- Minimum payment option (5% of outstanding)\n- SMS alerts\n\nEligibility:\n- Minimum monthly income: LKR 40,000+\n\n---\n\n Affinity Credit Cards (Co-branded)\n\n Professional Association Cards"
+        "chunk_text": "9. Wasana Mastercard/Visa Classic\nCategory: Basic Credit Card  \nBrands: Mastercard/Visa Classic  \nKey Features:\n- Essential credit facility\n- Interest-free period (up to 56 days)\n- Minimum payment option (5% of outstanding)\n- SMS alerts\n\nEligibility:\n- Minimum monthly income: LKR 40,000+\n\n---\n\n Affinity Credit Cards (Co-branded)\n\n Professional Association Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -437,15 +437,15 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Cards\n\n Sampath Mastercard Corporate Credit Card\nType: Corporate Expense Card  \nKey Features:\n- Centralized billing\n- Expense management tools\n- Multiple employee cards\n- Detailed expense reports\n- Integration with accounting software\n- Travel and entertainment benefits\n\nEligibility:\n- Registered business entity\n- Minimum annual turnover: LKR 10 million"
+        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Cards\n\n Wasana Mastercard Corporate Credit Card\nType: Corporate Expense Card  \nKey Features:\n- Centralized billing\n- Expense management tools\n- Multiple employee cards\n- Detailed expense reports\n- Integration with accounting software\n- Travel and entertainment benefits\n\nEligibility:\n- Registered business entity\n- Minimum annual turnover: LKR 10 million"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Sampath Visa Corporate Credit Card\nType: Corporate Card  \nKey Features:\n- Business travel benefits\n- Corporate rewards program\n- Expense tracking and reporting\n- Customizable spending limits per employee\n- Online corporate portal\n\nEligibility:\n- Registered company\n- Good business credit history\n\n---\n\n Specialized Corporate Cards"
+        "chunk_text": "Wasana Visa Corporate Credit Card\nType: Corporate Card  \nKey Features:\n- Business travel benefits\n- Corporate rewards program\n- Expense tracking and reporting\n- Customizable spending limits per employee\n- Online corporate portal\n\nEligibility:\n- Registered company\n- Good business credit history\n\n---\n\n Specialized Corporate Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Specialized Corporate Cards\n\n Sampath Corporate Fuel Card\nType: Fleet Management Card  \nPurpose: Vehicle fuel purchases  \nKey Features:\n- Accepted at major fuel stations nationwide\n- Real-time fuel expense tracking\n- Detailed consumption reports by vehicle\n- Driver/vehicle-wise limits\n- No cash withdrawal (fuel only)\n- Monthly consolidated billing\n- Fleet management dashboard"
+        "chunk_text": "---\n\n Specialized Corporate Cards\n\n Wasana Corporate Fuel Card\nType: Fleet Management Card  \nPurpose: Vehicle fuel purchases  \nKey Features:\n- Accepted at major fuel stations nationwide\n- Real-time fuel expense tracking\n- Detailed consumption reports by vehicle\n- Driver/vehicle-wise limits\n- No cash withdrawal (fuel only)\n- Monthly consolidated billing\n- Fleet management dashboard"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -453,7 +453,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Sampath Visa Purchasing Credit Card\nType: Procurement Card  \nPurpose: Business purchasing and procurement  \nKey Features:\n- Supplier payment streamlining\n- Purchase order management\n- Approval workflows\n- Merchant category restrictions\n- Detailed purchasing reports\n- Integration with ERP systems\n\nEligibility:\n- Medium to large enterprises\n- Established procurement processes\n\n---"
+        "chunk_text": "Wasana Visa Purchasing Credit Card\nType: Procurement Card  \nPurpose: Business purchasing and procurement  \nKey Features:\n- Supplier payment streamlining\n- Purchase order management\n- Approval workflows\n- Merchant category restrictions\n- Detailed purchasing reports\n- Integration with ERP systems\n\nEligibility:\n- Medium to large enterprises\n- Established procurement processes\n\n---"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -461,7 +461,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Common Customer Questions Covered\n- What credit cards does Sampath Bank offer?\n- Difference between Visa Infinite and Visa Signature?\n- How to apply for a credit card?\n- What is the income requirement for premium cards?\n- Do you have cards for doctors, lawyers, engineers?\n- Alumni credit cards for school old boys associations?\n- Corporate credit cards for businesses?"
+        "chunk_text": "Common Customer Questions Covered\n- What credit cards does Wasana Bank offer?\n- Difference between Visa Infinite and Visa Signature?\n- How to apply for a credit card?\n- What is the income requirement for premium cards?\n- Do you have cards for doctors, lawyers, engineers?\n- Alumni credit cards for school old boys associations?\n- Corporate credit cards for businesses?"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -469,7 +469,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\nDocument Type: Product Catalog  \nLast Updated: October 2025  \nFor Applications: Visit nearest Sampath Bank branch or apply online at www.sampath.lk"
+        "chunk_text": "---\n\nDocument Type: Product Catalog  \nLast Updated: October 2025  \nFor Applications: Visit nearest Wasana Bank branch or apply online at www.wasana.lk"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
@@ -481,7 +481,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
-        "chunk_text": "Security Warning\nNever share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links."
+        "chunk_text": "Security Warning\nNever share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/workflows/card_lost_block.md",
@@ -509,7 +509,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
-        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+        "chunk_text": "---\nid: faqs.base\ntitle: FAQs — Quick Answers\ntags: [faq, quick_answers]\nproduct_area: generic\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n- Can I open an account online?  \n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
@@ -517,7 +517,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
-        "chunk_text": "- How to receive money from abroad?  \n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+        "chunk_text": "- How to receive money from abroad?  \n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/accounts/opening_workflow.md",
@@ -573,7 +573,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
-        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Sampath Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
+        "chunk_text": "---\nid: persona.nova\ntitle: Nova Persona & Call Style\ntags: [persona, tone, greeting, closing, capture_rules]\nproduct_area: agent\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Nova — Inbound Banking Representative (Wasana Bank PLC)\n\nRole: Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
@@ -581,11 +581,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
-        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Sampath Bank. Now, you mentioned…”"
+        "chunk_text": "Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask one question at a time. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: “Haha, no — just a person here at Wasana Bank. Now, you mentioned…”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
-        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Sampath Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
+        "chunk_text": "Greeting Flow\n- “Hello, this is Nova at Wasana Bank. How can I help you today?”\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
@@ -597,7 +597,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
-        "chunk_text": "---\nid: pawning.thilina\ntitle: Sampath Thilina Gift Voucher\ncategory: pawning\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\n---\n\n Overview\nSampath Thilina is a gift voucher scheme that allows customers to save for gold jewellery purchases through regular monthly installments. It's an ideal way to accumulate savings for gold purchases over time."
+        "chunk_text": "---\nid: pawning.thilina\ntitle: Wasana Thilina Gift Voucher\ncategory: pawning\nproduct_area: accounts\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\n---\n\n Overview\nWasana Thilina is a gift voucher scheme that allows customers to save for gold jewellery purchases through regular monthly installments. It's an ideal way to accumulate savings for gold purchases over time."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
@@ -605,7 +605,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
-        "chunk_text": "How It Works\n1. Open a Sampath Thilina Gift Voucher account\n2. Make regular monthly deposits\n3. Accumulate savings over the chosen period\n4. Use the accumulated amount to purchase gold jewellery\n\n Eligibility\n- Available for Sri Lankan citizens above 18 years of age\n- Valid identification document required (NIC, Passport, or Driving License)"
+        "chunk_text": "How It Works\n1. Open a Wasana Thilina Gift Voucher account\n2. Make regular monthly deposits\n3. Accumulate savings over the chosen period\n4. Use the accumulated amount to purchase gold jewellery\n\n Eligibility\n- Available for Sri Lankan citizens above 18 years of age\n- Valid identification document required (NIC, Passport, or Driving License)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/thilina_gift_voucher.md",
@@ -621,19 +621,19 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
-        "chunk_text": "---\nid: pawning.randiriya\ntitle: Sampath Randiriya Pawning Facility - Gold Jewellery Loan\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, randiriya, pledge, collateral]\nkeywords: [pawning, pawn, jewellery loan, gold loan, Randiriya, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, රන්දිරිය, ගිරවා ගන්න, රන් ආභරණ]"
+        "chunk_text": "---\nid: pawning.randiriya\ntitle: Wasana Randiriya Pawning Facility - Gold Jewellery Loan\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, randiriya, pledge, collateral]\nkeywords: [pawning, pawn, jewellery loan, gold loan, Randiriya, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, රන්දිරිය, ගිරවා ගන්න, රන් ආභරණ]"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
-        "chunk_text": "sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, සම්පත් රන්දිරිය]\n---"
+        "chunk_text": "sinhala_terms: [පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, වාසනා රන්දිරිය]\n---"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
-        "chunk_text": "Overview (සංක්ෂේපය)\n\nSampath Randiriya Pawning Facility (සම්පත් රන්දිරිය පෝනිං සේවාව) is a gold jewellery loan service that provides customers with instant cash against pledged gold or gold jewellery. It is designed to help customers meet urgent financial requirements without selling their valuables.\n\nAlso known as: Pawning Loan, Jewellery Loan, Gold Loan, ආභරණ ණය, රන් ණය, පෝනිං"
+        "chunk_text": "Overview (සංක්ෂේපය)\n\nWasana Randiriya Pawning Facility (වාසනා රන්දිරිය පෝනිං සේවාව) is a gold jewellery loan service that provides customers with instant cash against pledged gold or gold jewellery. It is designed to help customers meet urgent financial requirements without selling their valuables.\n\nAlso known as: Pawning Loan, Jewellery Loan, Gold Loan, ආභරණ ණය, රන් ණය, පෝනිං"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
-        "chunk_text": "Key Benefits\n- A maximum loan amount for a Sovereign (8g) 22K/24K gold.\n- Competitive low interest rates.\n- Purity checking is performed using modern technology without damaging the gold.\n- No guarantors are required.\n- Payments can be made in installments through any Sampath Bank branch or Sampath Vishwa.\n- Small loan requests may also be considered (conditions apply)."
+        "chunk_text": "Key Benefits\n- A maximum loan amount for a Sovereign (8g) 22K/24K gold.\n- Competitive low interest rates.\n- Purity checking is performed using modern technology without damaging the gold.\n- No guarantors are required.\n- Payments can be made in installments through any Wasana Bank branch or Wasana Vishwa.\n- Small loan requests may also be considered (conditions apply)."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
@@ -649,23 +649,23 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/randiriya_pawning.md",
-        "chunk_text": "Repayment Options\n- Full payment at maturity\n- Installment payments through any Sampath Bank branch\n- Online payments via Sampath Vishwa internet banking\n\n Important Notes\n- Loan amount depends on gold weight and purity (22K/24K)\n- Items are stored with maximum security\n- Full confidentiality maintained\n- No need to sell your valuables for temporary financial needs"
+        "chunk_text": "Repayment Options\n- Full payment at maturity\n- Installment payments through any Wasana Bank branch\n- Online payments via Wasana Vishwa internet banking\n\n Important Notes\n- Loan amount depends on gold weight and purity (22K/24K)\n- Items are stored with maximum security\n- Full confidentiality maintained\n- No need to sell your valuables for temporary financial needs"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "---\nid: pawning.overview\ntitle: Sampath Bank Pawning Services - Jewellery Loans\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, pledge, collateral, gold-loan, jewellery-loan]"
+        "chunk_text": "---\nid: pawning.overview\ntitle: Wasana Bank Pawning Services - Jewellery Loans\ncategory: pawning\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-10-22\nlanguage: en\ntags: [pawning, jewellery, gold, pawn, loan, pledge, collateral, gold-loan, jewellery-loan]"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "keywords: [pawning, pawn, jewellery loan, gold loan, jewellery pledge, gold pledge, ආභරණ, ආභරණ ණය, පෝනිං, පවුන්, රන්, රන් ආභරණ, ගිරවීම, ගිරවා, සම්පත් රන්දිරිය, Randiriya]\n---"
+        "chunk_text": "keywords: [pawning, pawn, jewellery loan, gold loan, jewellery pledge, gold pledge, ආභරණ, ආභරණ ණය, පෝනිං, පවුන්, රන්, රන් ආභරණ, ගිරවීම, ගිරවා, වාසනා රන්දිරිය, Randiriya]\n---"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Sampath Bank Pawning Services (ආභරණ ණය සේවාව)\n\n What is Pawning? (පෝනිං/ආභරණ ණය කියන්නේ මොකක්ද?)\n\nPawning (also called jewellery loan or gold loan) is a secured loan service where you can get instant cash by pledging your gold or gold jewellery items as collateral. You don't need to sell your valuables - you simply pledge them temporarily and get them back after repaying the loan."
+        "chunk_text": "Wasana Bank Pawning Services (ආභරණ ණය සේවාව)\n\n What is Pawning? (පෝනිං/ආභරණ ණය කියන්නේ මොකක්ද?)\n\nPawning (also called jewellery loan or gold loan) is a secured loan service where you can get instant cash by pledging your gold or gold jewellery items as collateral. You don't need to sell your valuables - you simply pledge them temporarily and get them back after repaying the loan."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Sinhala Terms:\n- පෝනිං (Pawning)\n- පවුන් (Pawn)\n- ආභරණ ණය (Jewellery Loan)\n- රන් ණය (Gold Loan)\n- ගිරවීම (Pledging)\n- ගිරවා ගන්න (To pledge/pawn)\n\n Available Pawning Products\n\n 1. Sampath Randiriya Pawning Facility (සම්පත් රන්දිරිය)"
+        "chunk_text": "Sinhala Terms:\n- පෝනිං (Pawning)\n- පවුන් (Pawn)\n- ආභරණ ණය (Jewellery Loan)\n- රන් ණය (Gold Loan)\n- ගිරවීම (Pledging)\n- ගිරවා ගන්න (To pledge/pawn)\n\n Available Pawning Products\n\n 1. Wasana Randiriya Pawning Facility (වාසනා රන්දිරිය)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
@@ -681,15 +681,15 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "How to Apply:\n1. Visit nearest Sampath Bank branch with your gold items\n2. Present valid identification\n3. Gold purity will be tested using modern technology\n4. Loan amount calculated based on weight and purity\n5. Instant approval and cash disbursement\n6. Your jewellery stored securely"
+        "chunk_text": "How to Apply:\n1. Visit nearest Wasana Bank branch with your gold items\n2. Present valid identification\n3. Gold purity will be tested using modern technology\n4. Loan amount calculated based on weight and purity\n5. Instant approval and cash disbursement\n6. Your jewellery stored securely"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Repayment Options:\n- Pay in full at maturity\n- Pay in installments through any branch\n- Online payment via Sampath Vishwa\n\n 2. Sampath Thilina Gift Voucher (සම්පත් තිළිණ)\n\nWhat it is:\n- A savings plan to purchase gold jewellery\n- NOT a loan - it's a savings product\n- Save monthly and get a gift voucher"
+        "chunk_text": "Repayment Options:\n- Pay in full at maturity\n- Pay in installments through any branch\n- Online payment via Wasana Vishwa\n\n 2. Wasana Thilina Gift Voucher (වාසනා තිළිණ)\n\nWhat it is:\n- A savings plan to purchase gold jewellery\n- NOT a loan - it's a savings product\n- Save monthly and get a gift voucher"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Key Features:\n- Monthly installment savings\n- Flexible deposit amounts\n- Gift voucher upon maturity\n- Use at authorized jewellery outlets\n\n Common Questions (නිතර අසන ප්‍රශ්න)\n\n Q: How do I get a pawning loan? (පෝනින් ණයක් ගන්නේ කොහොමද?)\nA: Visit any Sampath Bank branch with your gold jewellery and valid ID. We'll test the purity, calculate the loan amount, and give you instant cash."
+        "chunk_text": "Key Features:\n- Monthly installment savings\n- Flexible deposit amounts\n- Gift voucher upon maturity\n- Use at authorized jewellery outlets\n\n Common Questions (නිතර අසන ප්‍රශ්න)\n\n Q: How do I get a pawning loan? (පෝනින් ණයක් ගන්නේ කොහොමද?)\nA: Visit any Wasana Bank branch with your gold jewellery and valid ID. We'll test the purity, calculate the loan amount, and give you instant cash."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
@@ -701,11 +701,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Q: How do I get my jewellery back? (මගේ ආභරණ ආපහු ගන්නේ කොහොමද?)\nA: Once you repay the loan in full (either at maturity or through installments), your jewellery will be returned to you immediately.\n\n Q: Can I pay in installments? (වාර වශයෙන් ගෙවන්න පුළුවන්ද?)\nA: Yes! You can pay through any Sampath Bank branch or via Sampath Vishwa online banking."
+        "chunk_text": "Q: How do I get my jewellery back? (මගේ ආභරණ ආපහු ගන්නේ කොහොමද?)\nA: Once you repay the loan in full (either at maturity or through installments), your jewellery will be returned to you immediately.\n\n Q: Can I pay in installments? (වාර වශයෙන් ගෙවන්න පුළුවන්ද?)\nA: Yes! You can pay through any Wasana Bank branch or via Wasana Vishwa online banking."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "Q: What are the interest rates? (පොලී අනුපාත මොනවද?)\nA: Competitive rates are offered based on loan amount and tenure. Contact your nearest branch for current rates.\n\n Why Choose Sampath Bank for Pawning?"
+        "chunk_text": "Q: What are the interest rates? (පොලී අනුපාත මොනවද?)\nA: Competitive rates are offered based on loan amount and tenure. Contact your nearest branch for current rates.\n\n Why Choose Wasana Bank for Pawning?"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
@@ -717,7 +717,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "5. Instant Approval\n   └─> Get cash immediately\n\n6. Secure Storage\n   └─> Your items stored with maximum security\n\n7. Repayment\n   └─> Pay in full or installments\n\n8. Get Your Jewellery Back\n   └─> Items returned upon full repayment\n\n\n Contact for Pawning Services\n\n📞 Hotline: 011 2 300 500  \n🌐 Website: www.sampath.lk  \n🏢 Visit: Any Sampath Bank branch  \n⏰ Hours: 9:00 AM - 3:00 PM (working days)"
+        "chunk_text": "5. Instant Approval\n   └─> Get cash immediately\n\n6. Secure Storage\n   └─> Your items stored with maximum security\n\n7. Repayment\n   └─> Pay in full or installments\n\n8. Get Your Jewellery Back\n   └─> Items returned upon full repayment\n\n\n Contact for Pawning Services\n\n📞 Hotline: 011 2 300 500  \n🌐 Website: www.wasana.lk  \n🏢 Visit: Any Wasana Bank branch  \n⏰ Hours: 9:00 AM - 3:00 PM (working days)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
@@ -725,15 +725,15 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/pawning/pawning_overview.md",
-        "chunk_text": "---\n\n Keywords for Search\nPawning, pawn loan, jewellery loan, gold loan, pledge gold, pledge jewellery, Randiriya, Sampath pawning, gold pawn, jewellery pawn, instant cash, gold collateral, jewellery collateral, secured loan, gold-backed loan, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, ගිරවා ගන්න, සම්පත් රන්දිරිය, රන් ආභරණ, jewellery pledge, gold pledge"
+        "chunk_text": "---\n\n Keywords for Search\nPawning, pawn loan, jewellery loan, gold loan, pledge gold, pledge jewellery, Randiriya, Wasana pawning, gold pawn, jewellery pawn, instant cash, gold collateral, jewellery collateral, secured loan, gold-backed loan, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, ගිරවා ගන්න, වාසනා රන්දිරිය, රන් ආභරණ, jewellery pledge, gold pledge"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/digital/channels.md",
-        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Sampath Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+        "chunk_text": "---\nid: digital.channels\ntitle: Digital Channels & Capabilities\ntags: [channels, digital, app, vishwa, wepay]\nproduct_area: channels\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Internet Banking\n- Wasana Vishwa (Retail) — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/digital/channels.md",
-        "chunk_text": "Corporate Banking\n- Sampath Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Sampath Vishwa Retail (iOS/Android)\n- Sampath WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Sampath Slip‑Less — paperless deposit experience at branches."
+        "chunk_text": "Corporate Banking\n- Wasana Vishwa Corporate — bulk payments & payroll, approvals & workflows, supplier finance.\n\n Mobile Apps\n- Wasana Vishwa Retail (iOS/Android)\n- Wasana WePay (digital wallet) — LANKAQR payments, card/account linking, P2P transfers.\n- Wasana Slip‑Less — paperless deposit experience at branches."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -789,11 +789,11 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "change per CBSL guidelines and bank policy. Never share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links. Security, KYC/AML, Privacy & Fraud Controls Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles. Monitor unusual patterns; sanctions screening at onboarding & ongoing; report STR/SAR as required. Data encryption in"
+        "chunk_text": "change per CBSL guidelines and bank policy. Never share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links. Security, KYC/AML, Privacy & Fraud Controls Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles. Monitor unusual patterns; sanctions screening at onboarding & ongoing; report STR/SAR as required. Data encryption in"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "report STR/SAR as required. Data encryption in transit/at rest; role‑based access; consent for data sharing. OTP/2FA, device binding, transaction velocity checks, card tokenization. Acknowledge promptly; typical resolution within 7–14 working days; escalation path available. Workflow — Account Opening Customer submits application via Sampath Vishwa or branch. Verify customer identity and address."
+        "chunk_text": "report STR/SAR as required. Data encryption in transit/at rest; role‑based access; consent for data sharing. OTP/2FA, device binding, transaction velocity checks, card tokenization. Acknowledge promptly; typical resolution within 7–14 working days; escalation path available. Workflow — Account Opening Customer submits application via Wasana Vishwa or branch. Verify customer identity and address."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -809,7 +809,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "based on internal guidelines. Investigate the complaint, involving relevant departments if necessary. Resolve the complaint and communicate the outcome to the customer. If unresolved, escalate the complaint as per the escalation matrix. guardrails security.compliance Workflow — Loan Application Customer submits loan application via Sampath Vishwa or branch. Verify customer identity, income, and"
+        "chunk_text": "based on internal guidelines. Investigate the complaint, involving relevant departments if necessary. Resolve the complaint and communicate the outcome to the customer. If unresolved, escalate the complaint as per the escalation matrix. guardrails security.compliance Workflow — Loan Application Customer submits loan application via Wasana Vishwa or branch. Verify customer identity, income, and"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -833,7 +833,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- Foreign Currency Accounts Bank Profile & Contacts Sampath Bank PLC Sri Lanka Central Bank of Sri Lanka No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka 1332 +94 11 230 3050 info@sampath.lk +94 11 230 0604 LKR Asia/Colombo Mon–Fri 09:00–17:00 (branch hours may vary) branch phone email chat Sampath Vishwa WePay EMI Calculator **Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)"
+        "chunk_text": "- Foreign Currency Accounts Bank Profile & Contacts Wasana Bank PLC Sri Lanka Central Bank of Sri Lanka No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka 1332 +94 11 230 3050 info@wasana.lk +94 11 230 0604 LKR Asia/Colombo Mon–Fri 09:00–17:00 (branch hours may vary) branch phone email chat Wasana Vishwa WePay EMI Calculator **Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -841,15 +841,15 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "**Output:** EMI in LKR\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Digital Channels & Capabilities ## Internet Banking\n- **Sampath Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+        "chunk_text": "**Output:** EMI in LKR\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Digital Channels & Capabilities ## Internet Banking\n- **Wasana Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "## Corporate Banking\n- **Sampath Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance."
+        "chunk_text": "## Corporate Banking\n- **Wasana Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "## Mobile Apps\n- **Sampath Vishwa Retail** (iOS/Android)\n- **Sampath WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.\n- **Sampath Slip‑Less** — paperless deposit experience at branches. FAQs — Quick Answers - **Can I open an account online?**\n  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
+        "chunk_text": "## Mobile Apps\n- **Wasana Vishwa Retail** (iOS/Android)\n- **Wasana WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.\n- **Wasana Slip‑Less** — paperless deposit experience at branches. FAQs — Quick Answers - **Can I open an account online?**\n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -857,7 +857,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- **How to receive money from abroad?**\n  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account. Guardrails — Safety & Policy ## Do Not\n- Disclose internal risk thresholds.\n- Promise loan approval before assessment.\n- Collect full card details/CVV/passwords in chat.\n- Share customer data without authentication."
+        "chunk_text": "- **How to receive money from abroad?**\n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account. Guardrails — Safety & Policy ## Do Not\n- Disclose internal risk thresholds.\n- Promise loan approval before assessment.\n- Collect full card details/CVV/passwords in chat.\n- Share customer data without authentication."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -865,7 +865,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- Follow KYC/AML & privacy obligations at all times. Dialog Intents & Policy OpenAccount account_type AccountType True channel Channel False To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You’ll need ID and address proof. Which route suits you? accounts.opening_workflow LoanInquiry loan_type LoanType True amount sys.number False"
+        "chunk_text": "- Follow KYC/AML & privacy obligations at all times. Dialog Intents & Policy OpenAccount account_type AccountType True channel Channel False To open a {account_type} account with Wasana, I can start via Wasana Vishwa/eKYC or book a branch visit. You’ll need ID and address proof. Which route suits you? accounts.opening_workflow LoanInquiry loan_type LoanType True amount sys.number False"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -877,7 +877,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "Your ticket ID is {ticket_id}. Expected TAT is {tat}. I’ll update you and escalate if needed. Loan Catalog — Quick Cards ### Personal — *Sampath Samachara*"
+        "chunk_text": "Your ticket ID is {ticket_id}. Expected TAT is {tat}. I’ll update you and escalate if needed. Loan Catalog — Quick Cards ### Personal — *Wasana Samachara*"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -901,7 +901,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- **CEFTS** — Real‑time interbank transfers **up to LKR 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies). Nova Persona & Call Style # Nova — Inbound Banking Representative (Sampath Bank PLC)"
+        "chunk_text": "- **CEFTS** — Real‑time interbank transfers **up to LKR 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies). Nova Persona & Call Style # Nova — Inbound Banking Representative (Wasana Bank PLC)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -909,7 +909,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "## Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask **one question at a time**. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: *“Haha, no — just a person here at Sampath Bank. Now, you mentioned…”*\n\n## Initial Response\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
+        "chunk_text": "## Human Speech & Behavior\n- Use active listening signals: “hmm… I see… right…”\n- Ask **one question at a time**. Never interrupt; let the caller finish.\n- If asked “are you a bot,” deflect playfully: *“Haha, no — just a person here at Wasana Bank. Now, you mentioned…”*\n\n## Initial Response\n- If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -921,7 +921,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "## Safety Notes\n- Use the Knowledge Base as single source of truth.\n- “Figures are indicative until verified by the bank.” Remittances — e‑Remittance & SWIFT - **Sampath e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.\n- **SWIFT** — International wire transfers; FX conversion at bank rates. Response Templates ### Ask Documents (Individual)"
+        "chunk_text": "## Safety Notes\n- Use the Knowledge Base as single source of truth.\n- “Figures are indicative until verified by the bank.” Remittances — e‑Remittance & SWIFT - **Wasana e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.\n- **SWIFT** — International wire transfers; FX conversion at bank rates. Response Templates ### Ask Documents (Individual)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -933,7 +933,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "### Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy.\n\n### Security Warning\nNever share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links. Security, KYC/AML, Privacy & Fraud Controls ## KYC\n- Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles."
+        "chunk_text": "### Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy.\n\n### Security Warning\nNever share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links. Security, KYC/AML, Privacy & Fraud Controls ## KYC\n- Verify identity & address; periodic refresh; enhanced checks for higher‑risk profiles."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",

@@ -21,4 +21,4 @@ For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimat
 Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.
 
 ### Security Warning
-Never share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links.
+Never share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links.

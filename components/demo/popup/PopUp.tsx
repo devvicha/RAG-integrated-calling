@@ -14,7 +14,7 @@ const PopUp: React.FC<PopUpProps> = ({ onClose }) => {
   return (
     <div className="popup-overlay">
       <div className="popup-content">
-        <h2>සම්පත් බැංකු හඬ සහායක වෙත සාදරයෙන් පිළිගනිමු</h2>
+        <h2>වාසනා බැංකු හඬ සහායක වෙත සාදරයෙන් පිළිගනිමු</h2>
         <p>මෙය අපගේ AI බලයෙන් ක්‍රියාත්මක වන පාරිභෝගික සහාය සේවාවේ අන්තර්ක්‍රියාකාරී ආදර්ශනයකි.</p>
         <p>ආරම්භ කිරීමට:</p>
         <ol>

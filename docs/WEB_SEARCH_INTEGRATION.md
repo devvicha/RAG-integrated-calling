@@ -1,4 +1,4 @@
-# Web Search Integration for Sampath Bank RAG System
+# Web Search Integration for Wasana Bank RAG System
 
 ## Overview
 Integrated web search as a fallback mechanism when the RAG knowledge base returns no results or insufficient information. The system now follows a two-tier search strategy:
@@ -16,11 +16,11 @@ Integrated web search as a fallback mechanism when the RAG knowledge base return
   - "ඉතිරිකිරීම් ගිණුම්" → "savings accounts"
 
 ### 2. **Web Search Tool**
-- **Name**: `web_search_sampath_bank`
-- **Purpose**: Search the web for Sampath Bank information when RAG fails
+- **Name**: `web_search_wasana_bank`
+- **Purpose**: Search the web for Wasana Bank information when RAG fails
 - **API**: Google Custom Search API (with fallback)
-- **Scope**: Only searches for Sampath Bank-related content
-- **Query Enhancement**: Automatically adds "Sampath Bank Sri Lanka" to queries
+- **Scope**: Only searches for Wasana Bank-related content
+- **Query Enhancement**: Automatically adds "Wasana Bank Sri Lanka" to queries
 
 ### 3. **Search Flow**
 ```
@@ -44,7 +44,7 @@ Web search results are formatted in Sinhala with:
 - Result title and snippet
 - Source URL
 - Disclaimer about web-sourced information
-- Recommendation to verify with official Sampath Bank sources
+- Recommendation to verify with official Wasana Bank sources
 
 ## Implementation Files
 
@@ -52,7 +52,7 @@ Web search results are formatted in Sinhala with:
 **Purpose**: Handles web search API calls and result formatting
 
 **Key Functions**:
-- `searchSampathBankWeb(query: string)`: Main search function
+- `searchWasanaBankWeb(query: string)`: Main search function
 - `formatWebSearchResults(response)`: Formats results in Sinhala
 - `getFallbackResults()`: Provides default results when API unavailable
 
@@ -60,18 +60,18 @@ Web search results are formatted in Sinhala with:
 - Requires environment variables:
   - `NEXT_PUBLIC_GOOGLE_SEARCH_API_KEY`
   - `NEXT_PUBLIC_GOOGLE_SEARCH_ENGINE_ID`
-- Falls back to hardcoded Sampath Bank links if API not configured
+- Falls back to hardcoded Wasana Bank links if API not configured
 
 ### 2. `/lib/services/function-dispatcher-new.ts` (UPDATED)
 **Changes**:
 - Added `handleWebSearch()` method
-- Added `web_search_sampath_bank` case to function switch
+- Added `web_search_wasana_bank` case to function switch
 - Imported web search service
 - Added to available functions list
 
 ### 3. `/lib/tools/customer-support.ts` (UPDATED)
 **Changes**:
-- Added `web_search_sampath_bank` tool definition
+- Added `web_search_wasana_bank` tool definition
 - Updated `search_knowledge` tool description to indicate priority
 - Both tools now require English queries
 
@@ -110,7 +110,7 @@ NEXT_PUBLIC_GOOGLE_SEARCH_ENGINE_ID=your_search_engine_id_here
 **System Process**:
 1. Translate: "home loan interest rate"
 2. Search RAG knowledge base
-3. If no results → Search web with "Sampath Bank Sri Lanka home loan interest rate"
+3. If no results → Search web with "Wasana Bank Sri Lanka home loan interest rate"
 4. Format and respond in Sinhala
 
 ### Example 2: RAG has results
@@ -134,7 +134,7 @@ NEXT_PUBLIC_GOOGLE_SEARCH_ENGINE_ID=your_search_engine_id_here
 ## Fallback Mechanism
 
 If Google API is not configured or fails, the system provides:
-- Sampath Bank official website
+- Wasana Bank official website
 - Customer care hotline
 - Branch locator link
 - Contact information
@@ -179,7 +179,7 @@ Look for these log messages:
 
 1. **Smart Query Expansion**: Enhance English translations with banking terms
 2. **Result Caching**: Cache web search results to reduce API calls
-3. **Custom Ranking**: Prioritize official Sampath Bank domains
+3. **Custom Ranking**: Prioritize official Wasana Bank domains
 4. **Multi-language Results**: Support English responses when customer uses English
 5. **Search Analytics**: Track which queries trigger web search vs RAG
 

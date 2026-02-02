@@ -9,7 +9,7 @@ pii: false
 ---
 
 - **Can I open an account online?**  
-  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.
+  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.
 
 - **How do I calculate my home‑loan EMI?**  
   Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.
@@ -21,4 +21,4 @@ pii: false
   Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
 
 - **How to receive money from abroad?**  
-  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.
+  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.

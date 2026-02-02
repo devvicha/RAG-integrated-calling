@@ -42,7 +42,7 @@ function calculateEmi(args: { loan_amount: number; annual_rate_percent: number; 
   // Validate inputs
   if (loan_amount < 50000) {
     return {
-      result: `සමාවෙන්න, සම්පත් බැංකුව රුපියල් 50,000 ට වඩා අඩු ණය ඉල්ලීම් සලකා බලන්නේ නැහැ.`,
+      result: `සමාවෙන්න, වාසනා බැංකුව රුපියල් 50,000 ට වඩා අඩු ණය ඉල්ලීම් සලකා බලන්නේ නැහැ.`,
       sources: [],
       grounding_chunks: []
     };

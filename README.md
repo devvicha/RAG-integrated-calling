@@ -60,7 +60,7 @@ If you prefer manual setup:
 1. **Create and activate conda environment**:
    ```bash
    conda env create -f environment.yml
-   conda activate sampath-bank-env
+   conda activate wasana-bank-env
    ```
 
 2. **Install dependencies**:
@@ -90,7 +90,7 @@ If you prefer to use Node.js without conda:
 
 Use the new Python entry point when you want to host the assistant on Streamlit Cloud.
 
-1. Ensure the Conda environment is active: `conda activate sampath-bank-env`
+1. Ensure the Conda environment is active: `conda activate wasana-bank-env`
 2. Install the Python requirements: `pip install -r requirements.txt`
 3. Provide your Gemini key via `export GEMINI_API_KEY="your-key"` (or Streamlit secrets)
 4. Start the app locally: `streamlit run streamlit_app.py`

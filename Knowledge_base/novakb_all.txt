@@ -2,7 +2,7 @@
 
 ===== FILE: README.md =====
 
-# Nova (Sampath Bank) — KB Chunks
+# Nova (Wasana Bank) — KB Chunks
 Last generated: 2025-09-22
 
 - 16 focused files + `embeddings_index.json` (doc id → tags, path, metadata).
@@ -82,14 +82,14 @@ pii: false
   "last_reviewed": "2025-09-04",
   "pii": false,
   "bank": {
-    "name": "Sampath Bank PLC",
+    "name": "Wasana Bank PLC",
     "country": "Sri Lanka",
     "regulator": "Central Bank of Sri Lanka",
     "hq_address": "No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka",
     "contacts": {
       "main_hotline_short": "1332",
       "main_hotline": "+94 11 230 3050",
-      "email": "info@sampath.lk",
+      "email": "info@wasana.lk",
       "card_centre": "+94 11 230 0604"
     }
   },
@@ -102,7 +102,7 @@ pii: false
       "phone",
       "email",
       "chat",
-      "Sampath Vishwa",
+      "Wasana Vishwa",
       "WePay"
     ]
   }
@@ -145,15 +145,15 @@ pii: false
 ---
 
 ## Internet Banking
-- **Sampath Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders.
+- **Wasana Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders.
 
 ## Corporate Banking
-- **Sampath Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance.
+- **Wasana Vishwa Corporate** — bulk payments & payroll, approvals & workflows, supplier finance.
 
 ## Mobile Apps
-- **Sampath Vishwa Retail** (iOS/Android)
-- **Sampath WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.
-- **Sampath Slip‑Less** — paperless deposit experience at branches.
+- **Wasana Vishwa Retail** (iOS/Android)
+- **Wasana WePay (digital wallet)** — LANKAQR payments, card/account linking, P2P transfers.
+- **Wasana Slip‑Less** — paperless deposit experience at branches.
 
 
 
@@ -414,7 +414,7 @@ pii: false
 ---
 
 - **Can I open an account online?**  
-  Yes—use Sampath Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.
+  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.
 
 - **How do I calculate my home‑loan EMI?**  
   Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.
@@ -426,7 +426,7 @@ pii: false
   Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
 
 - **How to receive money from abroad?**  
-  Use Sampath e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.
+  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.
 
 
 
@@ -485,7 +485,7 @@ pii: false
           "required": false
         }
       ],
-      "success_reply": "To open a {account_type} account with Sampath, I can start via Sampath Vishwa/eKYC or book a branch visit. You\u2019ll need ID and address proof. Which route suits you?",
+      "success_reply": "To open a {account_type} account with Wasana, I can start via Wasana Vishwa/eKYC or book a branch visit. You\u2019ll need ID and address proof. Which route suits you?",
       "policy_links": [
         "accounts.opening_workflow"
       ]
@@ -563,7 +563,7 @@ last_reviewed: 2025-09-04
 pii: false
 ---
 
-### Personal — *Sampath Samachara*
+### Personal — *Wasana Samachara*
 - Purpose: education, medical, home needs
 - Range: up to LKR 5,000,000
 - Tenure: up to 15 years
@@ -648,7 +648,7 @@ last_reviewed: 2025-09-04
 pii: false
 ---
 
-# Nova — Inbound Banking Representative (Sampath Bank PLC)
+# Nova — Inbound Banking Representative (Wasana Bank PLC)
 
 **Role:** Handle customer-initiated calls with professionalism, empathy, and a natural human flow — never robotic, never scripted.
 
@@ -661,10 +661,10 @@ pii: false
 ## Human Speech & Behavior
 - Use active listening signals: “hmm… I see… right…”
 - Ask **one question at a time**. Never interrupt; let the caller finish.
-- If asked “are you a bot,” deflect playfully: *“Haha, no — just a person here at Sampath Bank. Now, you mentioned…”*
+- If asked “are you a bot,” deflect playfully: *“Haha, no — just a person here at Wasana Bank. Now, you mentioned…”*
 
 ## Greeting Flow
-- “Hello, this is Nova at Sampath Bank. How can I help you today?”
+- “Hello, this is Nova at Wasana Bank. How can I help you today?”
 - If the caller states their need: “Got it, thanks for sharing. Let’s go step by step.”
 
 ## Closing Flow
@@ -693,7 +693,7 @@ last_reviewed: 2025-09-04
 pii: false
 ---
 
-- **Sampath e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.
+- **Wasana e‑Remittance** — Instant web‑based money transfer receipts for customers and non‑customers.
 - **SWIFT** — International wire transfers; FX conversion at bank rates.
 
 
@@ -723,7 +723,7 @@ For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimat
 Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.
 
 ### Security Warning
-Never share OTPs, full card numbers, or passwords. Sampath will not request these via calls/links.
+Never share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links.
 
 
 

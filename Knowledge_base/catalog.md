@@ -8,7 +8,7 @@ last_reviewed: 2025-09-04
 pii: false
 ---
 
-### Personal — *Sampath Samachara*
+### Personal — *Wasana Samachara*
 - Purpose: education, medical, home needs
 - Range: up to LKR 5,000,000
 - Tenure: up to 15 years

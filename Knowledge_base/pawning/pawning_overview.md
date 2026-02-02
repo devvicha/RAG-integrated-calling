@@ -1,16 +1,16 @@
 ---
 id: pawning.overview
-title: Sampath Bank Pawning Services - Jewellery Loans
+title: Wasana Bank Pawning Services - Jewellery Loans
 category: pawning
 product_area: loans
 requires_auth: false
 last_reviewed: 2025-10-22
 language: en
 tags: [pawning, jewellery, gold, pawn, loan, pledge, collateral, gold-loan, jewellery-loan]
-keywords: [pawning, pawn, jewellery loan, gold loan, jewellery pledge, gold pledge, ආභරණ, ආභරණ ණය, පෝනිං, පවුන්, රන්, රන් ආභරණ, ගිරවීම, ගිරවා, සම්පත් රන්දිරිය, Randiriya]
+keywords: [pawning, pawn, jewellery loan, gold loan, jewellery pledge, gold pledge, ආභරණ, ආභරණ ණය, පෝනිං, පවුන්, රන්, රන් ආභරණ, ගිරවීම, ගිරවා, වාසනා රන්දිරිය, Randiriya]
 ---
 
-# Sampath Bank Pawning Services (ආභරණ ණය සේවාව)
+# Wasana Bank Pawning Services (ආභරණ ණය සේවාව)
 
 ## What is Pawning? (පෝනිං/ආභරණ ණය කියන්නේ මොකක්ද?)
 
@@ -26,7 +26,7 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 
 ## Available Pawning Products
 
-### 1. Sampath Randiriya Pawning Facility (සම්පත් රන්දිරිය)
+### 1. Wasana Randiriya Pawning Facility (වාසනා රන්දිරිය)
 
 **What you get:**
 - Instant cash against your gold jewellery
@@ -55,7 +55,7 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 - Selected branches open on Saturdays
 
 **How to Apply:**
-1. Visit nearest Sampath Bank branch with your gold items
+1. Visit nearest Wasana Bank branch with your gold items
 2. Present valid identification
 3. Gold purity will be tested using modern technology
 4. Loan amount calculated based on weight and purity
@@ -65,9 +65,9 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 **Repayment Options:**
 - Pay in full at maturity
 - Pay in installments through any branch
-- Online payment via Sampath Vishwa
+- Online payment via Wasana Vishwa
 
-### 2. Sampath Thilina Gift Voucher (සම්පත් තිළිණ)
+### 2. Wasana Thilina Gift Voucher (වාසනා තිළිණ)
 
 **What it is:**
 - A savings plan to purchase gold jewellery
@@ -83,7 +83,7 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 ## Common Questions (නිතර අසන ප්‍රශ්න)
 
 ### Q: How do I get a pawning loan? (පෝනින් ණයක් ගන්නේ කොහොමද?)
-**A:** Visit any Sampath Bank branch with your gold jewellery and valid ID. We'll test the purity, calculate the loan amount, and give you instant cash.
+**A:** Visit any Wasana Bank branch with your gold jewellery and valid ID. We'll test the purity, calculate the loan amount, and give you instant cash.
 
 ### Q: What items can I pawn? (මොනවද ගිරවන්න පුළුවන්?)
 **A:** Gold jewellery items (22K or 24K). The loan amount depends on weight and purity.
@@ -101,12 +101,12 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 **A:** Once you repay the loan in full (either at maturity or through installments), your jewellery will be returned to you immediately.
 
 ### Q: Can I pay in installments? (වාර වශයෙන් ගෙවන්න පුළුවන්ද?)
-**A:** Yes! You can pay through any Sampath Bank branch or via Sampath Vishwa online banking.
+**A:** Yes! You can pay through any Wasana Bank branch or via Wasana Vishwa online banking.
 
 ### Q: What are the interest rates? (පොලී අනුපාත මොනවද?)
 **A:** Competitive rates are offered based on loan amount and tenure. Contact your nearest branch for current rates.
 
-## Why Choose Sampath Bank for Pawning?
+## Why Choose Wasana Bank for Pawning?
 
 ✅ **Instant Cash** - Get money immediately  
 ✅ **Low Interest Rates** - Competitive and affordable  
@@ -147,8 +147,8 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 ## Contact for Pawning Services
 
 📞 **Hotline:** 011 2 300 500  
-🌐 **Website:** www.sampath.lk  
-🏢 **Visit:** Any Sampath Bank branch  
+🌐 **Website:** www.wasana.lk  
+🏢 **Visit:** Any Wasana Bank branch  
 ⏰ **Hours:** 9:00 AM - 3:00 PM (working days)
 
 ## Important Reminders
@@ -162,4 +162,4 @@ Pawning (also called jewellery loan or gold loan) is a secured loan service wher
 ---
 
 ## Keywords for Search
-Pawning, pawn loan, jewellery loan, gold loan, pledge gold, pledge jewellery, Randiriya, Sampath pawning, gold pawn, jewellery pawn, instant cash, gold collateral, jewellery collateral, secured loan, gold-backed loan, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, ගිරවා ගන්න, සම්පත් රන්දිරිය, රන් ආභරණ, jewellery pledge, gold pledge
+Pawning, pawn loan, jewellery loan, gold loan, pledge gold, pledge jewellery, Randiriya, Wasana pawning, gold pawn, jewellery pawn, instant cash, gold collateral, jewellery collateral, secured loan, gold-backed loan, පෝනිං, පවුන්, ආභරණ ණය, රන් ණය, ගිරවීම, ගිරවා ගන්න, වාසනා රන්දිරිය, රන් ආභරණ, jewellery pledge, gold pledge

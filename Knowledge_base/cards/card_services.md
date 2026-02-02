@@ -1,58 +1,58 @@
-# Sampath Bank Credit and Debit Card Services
+# Wasana Bank Credit and Debit Card Services
 
 ## Overview
-Sampath Bank offers a comprehensive range of credit cards, debit cards, corporate cards, and card-related services to meet diverse customer needs.
+Wasana Bank offers a comprehensive range of credit cards, debit cards, corporate cards, and card-related services to meet diverse customer needs.
 
 ---
 
 ## Personal Credit Cards
 
 ### Premium Cards
-1. **Sampath Visa Infinite Metal Credit Card**
+1. **Wasana Visa Infinite Metal Credit Card**
    - Type: Premium metal card
    - Brand: Visa Infinite
    - Target: High net worth individuals
    - Features: Luxury benefits, airport lounge access, global acceptance
 
-2. **Sampath Visa Infinite Credit Card**
+2. **Wasana Visa Infinite Credit Card**
    - Type: Premium credit card
    - Brand: Visa Infinite
    - Target: Premium customers
    - Features: Travel benefits, concierge services, reward points
 
-3. **Sampath Visa Signature Credit Card**
+3. **Wasana Visa Signature Credit Card**
    - Type: Premium credit card
    - Brand: Visa Signature
    - Target: Upper-middle income customers
    - Features: Enhanced rewards, travel insurance, special offers
 
 ### Standard Cards
-4. **Sampath Mastercard World Credit Card**
+4. **Wasana Mastercard World Credit Card**
    - Type: Premium Mastercard
    - Brand: Mastercard World
    - Features: Global acceptance, rewards program, travel benefits
 
-5. **Sampath Bank American Express® Platinum Ultramiles Credit Card**
+5. **Wasana Bank American Express® Platinum Ultramiles Credit Card**
    - Type: Premium travel card
    - Brand: American Express
    - Features: Miles accumulation, travel rewards, airport benefits
 
-6. **Sampath Mastercard/Visa Platinum Credit Card**
+6. **Wasana Mastercard/Visa Platinum Credit Card**
    - Type: Standard platinum card
    - Brand: Mastercard/Visa Platinum
    - Features: Standard rewards, balance transfer options
 
-7. **Sampath Bank American Express® Everyday Credit Card**
+7. **Wasana Bank American Express® Everyday Credit Card**
    - Type: Entry-level card
    - Brand: American Express
    - Features: Everyday rewards, cashback offers
 
-8. **Sampath Mastercard/Visa Gold Credit Card**
+8. **Wasana Mastercard/Visa Gold Credit Card**
    - Type: Standard gold card
    - Brand: Mastercard/Visa Gold
    - Features: Basic rewards, standard benefits
 
-9. **Sampath Mastercard/Visa Classic Credit Card**
+9. **Wasana Mastercard/Visa Classic Credit Card**
    - Type: Basic credit card
    - Brand: Mastercard/Visa Classic
    - Features: Essential credit facilities
@@ -93,24 +93,24 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
 ## Corporate Credit Cards
 
 ### Business Credit Cards
-1. **Sampath Mastercard Corporate Credit Card**
+1. **Wasana Mastercard Corporate Credit Card**
    - Type: Corporate card
    - Brand: Mastercard Corporate
    - Target: Businesses and organizations
    - Features: Expense management, business rewards
 
-2. **Sampath Visa Corporate Credit Card**
+2. **Wasana Visa Corporate Credit Card**
    - Type: Corporate card
    - Brand: Visa Corporate
    - Target: Corporate clients
    - Features: Business travel benefits, expense tracking
 
-3. **Sampath Corporate Fuel Card**
+3. **Wasana Corporate Fuel Card**
    - Type: Fuel-specific card
    - Purpose: Fuel purchases for company vehicles
    - Features: Fleet management, fuel expense tracking, detailed reports
 
-4. **Sampath Visa Purchasing Credit Card**
+4. **Wasana Visa Purchasing Credit Card**
    - Type: Purchasing card
    - Purpose: Business procurement and purchasing
    - Features: Supplier payments, procurement management
@@ -124,11 +124,11 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
    - Service: Mobile recharge via missed call
    - Convenience: No internet required
 
-2. **Sampath Direct Debit System**
+2. **Wasana Direct Debit System**
    - Service: Automated recurring payments
    - Features: Utility bills, loan payments, subscriptions
 
-3. **Sampath Internet Payment Gateway**
+3. **Wasana Internet Payment Gateway**
    - Service: Online payment processing
    - Features: E-commerce integration, secure transactions
 
@@ -163,7 +163,7 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
    - Service: Electronic card statements
    - Features: Paperless, email delivery, eco-friendly
 
-4. **Sampath Automated Bill Settlement Facility (SABS)**
+4. **Wasana Automated Bill Settlement Facility (SABS)**
    - Service: Automatic bill payments
    - Features: Utility bills, telecom, insurance
 
@@ -198,7 +198,7 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
    - Service: Change address, contact details
    - Channels: Branch, online, mobile app
 
-5. **Cardholder Guide for Sampath Bank Mobile App**
+5. **Cardholder Guide for Wasana Bank Mobile App**
    - Service: Mobile banking for cardholders
    - Features: Balance check, transaction history, bill payment
 
@@ -206,7 +206,7 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
    - Service: PIN generation and reset
    - Channels: ATM, branch, mobile app
 
-7. **Sampath Self-Care Portal**
+7. **Wasana Self-Care Portal**
    - Service: Online card management
    - Features: Statement download, limit increase requests, rewards redemption
 
@@ -215,7 +215,7 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
 ## More Information
 
 ### Value-Added Programs
-1. **Sampath Advantage**
+1. **Wasana Advantage**
    - Program: Card rewards program
    - Features: Points accumulation, redemption, special offers
 
@@ -260,7 +260,7 @@ Sampath Bank offers a comprehensive range of credit cards, debit cards, corporat
 ---
 
 ## Keywords for Search
-Credit cards, debit cards, Visa, Mastercard, American Express, AMEX, corporate cards, fuel cards, merchant services, POS, payment gateway, card benefits, SMS alerts, e-statement, insurance, travel insurance, life insurance, balance transfer, installment plans, rewards, Sampath Advantage, mobile app, self-care portal, PIN, affinity cards, co-branded cards, OBA cards, alumni cards, professional cards
+Credit cards, debit cards, Visa, Mastercard, American Express, AMEX, corporate cards, fuel cards, merchant services, POS, payment gateway, card benefits, SMS alerts, e-statement, insurance, travel insurance, life insurance, balance transfer, installment plans, rewards, Wasana Advantage, mobile app, self-care portal, PIN, affinity cards, co-branded cards, OBA cards, alumni cards, professional cards
 
 ## Related Services
 - Personal Banking
@@ -274,5 +274,5 @@ Credit cards, debit cards, Visa, Mastercard, American Express, AMEX, corporate c
 ---
 
 **Last Updated:** October 2025  
-**Source:** Sampath Bank PLC Official Card Services Information  
-**For Latest Information:** Visit www.sampath.lk or contact Sampath Bank customer service
+**Source:** Wasana Bank PLC Official Card Services Information  
+**For Latest Information:** Visit www.wasana.lk or contact Wasana Bank customer service
