@@ -217,44 +217,7 @@ export default function StreamingConsole() {
               <div className="transcription-text-content">
                 {renderContent(t.text)}
               </div>
-              {t.groundingChunks && t.groundingChunks.length > 0 && (
-                <div className="grounding-chunks">
-                  <strong>Sources:</strong>
-                  <ul>
-                    {t.groundingChunks.map((chunk, index) => {
-                      const title = chunk.web?.title || chunk.web?.uri || `Snippet ${index + 1}`;
-                      const content = chunk.content?.slice(0, 200) || '';
-                      const score = typeof (chunk as any).score === 'number'
-                        ? (chunk as any).score
-                        : undefined;
-
-                      return (
-                        <li key={index}>
-                          {chunk.web?.uri ? (
-                            <a
-                              href={chunk.web.uri}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {title}
-                            </a>
-                          ) : (
-                            <span>{title}</span>
-                          )}
-                          {typeof score === 'number' && (
-                            <span className="grounding-score">
-                              {' '}(score: {score.toFixed(3)})
-                            </span>
-                          )}
-                          {content && (
-                            <div className="grounding-snippet">{content}</div>
-                          )}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              )}
+              {/* Grounding chunks hidden - RAG results processed by agent, not displayed to user */}
             </div>
           ))}
         </div>
