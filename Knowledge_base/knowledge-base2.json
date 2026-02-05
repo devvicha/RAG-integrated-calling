@@ -44,7 +44,7 @@
         }
       },
       "defaults": {
-        "currency": "LKR",
+        "currency": "රුපියල්",
         "timezone": "Asia/Colombo",
         "business_hours": "Mon–Fri 09:00–17:00 (branch hours may vary)",
         "support_channels": [
@@ -67,7 +67,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "**Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)\n- r = (annual_rate_percent / 100) / 12\n- n = tenure_months\n\n**Output:** EMI in LKR\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+    "content": "**Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)\n- r = (annual_rate_percent / 100) / 12\n- n = tenure_months\n\n**Output:** EMI in රුපියල්\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
   },
   {
     "id": "digital.channels",
@@ -89,7 +89,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "- **Can I open an account online?**\n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.\n\n- **How do I calculate my home‑loan EMI?**\n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- **How do I block a lost card?**\n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- **What are CEFTS limits?**\n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply.\n\n- **How to receive money from abroad?**\n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
+    "content": "- **Can I open an account online?**\n  Yes—use Wasana Vishwa/app for eKYC, or book a branch visit. Activation follows successful verification.\n\n- **How do I calculate my home‑loan EMI?**\n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- **How do I block a lost card?**\n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- **What are CEFTS limits?**\n  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply.\n\n- **How to receive money from abroad?**\n  Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account."
   },
   {
     "id": "guardrails",
@@ -142,7 +142,7 @@
           "slots": [
             { "name": "channel", "entity": "Channel", "required": false }
           ],
-          "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step?"
+          "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to රුපියල් 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step?"
         },
         {
           "name": "Complaint",
@@ -164,7 +164,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "### Personal — *Wasana Samachara*\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)\n\n### Housing — *Sevana / Dayada*\n- Sevana: tenure up to 25–30 years (policy dependent)\n- Dayada: disbursement as fast as ~10 days when docs are in order; tenure up to 25 years\n\n### Foreign‑Currency Housing\n- For Sri Lankans employed abroad (solo or with spouse income)\n- FCY income considered\n\n### Vehicle Loans\n- Security: hypothecation of vehicle\n- Tenure: 1–7 years\n\n### Business / SME\n- Facilities: OD, term loan, invoice finance, trade services\n- Docs: BR/TIN/VAT, financials, bank statements"
+    "content": "### Personal — *Wasana Samachara*\n- Purpose: education, medical, home needs\n- Range: up to රුපියල් 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)\n\n### Housing — *Sevana / Dayada*\n- Sevana: tenure up to 25–30 years (policy dependent)\n- Dayada: disbursement as fast as ~10 days when docs are in order; tenure up to 25 years\n\n### Foreign‑Currency Housing\n- For Sri Lankans employed abroad (solo or with spouse income)\n- FCY income considered\n\n### Vehicle Loans\n- Security: hypothecation of vehicle\n- Tenure: 1–7 years\n\n### Business / SME\n- Facilities: OD, term loan, invoice finance, trade services\n- Docs: BR/TIN/VAT, financials, bank statements"
   },
   {
     "id": "loans.lifecycle",
@@ -186,7 +186,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "- **LANKAQR** — Scan‑to‑pay at merchants across Sri Lanka.\n- **CEFTS** — Real‑time interbank transfers **up to LKR 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies)."
+    "content": "- **LANKAQR** — Scan‑to‑pay at merchants across Sri Lanka.\n- **CEFTS** — Real‑time interbank transfers **up to රුපියල් 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies)."
   },
   {
     "id": "persona.nova",
@@ -219,7 +219,7 @@
     "last_reviewed": "2025-09-04",
     "pii": false,
     "type": "markdown",
-    "content": "### Ask Documents (Individual)\nFor individuals: NIC/Passport, proof of address (last 3 months), and a photo. Income proof is required for credit products.\n\n### Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n### EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*\n\n### Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy.\n\n### Security Warning\nNever share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links."
+    "content": "### Ask Documents (Individual)\nFor individuals: NIC/Passport, proof of address (last 3 months), and a photo. Income proof is required for credit products.\n\n### Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n### EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} රුපියල්** *(illustrative; final per sanction & prevailing rates).*\n\n### Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy.\n\n### Security Warning\nNever share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links."
   },
   {
     "id": "security.compliance",

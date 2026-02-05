@@ -98,7 +98,7 @@ To add new banking information:
    - Cash back
    
    ## Eligibility
-   - Minimum income: LKR 50,000
+   - Minimum income: රුපියල් 50,000
    ```
 
 3. **Rebuild FAISS index**:

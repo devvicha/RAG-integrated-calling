@@ -18,7 +18,7 @@ pii: false
   Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.
 
 - **What are CEFTS limits?**  
-  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
+  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
 
 - **How to receive money from abroad?**  
   Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.

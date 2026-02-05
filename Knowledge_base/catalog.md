@@ -10,7 +10,7 @@ pii: false
 
 ### Personal — *Wasana Samachara*
 - Purpose: education, medical, home needs
-- Range: up to LKR 5,000,000
+- Range: up to රුපියල් 5,000,000
 - Tenure: up to 15 years
 - Speed: issuance as fast as ~1 day (documents in order)
 

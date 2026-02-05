@@ -310,12 +310,8 @@ export function useLiveApi({
         const functionResponses = await Promise.all(
           toolCall.functionCalls.map(async fc => {
             try {
-              const triggerMessage = `Triggering function call: **${fc.name}**\n\`\`\`json\n${JSON.stringify(fc.args, null, 2)}\n\`\`\``;
-              useLogStore.getState().addTurn({
-                role: 'system',
-                text: triggerMessage,
-                isFinal: true,
-              });
+              // Debug logging removed - only log to console for development
+              console.log(`🔧 Executing function: ${fc.name}`, fc.args);
 
               const [response] = await functionDispatcher.dispatchFunctions([
                 {
@@ -325,12 +321,7 @@ export function useLiveApi({
                 },
               ]);
 
-              const responseMessage = `Function call response:\n\`\`\`json\n${JSON.stringify(response, null, 2)}\n\`\`\``;
-              useLogStore.getState().addTurn({
-                role: 'system',
-                text: responseMessage,
-                isFinal: true,
-              });
+              console.log(`✅ Function ${fc.name} completed`);
 
               return response;
             } catch (error) {
@@ -349,11 +340,10 @@ export function useLiveApi({
 
         client.sendToolResponse({ functionResponses });
 
+        // Show RAG lookup complete message to user
         useLogStore.getState().addTurn({
           role: 'system',
-          text: `✅ RAG lookup complete for **${toolCall.functionCalls
-            .map(fc => fc.name)
-            .join(', ')}**`,
+          text: `✅ RAG lookup complete for **${toolCall.functionCalls.map(fc => fc.name).join(', ')}**`,
           isFinal: true,
         });
       } catch (error) {

@@ -42,7 +42,7 @@
         "r": "(annual_rate_percent / 100) / 12",
         "n": "tenure_months"
       },
-      "output": "EMI in LKR",
+      "output": "EMI in රුපියල්",
       "disclaimer": "Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
     }
   },
@@ -68,7 +68,7 @@
       }
     },
     "defaults": {
-      "currency": "LKR",
+      "currency": "රුපියල්",
       "timezone": "Asia/Colombo",
       "business_hours": "Mon–Fri 09:00–17:00 (branch hours may vary)"
     }
@@ -212,7 +212,7 @@
             "required": false
           }
         ],
-        "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step?"
+        "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to රුපියල් 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step?"
       },
       {
         "name": "Complaint",
@@ -249,7 +249,7 @@
     "content": {
       "personal_sampath_sanhinda": {
         "purpose": "education, medical, home needs",
-        "range": "up to LKR 5,000,000",
+        "range": "up to රුපියල් 5,000,000",
         "tenure": "up to 15 years",
         "speed": "issuance as fast as ~1 day (documents in order)"
       },
@@ -318,7 +318,7 @@
     "pii": false,
     "content": {
       "lankaqr": "Scan‑to‑pay at merchants across Sri Lanka.",
-      "cefts": "Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.",
+      "cefts": "Real‑time interbank transfers up to රුපියල් 5,000,000, 24×7. Bank/channel limits may apply.",
       "slips": "Batch interbank transfers (T+0/T+1), common for salaries & vendors.",
       "swift": "Cross‑border remittances (FX conversion applies)."
     }
@@ -393,7 +393,7 @@
     "content": {
       "ask_documents_individual": "For individuals: NIC/Passport, proof of address (last 3 months), and a photo. Income proof is required for credit products.",
       "ask_documents_business": "For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.",
-      "emi_quote": "For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*",
+      "emi_quote": "For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} රුපියල්** *(illustrative; final per sanction & prevailing rates).*",
       "fees_disclaimer": "Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.",
       "security_warning": "Never share OTPs, full card numbers, or passwords. Wasana will not request these via calls/links."
     }

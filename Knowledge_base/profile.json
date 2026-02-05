@@ -24,7 +24,7 @@
     }
   },
   "defaults": {
-    "currency": "LKR",
+    "currency": "රුපියල්",
     "timezone": "Asia/Colombo",
     "business_hours": "Mon\u2013Fri 09:00\u201317:00 (branch hours may vary)",
     "support_channels": [

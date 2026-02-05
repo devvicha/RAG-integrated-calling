@@ -94,7 +94,7 @@ pii: false
     }
   },
   "defaults": {
-    "currency": "LKR",
+    "currency": "රුපියල්",
     "timezone": "Asia/Colombo",
     "business_hours": "Mon\u2013Fri 09:00\u201317:00 (branch hours may vary)",
     "support_channels": [
@@ -126,7 +126,7 @@ pii: false
 - r = (annual_rate_percent / 100) / 12  
 - n = tenure_months
 
-**Output:** EMI in LKR
+**Output:** EMI in රුපියල්
 
 **Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable).
 
@@ -423,7 +423,7 @@ pii: false
   Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.
 
 - **What are CEFTS limits?**  
-  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
+  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply.
 
 - **How to receive money from abroad?**  
   Use Wasana e‑Remittance for instant receipt or standard SWIFT inward remittance to your account.
@@ -528,7 +528,7 @@ pii: false
           "required": false
         }
       ],
-      "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24\u00d77) or LANKAQR for merchant payments. Want step-by-step?"
+      "success_reply": "Via {channel}, you can use CEFTS for instant interbank transfers (up to රුපියල් 5M, 24\u00d77) or LANKAQR for merchant payments. Want step-by-step?"
     },
     {
       "name": "Complaint",
@@ -565,7 +565,7 @@ pii: false
 
 ### Personal — *Wasana Samachara*
 - Purpose: education, medical, home needs
-- Range: up to LKR 5,000,000
+- Range: up to රුපියල් 5,000,000
 - Tenure: up to 15 years
 - Speed: issuance as fast as ~1 day (documents in order)
 
@@ -630,7 +630,7 @@ pii: false
 ---
 
 - **LANKAQR** — Scan‑to‑pay at merchants across Sri Lanka.
-- **CEFTS** — Real‑time interbank transfers **up to LKR 5,000,000**, **24×7**. Bank/channel limits may apply.
+- **CEFTS** — Real‑time interbank transfers **up to රුපියල් 5,000,000**, **24×7**. Bank/channel limits may apply.
 - **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.
 - **SWIFT** — Cross‑border remittances (FX conversion applies).
 
@@ -717,7 +717,7 @@ For individuals: NIC/Passport, proof of address (last 3 months), and a photo. In
 For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.
 
 ### EMI Quote
-For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*
+For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} රුපියල්** *(illustrative; final per sanction & prevailing rates).*
 
 ### Fees Disclaimer
 Fees and rates are indicative and subject to change per CBSL guidelines and bank policy.

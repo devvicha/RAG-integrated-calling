@@ -13,7 +13,7 @@ The calculator uses compound interest formula:
 - Where r = monthly interest rate, n = number of months
 
 ## Minimum Requirements
-- Minimum initial deposit: LKR 1,000
+- Minimum initial deposit: රුපියල් 1,000
 - No minimum for monthly deposits
 
 ## Features
@@ -28,25 +28,25 @@ Provide: Initial deposit, monthly deposit, interest rate, and time period
 ## Example Calculations
 
 ### Example 1: Small Regular Savings
-- Initial deposit: LKR 10,000
-- Monthly deposit: LKR 5,000
+- Initial deposit: රුපියල් 10,000
+- Monthly deposit: රුපියල් 5,000
 - Interest rate: 8% per annum
 - Period: 12 months
-- Expected total: Approximately LKR 71,000 (including interest)
+- Expected total: Approximately රුපියල් 71,000 (including interest)
 
 ### Example 2: Larger Investment
-- Initial deposit: LKR 100,000
-- Monthly deposit: LKR 10,000
+- Initial deposit: රුපියල් 100,000
+- Monthly deposit: රුපියල් 10,000
 - Interest rate: 10% per annum
 - Period: 24 months
-- Expected total: Approximately LKR 380,000 (including interest)
+- Expected total: Approximately රුපියල් 380,000 (including interest)
 
 ### Example 3: Long-term Savings
-- Initial deposit: LKR 50,000
-- Monthly deposit: LKR 15,000
+- Initial deposit: රුපියල් 50,000
+- Monthly deposit: රුපියල් 15,000
 - Interest rate: 9% per annum
 - Period: 36 months
-- Expected total: Approximately LKR 650,000 (including interest)
+- Expected total: Approximately රුපියල් 650,000 (including interest)
 
 ## Important Notes
 - Interest is compounded monthly

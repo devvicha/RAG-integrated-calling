@@ -17,7 +17,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/rails.md",
-        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
+        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to රුපියල් 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/card_lost_block.md",
@@ -37,7 +37,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
-        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base.md",
@@ -73,7 +73,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
-        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/base 2.md",
@@ -81,7 +81,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/emi.md",
-        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in LKR\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in රුපියල්\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/channels.md",
@@ -129,7 +129,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
-        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to රුපියල් 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/catalog.md",
@@ -185,7 +185,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
-        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+        "chunk_text": "---\nid: loans.catalog\ntitle: Loan Catalog — Quick Cards\ntags: [loans, product, tenure, documents]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\n Personal — Wasana Samachara\n- Purpose: education, medical, home needs\n- Range: up to රුපියල් 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/loans/catalog.md",
@@ -201,7 +201,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/payments/rails.md",
-        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
+        "chunk_text": "- LANKAQR — Scan‑to‑pay at merchants across Sri Lanka.\n- CEFTS — Real‑time interbank transfers up to රුපියල් 5,000,000, 24×7. Bank/channel limits may apply.\n- SLIPS — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- SWIFT — Cross‑border remittances (FX conversion applies)."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/savings/Double_savings.md",
@@ -377,39 +377,39 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "- No foreign transaction fees\n- Reward points: 2 points per LKR 100"
+        "chunk_text": "- No foreign transaction fees\n- Reward points: 2 points per රුපියල් 100"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 500,000+\n- Excellent credit history required\n\n 2. Wasana Visa Infinite Credit Card\nCategory: Premium Card  \nBrand: Visa Infinite  \nKey Features:\n- Airport lounge access (6 complimentary visits/year)\n- Travel insurance coverage\n- Concierge services\n- Dining privileges\n- Reward points program\n- Global acceptance"
+        "chunk_text": "Eligibility:\n- Minimum monthly income: රුපියල් 500,000+\n- Excellent credit history required\n\n 2. Wasana Visa Infinite Credit Card\nCategory: Premium Card  \nBrand: Visa Infinite  \nKey Features:\n- Airport lounge access (6 complimentary visits/year)\n- Travel insurance coverage\n- Concierge services\n- Dining privileges\n- Reward points program\n- Global acceptance"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "Eligibility:\n- Minimum monthly income: LKR 300,000+\n\n 3. Wasana Visa Signature Credit Card\nCategory: Premium Card  \nBrand: Visa Signature  \nKey Features:\n- Enhanced rewards on dining and travel\n- Travel insurance\n- Extended warranty protection\n- Purchase protection\n- Airport lounge access (4 visits/year)\n\nEligibility:\n- Minimum monthly income: LKR 200,000+\n\n---\n\n Standard Tier Cards"
+        "chunk_text": "Eligibility:\n- Minimum monthly income: රුපියල් 300,000+\n\n 3. Wasana Visa Signature Credit Card\nCategory: Premium Card  \nBrand: Visa Signature  \nKey Features:\n- Enhanced rewards on dining and travel\n- Travel insurance\n- Extended warranty protection\n- Purchase protection\n- Airport lounge access (4 visits/year)\n\nEligibility:\n- Minimum monthly income: රුපියල් 200,000+\n\n---\n\n Standard Tier Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Standard Tier Cards\n\n 4. Wasana Mastercard World Credit Card\nCategory: Premium Mastercard  \nBrand: Mastercard World  \nKey Features:\n- Mastercard World benefits\n- Travel insurance\n- Purchase protection\n- Priceless experiences\n- Reward points\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
+        "chunk_text": "---\n\n Standard Tier Cards\n\n 4. Wasana Mastercard World Credit Card\nCategory: Premium Mastercard  \nBrand: Mastercard World  \nKey Features:\n- Mastercard World benefits\n- Travel insurance\n- Purchase protection\n- Priceless experiences\n- Reward points\n\nEligibility:\n- Minimum monthly income: රුපියල් 150,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "5. Wasana Bank American Express® Platinum Ultramiles\nCategory: Travel Rewards Card  \nBrand: American Express  \nKey Features:\n- Miles-based rewards program\n- 1 mile per LKR 50 spent\n- Airport lounge access\n- Travel insurance\n- Hotel and airline partnerships\n- No blackout dates for redemptions\n\nEligibility:\n- Minimum monthly income: LKR 150,000+"
+        "chunk_text": "5. Wasana Bank American Express® Platinum Ultramiles\nCategory: Travel Rewards Card  \nBrand: American Express  \nKey Features:\n- Miles-based rewards program\n- 1 mile per රුපියල් 50 spent\n- Airport lounge access\n- Travel insurance\n- Hotel and airline partnerships\n- No blackout dates for redemptions\n\nEligibility:\n- Minimum monthly income: රුපියල් 150,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "6. Wasana Mastercard/Visa Platinum\nCategory: Standard Platinum  \nBrands: Mastercard/Visa Platinum  \nKey Features:\n- Balance transfer facility\n- Cash advance facility\n- Purchase protection\n- Standard reward points\n- Supplementary cards available\n\nEligibility:\n- Minimum monthly income: LKR 100,000+\n\n---\n\n Entry Level Cards"
+        "chunk_text": "6. Wasana Mastercard/Visa Platinum\nCategory: Standard Platinum  \nBrands: Mastercard/Visa Platinum  \nKey Features:\n- Balance transfer facility\n- Cash advance facility\n- Purchase protection\n- Standard reward points\n- Supplementary cards available\n\nEligibility:\n- Minimum monthly income: රුපියල් 100,000+\n\n---\n\n Entry Level Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Entry Level Cards\n\n 7. Wasana Bank American Express® Everyday\nCategory: Entry-Level Rewards Card  \nBrand: American Express  \nKey Features:\n- Everyday cashback rewards\n- Dining and shopping offers\n- Installment plan facility\n- Online shopping protection\n\nEligibility:\n- Minimum monthly income: LKR 75,000+"
+        "chunk_text": "---\n\n Entry Level Cards\n\n 7. Wasana Bank American Express® Everyday\nCategory: Entry-Level Rewards Card  \nBrand: American Express  \nKey Features:\n- Everyday cashback rewards\n- Dining and shopping offers\n- Installment plan facility\n- Online shopping protection\n\nEligibility:\n- Minimum monthly income: රුපියල් 75,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "8. Wasana Mastercard/Visa Gold\nCategory: Standard Gold Card  \nBrands: Mastercard/Visa Gold  \nKey Features:\n- Basic rewards program\n- Emergency card replacement\n- Lost card liability protection\n- Online banking integration\n\nEligibility:\n- Minimum monthly income: LKR 50,000+"
+        "chunk_text": "8. Wasana Mastercard/Visa Gold\nCategory: Standard Gold Card  \nBrands: Mastercard/Visa Gold  \nKey Features:\n- Basic rewards program\n- Emergency card replacement\n- Lost card liability protection\n- Online banking integration\n\nEligibility:\n- Minimum monthly income: රුපියල් 50,000+"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "9. Wasana Mastercard/Visa Classic\nCategory: Basic Credit Card  \nBrands: Mastercard/Visa Classic  \nKey Features:\n- Essential credit facility\n- Interest-free period (up to 56 days)\n- Minimum payment option (5% of outstanding)\n- SMS alerts\n\nEligibility:\n- Minimum monthly income: LKR 40,000+\n\n---\n\n Affinity Credit Cards (Co-branded)\n\n Professional Association Cards"
+        "chunk_text": "9. Wasana Mastercard/Visa Classic\nCategory: Basic Credit Card  \nBrands: Mastercard/Visa Classic  \nKey Features:\n- Essential credit facility\n- Interest-free period (up to 56 days)\n- Minimum payment option (5% of outstanding)\n- SMS alerts\n\nEligibility:\n- Minimum monthly income: රුපියල් 40,000+\n\n---\n\n Affinity Credit Cards (Co-branded)\n\n Professional Association Cards"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -437,7 +437,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
-        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Cards\n\n Wasana Mastercard Corporate Credit Card\nType: Corporate Expense Card  \nKey Features:\n- Centralized billing\n- Expense management tools\n- Multiple employee cards\n- Detailed expense reports\n- Integration with accounting software\n- Travel and entertainment benefits\n\nEligibility:\n- Registered business entity\n- Minimum annual turnover: LKR 10 million"
+        "chunk_text": "---\n\n Corporate Credit Cards\n\n Business Cards\n\n Wasana Mastercard Corporate Credit Card\nType: Corporate Expense Card  \nKey Features:\n- Centralized billing\n- Expense management tools\n- Multiple employee cards\n- Detailed expense reports\n- Integration with accounting software\n- Travel and entertainment benefits\n\nEligibility:\n- Registered business entity\n- Minimum annual turnover: රුපියල් 10 million"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/cards/card_types.md",
@@ -477,7 +477,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
-        "chunk_text": "Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is {emi} LKR (illustrative; final per sanction & prevailing rates).\n\n Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy."
+        "chunk_text": "Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is {emi} රුපියල් (illustrative; final per sanction & prevailing rates).\n\n Fees Disclaimer\nFees and rates are indicative and subject to change per CBSL guidelines and bank policy."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/responses/templates.md",
@@ -513,7 +513,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
-        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+        "chunk_text": "- How do I calculate my home‑loan EMI?  \n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- How do I block a lost card?  \n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- What are CEFTS limits?  \n  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/faqs/base.md",
@@ -549,19 +549,19 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
-        "chunk_text": "Minimum Requirements\n- Minimum initial deposit: LKR 1,000\n- No minimum for monthly deposits\n\n Features\n- Calculates total savings value\n- Shows total interest earned\n- Provides results in natural Sinhala pronunciation\n\n Usage\nAsk: \"මට ඉතිරිකිරීම් ගිණුමක් වර්ධනය ගණනය කරන්න පුළුවන්ද?\"\nProvide: Initial deposit, monthly deposit, interest rate, and time period\n\n Example Calculations"
+        "chunk_text": "Minimum Requirements\n- Minimum initial deposit: රුපියල් 1,000\n- No minimum for monthly deposits\n\n Features\n- Calculates total savings value\n- Shows total interest earned\n- Provides results in natural Sinhala pronunciation\n\n Usage\nAsk: \"මට ඉතිරිකිරීම් ගිණුමක් වර්ධනය ගණනය කරන්න පුළුවන්ද?\"\nProvide: Initial deposit, monthly deposit, interest rate, and time period\n\n Example Calculations"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
-        "chunk_text": "Example Calculations\n\n Example 1: Small Regular Savings\n- Initial deposit: LKR 10,000\n- Monthly deposit: LKR 5,000\n- Interest rate: 8% per annum\n- Period: 12 months\n- Expected total: Approximately LKR 71,000 (including interest)"
+        "chunk_text": "Example Calculations\n\n Example 1: Small Regular Savings\n- Initial deposit: රුපියල් 10,000\n- Monthly deposit: රුපියල් 5,000\n- Interest rate: 8% per annum\n- Period: 12 months\n- Expected total: Approximately රුපියල් 71,000 (including interest)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
-        "chunk_text": "Example 2: Larger Investment\n- Initial deposit: LKR 100,000\n- Monthly deposit: LKR 10,000\n- Interest rate: 10% per annum\n- Period: 24 months\n- Expected total: Approximately LKR 380,000 (including interest)"
+        "chunk_text": "Example 2: Larger Investment\n- Initial deposit: රුපියල් 100,000\n- Monthly deposit: රුපියල් 10,000\n- Interest rate: 10% per annum\n- Period: 24 months\n- Expected total: Approximately රුපියල් 380,000 (including interest)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
-        "chunk_text": "Example 3: Long-term Savings\n- Initial deposit: LKR 50,000\n- Monthly deposit: LKR 15,000\n- Interest rate: 9% per annum\n- Period: 36 months\n- Expected total: Approximately LKR 650,000 (including interest)"
+        "chunk_text": "Example 3: Long-term Savings\n- Initial deposit: රුපියල් 50,000\n- Monthly deposit: රුපියල් 15,000\n- Interest rate: 9% per annum\n- Period: 36 months\n- Expected total: Approximately රුපියල් 650,000 (including interest)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/savings.md",
@@ -569,7 +569,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/calculators/emi.md",
-        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in LKR\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
+        "chunk_text": "---\nid: calculators.emi\ntitle: EMI Calculator\ntags: [calculator, emi]\nproduct_area: loans\nrequires_auth: false\nlast_reviewed: 2025-09-04\npii: false\n---\n\nFormula: EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)  \n- r = (annual_rate_percent / 100) / 12  \n- n = tenure_months\n\nOutput: EMI in රුපියල්\n\nDisclaimer: Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable)."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/persona/nova.md",
@@ -741,7 +741,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "multi‑currency, SWIFT remittances passport/visa, FATCA/CRS declarations when relevant EMI Calculator EMI = P × r × (1 + r)^n / ((1 + r)^n − 1) (annual_rate_percent / 100) / 12 tenure_months EMI in LKR Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Bank Profile & Contacts Digital Channels & Capabilities balances, intra/interbank transfers (CEFTS/SLIPS),"
+        "chunk_text": "multi‑currency, SWIFT remittances passport/visa, FATCA/CRS declarations when relevant EMI Calculator EMI = P × r × (1 + r)^n / ((1 + r)^n − 1) (annual_rate_percent / 100) / 12 tenure_months EMI in රුපියල් Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Bank Profile & Contacts Digital Channels & Capabilities balances, intra/interbank transfers (CEFTS/SLIPS),"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -757,7 +757,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "Intents & Policy Loan Catalog — Quick Cards education, medical, home needs up to LKR 5,000,000 up to 15 years issuance as fast as ~1 day (documents in order) tenure up to 25–30 years (policy dependent) disbursement as fast as ~10 days when docs are in order; tenure up to 25 years For Sri Lankans employed abroad (solo or with spouse income) FCY income considered hypothecation of vehicle 1–7 years"
+        "chunk_text": "Intents & Policy Loan Catalog — Quick Cards education, medical, home needs up to රුපියල් 5,000,000 up to 15 years issuance as fast as ~1 day (documents in order) tenure up to 25–30 years (policy dependent) disbursement as fast as ~10 days when docs are in order; tenure up to 25 years For Sri Lankans employed abroad (solo or with spouse income) FCY income considered hypothecation of vehicle 1–7 years"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -765,7 +765,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "repayment. Fixed monthly payment (principal + interest). Some housing products reference AWPLR for rate resets. Loan‑to‑Value caps apply on secured loans. Allowed per product; verify lock‑in/fees. Payments & Transfer Rails Scan‑to‑pay at merchants across Sri Lanka. Real‑time interbank transfers up to LKR 5,000,000, 24×7. Bank/channel limits may apply. Batch interbank transfers (T+0/T+1), common"
+        "chunk_text": "repayment. Fixed monthly payment (principal + interest). Some housing products reference AWPLR for rate resets. Loan‑to‑Value caps apply on secured loans. Allowed per product; verify lock‑in/fees. Payments & Transfer Rails Scan‑to‑pay at merchants across Sri Lanka. Real‑time interbank transfers up to රුපියල් 5,000,000, 24×7. Bank/channel limits may apply. Batch interbank transfers (T+0/T+1), common"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -785,7 +785,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
-        "chunk_text": "Income proof is required for credit products. For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof. For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).* Fees and rates are indicative and subject to change per CBSL guidelines and bank policy. Never"
+        "chunk_text": "Income proof is required for credit products. For businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof. For {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} රුපියල්** *(illustrative; final per sanction & prevailing rates).* Fees and rates are indicative and subject to change per CBSL guidelines and bank policy. Never"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base-chunks.json",
@@ -833,7 +833,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- Foreign Currency Accounts Bank Profile & Contacts Wasana Bank PLC Sri Lanka Central Bank of Sri Lanka No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka 1332 +94 11 230 3050 info@wasana.lk +94 11 230 0604 LKR Asia/Colombo Mon–Fri 09:00–17:00 (branch hours may vary) branch phone email chat Wasana Vishwa WePay EMI Calculator **Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)"
+        "chunk_text": "- Foreign Currency Accounts Bank Profile & Contacts Wasana Bank PLC Sri Lanka Central Bank of Sri Lanka No. 110, Sir James Peiris Mawatha, Colombo 02, Sri Lanka 1332 +94 11 230 3050 info@wasana.lk +94 11 230 0604 රුපියල් Asia/Colombo Mon–Fri 09:00–17:00 (branch hours may vary) branch phone email chat Wasana Vishwa WePay EMI Calculator **Formula:** EMI = P × r × (1 + r)^n / ((1 + r)^n − 1)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -841,7 +841,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "**Output:** EMI in LKR\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Digital Channels & Capabilities ## Internet Banking\n- **Wasana Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
+        "chunk_text": "**Output:** EMI in රුපියල්\n\n**Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable). Digital Channels & Capabilities ## Internet Banking\n- **Wasana Vishwa (Retail)** — balances, intra/interbank transfers (CEFTS/SLIPS), bill payments, card controls, e‑statements, standing orders."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -853,7 +853,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- **How do I calculate my home‑loan EMI?**\n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- **How do I block a lost card?**\n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- **What are CEFTS limits?**\n  Up to LKR 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
+        "chunk_text": "- **How do I calculate my home‑loan EMI?**\n  Share the amount, rate, and tenure; I’ll compute it instantly with our EMI calculator.\n\n- **How do I block a lost card?**\n  Use the app/online to freeze or call +94 11 230 0604 (Card Centre). Replacement can be arranged to your address.\n\n- **What are CEFTS limits?**\n  Up to රුපියල් 5,000,000 per transaction 24×7; additional bank/channel limits may apply."
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -873,7 +873,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "can also call the Card Centre at +94 11 230 0604. workflows.card_lost_block TransferHelp channel Channel False Via {channel}, you can use CEFTS for instant interbank transfers (up to LKR 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step? Complaint category sys.any True summary sys.any True I’ve logged your complaint under '{category}'. Your ticket ID is {ticket_id}. Expected TAT is"
+        "chunk_text": "can also call the Card Centre at +94 11 230 0604. workflows.card_lost_block TransferHelp channel Channel False Via {channel}, you can use CEFTS for instant interbank transfers (up to රුපියල් 5M, 24×7) or LANKAQR for merchant payments. Want step-by-step? Complaint category sys.any True summary sys.any True I’ve logged your complaint under '{category}'. Your ticket ID is {ticket_id}. Expected TAT is"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -881,7 +881,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- Purpose: education, medical, home needs\n- Range: up to LKR 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
+        "chunk_text": "- Purpose: education, medical, home needs\n- Range: up to රුපියල් 5,000,000\n- Tenure: up to 15 years\n- Speed: issuance as fast as ~1 day (documents in order)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -901,7 +901,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "- **CEFTS** — Real‑time interbank transfers **up to LKR 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies). Nova Persona & Call Style # Nova — Inbound Banking Representative (Wasana Bank PLC)"
+        "chunk_text": "- **CEFTS** — Real‑time interbank transfers **up to රුපියල් 5,000,000**, **24×7**. Bank/channel limits may apply.\n- **SLIPS** — Batch interbank transfers (T+0/T+1), common for salaries & vendors.\n- **SWIFT** — Cross‑border remittances (FX conversion applies). Nova Persona & Call Style # Nova — Inbound Banking Representative (Wasana Bank PLC)"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
@@ -929,7 +929,7 @@
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",
-        "chunk_text": "### Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n### EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} LKR** *(illustrative; final per sanction & prevailing rates).*"
+        "chunk_text": "### Ask Documents (Business)\nFor businesses: BR, TIN/VAT, board resolution (companies), signatory IDs, and address proof.\n\n### EMI Quote\nFor {amount} at {annual_rate_percent}% over {tenure_months} months, your estimated EMI is **{emi} රුපියල්** *(illustrative; final per sanction & prevailing rates).*"
     },
     {
         "file_path": "/Users/vichakshaviduranga/Documents/IDEA_8_ML/RAGFORSAMPATHGEMINI/sampath-bank-customer-care5_withRAGEMINI/Knowledge_base/knowledge-base2.json",

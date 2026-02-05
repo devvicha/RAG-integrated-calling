@@ -329,7 +329,7 @@ export class FunctionDispatcher {
 
     if (loan_amount < 50000) {
       return {
-        data: `ඔයාගේ ඉල්ලීම රුපියල් ${Math.round(loan_amount).toLocaleString()}ක්. කණගාටුයි, LKR 50,000 ට වඩා අඩු ණය මුදල් අපට සම්මත කළ නොහැක. කරුණාකර මුදල තහවුරු කර නැවතත් දන්වන්න.`,
+        data: `ඔයාගේ ඉල්ලීම රුපියල් ${Math.round(loan_amount).toLocaleString()}ක්. කණගාටුයි, රුපියල් 50,000 ට වඩා අඩු ණය මුදල් අපට සම්මත කළ නොහැක. කරුණාකර මුදල තහවුරු කර නැවතත් දන්වන්න.`,
         sources: [],
         grounding_chunks: [],
         error: null,
@@ -343,8 +343,8 @@ export class FunctionDispatcher {
 
     return {
       data: show_formula
-        ? { emi, formula: 'EMI = [P x r x (1+r)^n] / [(1+r)^n-1]', summary: `${emiStatement}මාසික වාරිකය LKR ${Math.round(emi).toLocaleString()}ක්.` }
-        : `${emiStatement}මාසික වාරිකය LKR ${Math.round(emi).toLocaleString()}ක් වටිනවා.`,
+        ? { emi, formula: 'EMI = [P x r x (1+r)^n] / [(1+r)^n-1]', summary: `${emiStatement}මාසික වාරිකය රුපියල් ${Math.round(emi).toLocaleString()}ක්.` }
+        : `${emiStatement}මාසික වාරිකය රුපියල් ${Math.round(emi).toLocaleString()}ක් වටිනවා.`,
       sources: [],
       grounding_chunks: [],
       error: null,

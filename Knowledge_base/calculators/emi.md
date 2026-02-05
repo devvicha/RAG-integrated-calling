@@ -12,6 +12,6 @@ pii: false
 - r = (annual_rate_percent / 100) / 12  
 - n = tenure_months
 
-**Output:** EMI in LKR
+**Output:** EMI in රුපියල්
 
 **Disclaimer:** Illustrative; final terms per sanction & prevailing rates (AWPLR‑linked where applicable).

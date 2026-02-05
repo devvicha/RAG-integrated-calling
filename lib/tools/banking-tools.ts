@@ -38,7 +38,7 @@ export const bankingTools: ToolDefinition[] = [
   
   {
     name: 'getExchangeRates',
-    description: 'Get current foreign exchange rates for currency conversion. Provides buying and selling rates for major currencies against LKR.',
+    description: 'Get current foreign exchange rates for currency conversion. Provides buying and selling rates for major currencies against රුපියල්.',
     parameters: {
       type: 'object',
       properties: {
@@ -125,7 +125,7 @@ export const bankingTools: ToolDefinition[] = [
       properties: {
         loan_amount: {
           type: 'number',
-          description: 'ණය මුදල. Loan amount in LKR (minimum 50,000)'
+          description: 'ණය මුදල. Loan amount in රුපියල් (minimum 50,000)'
         },
         annual_rate_percent: {
           type: 'number',
@@ -149,11 +149,11 @@ export const bankingTools: ToolDefinition[] = [
       properties: {
         initial_deposit: {
           type: 'number',
-          description: 'ආරම්භක තැන්පතු මුදල. Initial deposit amount in LKR (minimum 1,000)'
+          description: 'ආරම්භක තැන්පතු මුදල. Initial deposit amount in රුපියල් (minimum 1,000)'
         },
         monthly_deposit: {
           type: 'number',
-          description: 'මාසික තැන්පතු මුදල. Monthly deposit amount in LKR'
+          description: 'මාසික තැන්පතු මුදල. Monthly deposit amount in රුපියල්'
         },
         annual_rate_percent: {
           type: 'number',
