@@ -340,8 +340,12 @@ export function useLiveApi({
 
         client.sendToolResponse({ functionResponses });
 
-        // RAG lookup complete - logged to console only, not to UI
-        console.log(`✅ RAG lookup complete for: ${toolCall.functionCalls.map(fc => fc.name).join(', ')}`);
+        // Show RAG lookup complete message to user
+        useLogStore.getState().addTurn({
+          role: 'system',
+          text: `✅ RAG lookup complete for **${toolCall.functionCalls.map(fc => fc.name).join(', ')}**`,
+          isFinal: true,
+        });
       } catch (error) {
         console.error('💥 Error during tool call execution:', error);
         try {
