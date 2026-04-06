@@ -158,7 +158,13 @@ export class GenAILiveClient {
       return;
     }
     chunks.forEach(chunk => {
-      this.session!.sendRealtimeInput({ media: chunk });
+      if (chunk.mimeType.startsWith('audio/')) {
+        this.session!.sendRealtimeInput({ audio: { data: chunk.data, mimeType: chunk.mimeType } });
+      } else if (chunk.mimeType.startsWith('image/') || chunk.mimeType.startsWith('video/')) {
+        this.session!.sendRealtimeInput({ video: { data: chunk.data, mimeType: chunk.mimeType } });
+      } else {
+        this.session!.sendRealtimeInput({ audio: { data: chunk.data, mimeType: chunk.mimeType } });
+      }
     });
 
     let hasAudio = false;

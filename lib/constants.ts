@@ -22,11 +22,11 @@
  * Default Live API model to use
  */
 export const DEFAULT_LIVE_API_MODEL =
-  'gemini-2.5-flash-native-audio-preview-09-2025';
+  'gemini-3.1-flash-live-preview';
 
 // Puck: Professional, warm male voice - ideal for Sri Lankan banking context
 // Other good male options: Charon (steady), Fenrir (deep), Orus (balanced)
-export const DEFAULT_VOICE = 'Sadaltager';
+export const DEFAULT_VOICE = 'Leda';
 
 export const AVAILABLE_VOICES = ['Zephyr', 'Puck', 'Charon', 'Luna', 'Nova', 'Kore', 'Fenrir',	'Leda', 'Orus','Aoede','Callirrhoe','Autonoe','Enceladus','Iapetus','Umbriel','Algieba','Despina','Erinome','Algenib','Rasalgethi','Laomedeia','Achernar','Alnilam','Schedar','Gacrux','Pulcherrima','Achird',	'Zubenelgenubi','Vindemiatrix','Sadachbia','Sadaltager','Sulafat'];
 
